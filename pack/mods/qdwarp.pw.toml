@@ -4,5 +4,5 @@ side = "both"
 
 [download]
 url = "https://github.com/ModFest/qdwarp/releases/download/v1.4.2%2B1.20/qdwarp-1.4.2+1.21.jar"
-hash-format = "sha256"
-hash = "de022dd279daa749c145b778ec3cf2ca8d93237b7ad00f3a363a183e36d1696f"
+hash-format = "sha512"
+hash = "a7674e0d1c0066471061ca23faefa257fa8f17b5ca20dae953f809d05bb797b51dd0072934d0b1d2ac556dae7bddd343b330583f72124e3109b90d97d97a3ee8"

@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/6d6uwdZy/versions/V6mvS41D/ballotbox-0.5.4%2B1.21.jar"
-hash-format = "sha1"
-hash = "a85359efa1599a81c8993be954ca33017f8049b7"
+hash-format = "sha512"
+hash = "759a261cea0db7c9b96d020590e2e3c7d868222b12cf82409d85648d820b8f28da991eac2a761007eb67835a08ea53c080c6d550b87c6b6caacbf0061de3e37b"
 
 [update]
 [update.modrinth]

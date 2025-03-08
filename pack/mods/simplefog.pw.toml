@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/Glp1bwYc/versions/P12UZ38w/simplefog-1.6.0.jar"
-hash-format = "sha1"
-hash = "bb388df40ef063c0ba23c8f2b44a55c92494ed0f"
+hash-format = "sha512"
+hash = "a0bbf4015aa1aa2798a440ed91181afe3a7ba0831ba795aa79ad0ede6f5c9be3494af06a41a2801f6baee6550f46be805a37cc468cbdb04aff831dea69856e66"
 
 [update]
 [update.modrinth]

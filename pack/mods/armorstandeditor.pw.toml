@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Ef9ZREBZ/versions/b83teBdW/armor-stand-editor-2.5.1%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "7df20eb466db9eedbe57c9a58375da65f3e119ba"
+hash-format = "sha512"
+hash = "5eff79aa747e74f6edac25fa19fc643ade12dc0cd83b7e5abbe3385705b50c2e39b48f30ca189a9b967074796579f0e53ad4ac889b7d5c8db833d19c8e99cdc0"
 
 [update]
 [update.modrinth]

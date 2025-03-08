@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/4KjqhPc9/versions/O3tZIYTa/surveyor-0.6.26%2B1.21.jar"
-hash-format = "sha1"
-hash = "cb25876e3ecd96e3df3be1d744d977a92bcc1fc4"
+hash-format = "sha512"
+hash = "d98d45206fd86c215d1e0aee4d63c49c33dd46ee45b58d9df373cd1a5c61f6747ed9651b5a42553ad5bccd313f1cbcd04d2aba0fff9f3114f6af34c31ab7a8a5"
 
 [update]
 [update.modrinth]

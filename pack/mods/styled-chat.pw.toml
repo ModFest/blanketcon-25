@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/doqSKB0e/versions/4e1xZSk3/styled-chat-2.6.1%2B1.21.jar"
-hash-format = "sha1"
-hash = "e6ab5db7b89994cb23e55de7f868731b22770a0b"
+hash-format = "sha512"
+hash = "cf46ed692a18396c12deb5842c9b04287d8127ba8d3e3604743dc774bf22cd860a5bba3d00377ad671c2e54942394ea99359b20e802e021802e8ab0491bec94c"
 
 [update]
 [update.modrinth]

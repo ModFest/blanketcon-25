@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/6kt9OiyV/versions/bQl5d4QA/switchy-proxy-1.7.1%2B1.21.jar"
-hash-format = "sha1"
-hash = "e9dcb495b4382d57e299483365749c7dede660dc"
+hash-format = "sha512"
+hash = "b6682aff8d27902376a51dbfd55004fcd8e2a4523776023de12a15ed2216b3474cd4eb69fed90bed23f66ed7523e4434f7d22fef797af2692093fa08c6a4a7a5"
 
 [update]
 [update.modrinth]

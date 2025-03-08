@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/8O6iJpuJ/versions/eQg3QhD8/hoofprint-0.6.1%2B1.21.jar"
-hash-format = "sha1"
-hash = "9c1bc3ed7c83ed6707ef710687bd1ad63d327c49"
+hash-format = "sha512"
+hash = "56eb86c75de52806dc228bb24d80762a5c9c177202a1788a6fb7151c0057b640b60490796a62237ab5b75785b171e1ffc795e1e2d082b9f09f3feb1dd42989e6"
 
 [update]
 [update.modrinth]

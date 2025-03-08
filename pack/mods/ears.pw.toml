@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/mfzaZK3Z/versions/sTb8pEOY/ears-fabric-1.21-1.4.6.jar"
-hash-format = "sha1"
-hash = "330ae7e417269c00db84b639316c61286c0e470a"
+hash-format = "sha512"
+hash = "045c831b561ee16cf38f89228b63565f325db757f9775e5c03167e47f67bc3421813560b51a0182db1a600a328ec6ff5c4b386d578972b23e451b3347ef9cd37"
 
 [update]
 [update.modrinth]

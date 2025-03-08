@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/1SruaFxM/versions/5U7yVAq9/quickerconnectbutton-fabric-2.2.1%2B1.21.jar"
-hash-format = "sha1"
-hash = "ad6cfeb9186faf414c97dc9a7f613fe89f155e07"
+hash-format = "sha512"
+hash = "85f042484cc52ac8766d0cd745bcc10b126cbabfb1a762431e901fd2e798c610056f647b4351567195c50556611b1fee0f54302835c17b8a4f5d9d793c1ff18f"
 
 [update]
 [update.modrinth]

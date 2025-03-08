@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/IYY9Siz8/versions/myXuhjoE/jamlib-fabric-1.2.2-build.2%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "5bef1c21b9444bb136cf8bec61d134a430e1106e"
+hash-format = "sha512"
+hash = "7d3765c68c6752d5e7ab4cb50d78b388b97e5c87d15ceab8392177092eee3820bf1116008980cfbdb86c17a4fe57f930c634d87095a9d4dba60b528fdeecfaea"
 
 [update]
 [update.modrinth]

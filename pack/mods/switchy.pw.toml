@@ -1,11 +1,11 @@
 name = "Switchy"
 filename = "switchy-2.9.7+1.21.jar"
-side = "both" # required for client
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/ss0QuCRx/versions/jTmUcPg1/switchy-2.9.7%2B1.21.jar"
-hash-format = "sha1"
-hash = "5514d2f8446482e191e1729aff13c3f0b3c61691"
+hash-format = "sha512"
+hash = "5e8fe584a55ef80c3b5e21531b2f82ed78505740997a48f5ba1418acbde98ef4b8355bfb17b89ed9babea16aee9cc827c099d5885e1a50f75176530e2becc9b4"
 
 [update]
 [update.modrinth]
