@@ -160,6 +160,10 @@ file = "mods/drogstyle.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dynamic_asset_generator.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ears.pw.toml"
 metafile = true
 
