@@ -2,8 +2,8 @@
   "target": "fancy_items_mod:*",
   "add": {
     "minecraft:lore": [
-      "{"text": "This is a tooltip added by", "color": "aqua", "italic": true}",
-      "{"text": "Default Components", "color": "red"}"
+      "{\"text\": \"This is a tooltip added by\", \"color\": \"aqua\", \"italic\": true}",
+      "{\"text\": \"Default Components\", \"color\": \"red\"}"
     ]
   }
 }
