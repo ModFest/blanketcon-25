@@ -15,6 +15,7 @@
 		"minecraft:dropper",
 		"minecraft:hopper",
 		"minecraft:crafter",
+		"minecraft:lectern",
 		"map_utils:variable_redstone_block"
 	]
 }
