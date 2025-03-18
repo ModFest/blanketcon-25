@@ -18,8 +18,5 @@ desolated_pastels
 # crashes on mac & mip issues
 neomtr
 
-# [Canary]: Unsafe tracked data registration for [net.minecraft.class_1690] via mixin [net.frozenblock.wilderwild.mixin.entity.penguin.BoatMixin]
-wilder-wild
-
 # Texture festive_frenzy:item/black_sharpened_candy_cane_model with size 200x20 limits mip level from 4 to 2
 festive_frenzy
