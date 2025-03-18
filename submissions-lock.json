@@ -1565,7 +1565,9 @@
 			"mods/desolated-pastels.pw.toml": {
 				"download": {
 					"hash": "ad3bee6a3aa4a3bd152ce9cc49e9414b77f39328050dc5346845722593c89a7a",
+					"hash": "ad3bee6a3aa4a3bd152ce9cc49e9414b77f39328050dc5346845722593c89a7a",
 					"hash-format": "sha256",
+					"url": "https://github.com/devOS-Sanity-Edition/DesolatedPastels/releases/download/v0.1.0-blanketcon25-demo.6/demo.6.jar"
 					"url": "https://github.com/devOS-Sanity-Edition/DesolatedPastels/releases/download/v0.1.0-blanketcon25-demo.6/demo.6.jar"
 				},
 				"filename": "demo.6.jar",
@@ -2799,15 +2801,15 @@
 		"files": {
 			"mods/mirror-mod.pw.toml": {
 				"download": {
-					"hash": "585cdd58614566abe1087de4058b97849b24d5af42a6b1a9e23cc86226ac7516",
+					"hash": "bc4c923d5b364e2e82a1ef22dda5251cfebe143408e3e39cf4fd8c99008f1856",
 					"hash-format": "sha256",
-					"url": "https://github.com/FoundryMC/mirror-mod/releases/download/0.2.5/mirror-fabric-1.21.1-0.2.4.jar"
+					"url": "https://github.com/FoundryMC/mirror-mod/releases/download/0.2.6/mirror-fabric-1.21.1-0.2.6.jar"
 				},
-				"filename": "mirror-fabric-1.21.1-0.2.7.jar",
+				"filename": "mirror-fabric-1.21.1-0.2.6.jar",
 				"name": "mirror_mod"
 			}
 		},
-		"key": "64aacf88b9f8896ec3a6e865f9e74d143a679a38b2c7bd8286b50a2cbaa3f658"
+		"key": "4ae023b5ed73d9365b3bcb10acaaba3e74394c78bfc4c47402125f338c835ab2"
 	},
 	"mirthdew-encore": {
 		"files": {
@@ -3770,16 +3772,16 @@
 			},
 			"mods/pride-moths.pw.toml": {
 				"download": {
-					"hash": "231f76062307c597b06a4bbe2720bb7786d6d4e064ec829fa462ec92019424616a2bf6231a86a7a79c50271632991215725bca96b906e48b98bf3d8b27737581",
+					"hash": "9355c08e0b47ca151b53a14b2544cf82bffecd532c1855c0c38a774491239199ac019c4ce3d547b70813ae4cba173f7a9cb7e84de8439cadd99654159223b521",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/z4CDikCJ/versions/LMHCHqDi/pride-moths-1.8.6.1%2B1.21.jar"
+					"url": "https://cdn.modrinth.com/data/z4CDikCJ/versions/a51Wfmza/pride-moths-1.8.6%2B1.21.jar"
 				},
-				"filename": "pride-moths-1.8.6.1+1.21.jar",
+				"filename": "pride-moths-1.8.6+1.21.jar",
 				"name": "Happy Pride Moth!",
 				"side": "both"
 			}
 		},
-		"key": "8552c38105835a8c90bab25cae7323747104f67000b2e26072e4a83cfba01019"
+		"key": "1869d5405eaec76a8012e3c5138a4995e5b3bb78f36116f871efc0ef512d9082"
 	},
 	"pridegui": {
 		"files": {
