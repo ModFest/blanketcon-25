@@ -269,6 +269,10 @@ file = "mods/polymer.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/primordia.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/quicker-connect-button.pw.toml"
 metafile = true
 

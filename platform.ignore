@@ -1,9 +1,11 @@
-# A list of submissions which should not be imported into the resulting pack
-# Each line should contain a submission id. The script will warn you
-# if the id does not refer to a submission
+# A list of submissions IDs to not import from submissions-lock to the generated pack when running assemble_packwiz (manually or via CI)
 
-# Not desired to be in pack by creator - "I recommend removing autowhitelist bc else it will complain every startup and it's not client compatible"
+# Per request
 autowhitelist
+hoofprint
+
+# Model breakages | Unknown property 'north' on 'Block{cook-it:vanilla_vine}'
+cook-it
 
 # depends on origins, which causes [Canary]: Unsafe tracked data registration for [net.minecraft.class_1297] via mixin [io.github.apace100.apoli.mixin.EntityMixin]
 maddys_origins
@@ -16,16 +18,11 @@ desolated_pastels
 
 # Texture mtr:block/sign/door_overlay_a_train_tcl_right with size 380x320 limits mip level from 3 to 2
 # Texture mtr:block/sign/door_overlay_sp1900_top with size 240x30 limits mip level from 2 to 1
-# crashes on mac + mip issues
+# crashes on mac & mip issues
 neomtr
 
-# per Sisby Folks requiest
-hoofprint
-
-# one.devos.nautical.canary.CanaryException: [Canary]: Unsafe tracked data registration for [net.minecraft.class_1690] via mixin [net.frozenblock.wilderwild.mixin.entity.penguin.BoatMixin]
+# [Canary]: Unsafe tracked data registration for [net.minecraft.class_1690] via mixin [net.frozenblock.wilderwild.mixin.entity.penguin.BoatMixin]
 wilder-wild
 
-# crash on disconnect
-# autocut
-# monthofswords
-# emi? plugins crash related to level being set to nnull
+# Texture festive_frenzy:item/black_sharpened_candy_cane_model with size 200x20 limits mip level from 4 to 2
+festive_frenzy
