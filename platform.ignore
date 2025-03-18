@@ -4,9 +4,6 @@
 autowhitelist
 hoofprint
 
-# Model breakages | Unknown property 'north' on 'Block{cook-it:vanilla_vine}'
-cook-it
-
 # depends on origins, which causes [Canary]: Unsafe tracked data registration for [net.minecraft.class_1297] via mixin [io.github.apace100.apoli.mixin.EntityMixin]
 maddys_origins
 
