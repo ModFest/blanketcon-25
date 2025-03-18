@@ -2795,15 +2795,15 @@
 		"files": {
 			"mods/mirror-mod.pw.toml": {
 				"download": {
-					"hash": "c50292e48afd3e10ba6b0563416725aca81d608845fb16a98925b5c891cb8cb3",
+					"hash": "585cdd58614566abe1087de4058b97849b24d5af42a6b1a9e23cc86226ac7516",
 					"hash-format": "sha256",
-					"url": "https://github.com/FoundryMC/mirror-mod/releases/download/0.2.7/mirror-fabric-1.21.1-0.2.7.jar"
+					"url": "https://github.com/FoundryMC/mirror-mod/releases/download/0.2.5/mirror-fabric-1.21.1-0.2.4.jar"
 				},
 				"filename": "mirror-fabric-1.21.1-0.2.7.jar",
 				"name": "mirror_mod"
 			}
 		},
-		"key": "bd92464d9e03f19301356465ca7320702ebd01e4b7f2cd88e31129cba26c570b"
+		"key": "64aacf88b9f8896ec3a6e865f9e74d143a679a38b2c7bd8286b50a2cbaa3f658"
 	},
 	"mirthdew-encore": {
 		"files": {
@@ -3219,14 +3219,18 @@
 			"mods/paladins-furniture.pw.toml": {
 				"download": {
 					"hash": "60a9a7c2e8e2b755e3e2d615eee66d4c91593436096e591cdd314f95640d9c88f3a59c22b8f036ccb27dcd80b47937ec6e319a64659b9a471016090dc080b542",
+					"hash": "60a9a7c2e8e2b755e3e2d615eee66d4c91593436096e591cdd314f95640d9c88f3a59c22b8f036ccb27dcd80b47937ec6e319a64659b9a471016090dc080b542",
 					"hash-format": "sha512",
 					"url": "https://cdn.modrinth.com/data/SISz7Qd3/versions/wdSNmQGh/paladin-furniture-mod-1.4.1-fabric-mc1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/SISz7Qd3/versions/wdSNmQGh/paladin-furniture-mod-1.4.1-fabric-mc1.21.1.jar"
 				},
+				"filename": "paladin-furniture-mod-1.4.1-fabric-mc1.21.1.jar",
 				"filename": "paladin-furniture-mod-1.4.1-fabric-mc1.21.1.jar",
 				"name": "Paladin's Furniture Mod",
 				"side": "both"
 			}
 		},
+		"key": "4416e18dfd5b5629949d1644aa2ad0bf67efe4f57e9738ce3154ea9af109b73a"
 		"key": "4416e18dfd5b5629949d1644aa2ad0bf67efe4f57e9738ce3154ea9af109b73a"
 	},
 	"particular": {
@@ -4849,6 +4853,7 @@
 				"name": "trickster"
 			}
 		},
+		"key": "b3d3939a0aed464424de196d1d8f407daa0ac75c557e52fd52aa43a34b6793f0"
 		"key": "b3d3939a0aed464424de196d1d8f407daa0ac75c557e52fd52aa43a34b6793f0"
 	},
 	"ubes-delight": {
