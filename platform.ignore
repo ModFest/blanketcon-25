@@ -9,9 +9,6 @@ boatism
 # Client class error but it also gives a registry error afterwards
 charta
 
-# datapack error?
-paladins-furniture
-
 # flywheel NoSuchMethod org.apache.commons.lang3.function.FailableSupplier#nul | visualization.VisualizationManagerImpl.<init>(VisualizationManagerImpl.java:81)
 flw-vanillin
 
