@@ -1,0 +1,19 @@
+@version "2";
+@init "main";
+
+import "reflection";
+
+val ResourceLocation = reflection.findClass("net.minecraft.resources.ResourceLocation");
+val Registry = reflection.findClass("net.minecraft.core.Registry");
+var BuiltInRegistries = reflection.findClass("net.minecraft.core.registries.BuiltInRegistries");
+var Item = reflection.findClass("net.minecraft.world.item.Item");
+
+function register(registry, id, value) {
+    Registry.'register(Lnet/minecraft/core/Registry;Lnet/minecraft/resources/ResourceLocation;Ljava/lang/Object;)Ljava/lang/Object;'(
+        registry,
+        ResourceLocation.parse(id),
+        value
+    );
+}
+
+register(BuiltInRegistries.ITEM, "jsonpatcher_demo:demo_item", Item(Item.Properties()));

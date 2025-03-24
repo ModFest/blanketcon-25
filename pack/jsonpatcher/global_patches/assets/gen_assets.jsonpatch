@@ -1,0 +1,21 @@
+@version "2";
+@metapatch;
+
+import "metapatch";
+
+metapatch.addFile(
+    "jsonpatcher_demo:models/item/demo_item.json",
+    {
+        "parent": "item/generated",
+        "textures": {
+            "layer0": "jsonpatcher_demo:item/demo_item"
+        }
+    }
+);
+
+metapatch.addFile(
+    "jsonpatcher_demo:lang/en_us.json",
+    {
+        "item.jsonpatcher_demo.demo_item": "Demo Item"
+    }
+);
