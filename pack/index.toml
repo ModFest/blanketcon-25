@@ -134,6 +134,10 @@ file = "mods/crunchy-crunchy-advancements.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/demobox.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/drogstyle.pw.toml"
 metafile = true
 
