@@ -1,0 +1,10 @@
+{
+  "target": "#trickster:mana_knots",
+  "add": {
+    "minecraft:food": {
+      "nutrition": 10,
+      "saturation": 1.4,
+      "can_always_eat": true
+    }
+  }
+}

@@ -1,6 +1,6 @@
 name = "BlanketCon '25"
 author = "ModFest"
-version = "0.1.0"
+version = "0.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -15,4 +15,5 @@ unsup-experimental = "1.1-pre8"
 unsup-stable = "1.0.2"
 
 [options]
+datapack-folder = "resources/datapack/required"
 no-internal-hashes = true

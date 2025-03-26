@@ -1,0 +1,13 @@
+{
+  "project_id": "bc25",
+  "version_id": "1.0.0",
+  "display_name": "BlanketCon '25",
+  "display_version": "",
+  "release_type": [
+    "release",
+    "alpha",
+    "beta"
+  ],
+  "max_exclusive_version": "",
+  "use_version_number_for_display": false
+}

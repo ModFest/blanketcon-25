@@ -1,0 +1,6 @@
+{
+  "target": "minecraft:diamond_pickaxe",
+  "add": {
+    "minecraft:rarity": "epic"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"powers": [
+	],
+	 "icon": {
+		"id": "minecraft:glass"
+	},
+	"order": 1,
+	"impact": 0,
+	"loading_priority": 100,
+	"unchoosable": false
+}

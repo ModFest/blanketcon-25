@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cabbage_substances:item/shot_overlay",
+    "layer1": "cabbage_substances:item/shot"
+  }
+}
