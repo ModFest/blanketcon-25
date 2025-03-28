@@ -163,7 +163,6 @@ key_key.waila.show_overlay:key.keyboard.unknown
 key_key.waila.toggle_liquid:key.keyboard.unknown
 key_key.waila.show_recipe_input:key.keyboard.unknown
 key_key.waila.show_recipe_output:key.keyboard.unknown
-key_key.yeet.yeet:key.keyboard.unknown
 key_key.zeldacraft.trinketneck:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
