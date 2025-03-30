@@ -204,6 +204,10 @@ file = "mods/barricade.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/better-narrator-error.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bobby.pw.toml"
 metafile = true
 
