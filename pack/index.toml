@@ -200,6 +200,10 @@ file = "mods/ballotbox.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/barricade.pw.toml"
 metafile = true
 
@@ -221,6 +225,10 @@ metafile = true
 
 [[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
 metafile = true
 
 [[files]]
