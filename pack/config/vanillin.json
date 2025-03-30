@@ -1,0 +1,11 @@
+{
+    "entities": {
+        "minecraft:tnt_minecart": "disable",
+        "minecraft:chest_minecart": "disable",
+        "minecraft:hopper_minecart": "disable",
+        "minecraft:furnace_minecart": "disable",
+        "minecraft:command_block_minecart": "disable",
+        "minecraft:minecart": "disable",
+        "minecraft:spawner_minecart": "disable"
+    }
+}

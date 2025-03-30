@@ -21,6 +21,10 @@ discoveryMessages = false
 # waypoints/landmarks raw | prints the raw SNBT of a landmark
 # default: false
 debugCommands = false
+# Ignores chunk changes that don't affect the amount of air in the chunk
+# Saves on performance, a little inaccurate sometimes.
+# default: true
+lazyClientUpdating = true # flip me when updating surveyor past alpha 6, i'm dumb
 
 [networking]
 	# [Server] Whether to place every player in a single share group

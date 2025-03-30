@@ -1,0 +1,15 @@
+name = "shrimpsicle"
+filename = "shrimpsicle-0.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/JR1811/shrimpsicle/releases/download/0.0.3-1.21.1/shrimpsicle-0.0.3-1.21.1.jar"
+hash-format = "sha256"
+hash = "31c6f9279caa6bdf1fede6e645d43ee38a60709d24e1b64fd1c50e95f33589cd"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "JR1811/shrimpsicle"
+tag = "0.0.3-1.21.1"

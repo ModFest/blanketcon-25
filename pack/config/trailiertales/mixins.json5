@@ -1,0 +1,14 @@
+{
+	"armor_stand": true,
+	"boat": false,
+	"brush": true,
+	"brushable_block": true,
+	"camel": true,
+	"coffin": true,
+	"datafix": true,
+	"dawntrail": true,
+	"decorated_pot": true,
+	"surveyor": true,
+	// Client only
+	"haunt": true,
+}

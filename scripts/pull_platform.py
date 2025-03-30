@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import hashlib
 import json
 import os
 import shutil
@@ -6,9 +7,9 @@ import subprocess
 import sys
 import tempfile
 import tomllib
-import urllib.request
 from pathlib import Path
-import hashlib
+
+import requests
 
 import common
 from assemble_packwiz import SubmissionLockfileFormat
@@ -30,14 +31,13 @@ def main():
 
 	# Download the json
 	event_name = constants["event"]
-	if event_name == None:
+	if event_name is None:
 		print(f"{Ansi.WARN}No event name defined. Treating it as if there were zero submissions{Ansi.RESET}")
 		print(f"Was this unintentional? Check {constants_file.relative_to(repo_root)} and make sure it defines \"event\"")
 		submission_data = []
 	else:
 		submissions_url = f"https://platform.modfest.net/event/{event_name}/submissions"
-		with urllib.request.urlopen(submissions_url) as submissions:
-			submission_data = json.load(submissions)
+		submission_data = json.loads(requests.get(submissions_url).text)
 
 	# Update the lock file
 	# Read the needed files and transform the submission data into a dict where the ids are keys
@@ -89,15 +89,13 @@ def main():
 
 				# Now lets see which files packwiz thought we should download
 				files = {}
-				mod_dir = tmpdir / "mods"
-				if not mod_dir.exists():
+				for packwiz_meta in tmpdir.rglob("**/*.pw.toml"):
+					packwiz_data = tomllib.loads(common.read_file(tmpdir / packwiz_meta))
+					if "update" in packwiz_data:
+						del packwiz_data["update"]
+					files[str(packwiz_meta.relative_to(tmpdir)).replace("\\", "/")] = packwiz_data
+				if len(files) == 0:
 					print(f"{Ansi.WARN}Packwiz didn't generate any mod files for {mod_id}{Ansi.RESET}")
-				else:
-					for packwiz_meta in os.listdir(mod_dir):
-						packwiz_data = tomllib.loads(common.read_file(mod_dir / packwiz_meta))
-						if "update" in packwiz_data:
-							del packwiz_data["update"]
-						files[packwiz_meta] = packwiz_data
 				lock_info["files"] = files
 
 				os.chdir(old_dir)

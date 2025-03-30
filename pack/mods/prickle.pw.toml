@@ -1,0 +1,13 @@
+name = "Prickle"
+filename = "prickle-fabric-1.21.1-21.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/aaRl8GiW/versions/aGDJh61g/prickle-fabric-1.21.1-21.1.6.jar"
+hash-format = "sha1"
+hash = "37a4d086303671e64baf8a2814e8c3e8326d16e2"
+
+[update]
+[update.modrinth]
+mod-id = "aaRl8GiW"
+version = "aGDJh61g"

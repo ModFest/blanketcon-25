@@ -8,4 +8,20 @@ transparentWater = true
 lighting = true
 # default: true
 showOffline = false
+# default: true
+renderBorder = true
+# default: true
+renderOutsideBorder = false
+# default: false
+logMapBaking = false
+# options: DAY, NIGHT, NETHER, END
+# default: DAY
+lightMap = "DAY"
+
+[dimensionMaxYValues]
+"minecraft:the_nether" = 126
+
+[dimensionLightMaps]
+"minecraft:the_nether" = "NETHER"
+"minecraft:the_end" = "END"
 

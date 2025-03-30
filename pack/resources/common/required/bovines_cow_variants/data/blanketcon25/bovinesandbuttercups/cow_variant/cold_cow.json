@@ -1,0 +1,41 @@
+{
+  "type": "bovinesandbuttercups:cow",
+  "texture_location": "blanketcon25:cow/cold_cow",
+  "model": "bovinesandbuttercups:cold",
+  "thunder_conversion_types": [
+    {
+      "type": {
+        "set_previous": false,
+        "this_conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "#bovinesandbuttercups:has_moobloom/flower_forest"
+              }
+            }
+          }
+        ],
+        "variant": "bovinesandbuttercups:buttercup"
+      }
+    },
+    {
+      "type": {
+        "set_previous": false,
+        "this_conditions": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "#bovinesandbuttercups:has_mooshroom/mushroom"
+              }
+            }
+          }
+        ],
+        "variant": "bovinesandbuttercups:red_mushroom"
+      }
+    }
+  ]
+}

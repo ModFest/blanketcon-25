@@ -1,14 +1,14 @@
 name = "hoofprint"
-filename = "hoofprint-0.8.0-alpha.1+1.21.jar"
+filename = "hoofprint-0.8.0-alpha.6+1.21.jar"
 
 [download]
-url = "https://github.com/HestiMae/hoofprint/releases/download/v0.8.0-alpha.1%2B1.20/hoofprint-0.8.0-alpha.1+1.21.jar"
+url = "https://github.com/HestiMae/hoofprint/releases/download/v0.8.0-alpha.6%2B1.20/hoofprint-0.8.0-alpha.6%2B1.21.jar"
 hash-format = "sha256"
-hash = "5b4dcc1f7532643d6184f231b44d839341b697859fce42e6284a029ddd408793"
+hash = "54c946dc33ee19ea68fdd73d0dd2191d6cf7b9ff10ad1e4724b6408e2a208b77"
 
 [update]
 [update.github]
 branch = "1.20"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)1.21\\.jar$"
 slug = "HestiMae/hoofprint"
-tag = "v0.8.0-alpha.1+1.20"
+tag = "v0.8.0-alpha.6+1.20"

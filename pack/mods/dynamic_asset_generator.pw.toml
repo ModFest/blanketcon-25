@@ -1,0 +1,13 @@
+name = "Dynamic Asset Generator"
+filename = "dynamicassetgenerator-6.1.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/83pFEQVb/versions/JbHLU53h/dynamicassetgenerator-6.1.2-fabric.jar"
+hash-format = "sha512"
+hash = "1b5a81070105c3dfb0e225131e7b478f36e454b0050a93e9ad976016f2b7574cc16d8fc8cd591a11e10f984a0d650c56e36a6d5bfafb100c35873f3e89859a4c"
+
+[update]
+[update.modrinth]
+mod-id = "83pFEQVb"
+version = "JbHLU53h"

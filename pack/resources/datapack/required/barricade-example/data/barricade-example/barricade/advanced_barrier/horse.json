@@ -1,0 +1,9 @@
+{
+	"name": "Horse Barrier",
+	"icon": "barricade:horse",
+	"condition": {
+		"type": "silicate:entity_type",
+		"param_type": "silicate:this_entity",
+		"entity_type": "minecraft:horse"
+	}
+}

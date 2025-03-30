@@ -1,0 +1,8 @@
+# Logs what, why and where a screen could not fetch an image, if enabled.
+# default: false
+log_invalid_screens = true
+# List of specifically allowed domains or wildcards. Overrules the blacklist.
+whitelist = ["modfest.b-cdn.net"]
+# List of specifically disallowed domains or wildcards. Overruled by the whitelist.
+blacklist = ["localhost", "*"]
+

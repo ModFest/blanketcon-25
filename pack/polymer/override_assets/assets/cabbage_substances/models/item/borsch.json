@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cabbage_substances:item/borsch",
+    "layer1": "cabbage_substances:item/soup"
+  }
+}

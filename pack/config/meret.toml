@@ -1,0 +1,5 @@
+# Whether to ignore all situational music when no meret override is present.
+# Menu music will still play.
+# default: false
+overrideAll = true
+

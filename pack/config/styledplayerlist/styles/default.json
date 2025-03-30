@@ -4,16 +4,16 @@
   "list_header": [
     "",
     "",
-    "<font:'modfest:icons'>-0</> <font:'unsanded:default'>ModFest",
+    "<font:'modfest:icons'>-0</> <font:'unsanded:default'>BlanketCon",
     "",
-    "<gr #331714 #290800><strikethrough>        </>[ </><#ffffff>%server:online%<#290800>/</>%server:max_players%</><gr #290800 #331714> ]<strikethrough>        </>",
+    "<gr #0d414e #003441><strikethrough>        </>[ </><#ffffff>%server:online%<#003441>/</>%server:max_players%</><gr #003441 #0d414e> ]<strikethrough>        </>",
     ""
   ],
   "list_footer": [
     "",
-    "<gr #331714 #290800 #331714><strikethrough>                          </strikethrough></>",
+    "<gr #0d414e #003441 #0d414e><strikethrough>                          </strikethrough></>",
     "",
-    "<#de634c>TPS: %server:tps_colored% <#290800>|</> <#de634c>Ping: <#ffffff>%player:ping_colored%</>",
+    "<#ffdf93>TPS: %server:tps_colored% <#003441>|</> <#ffdf93>Ping: <#ffffff>%player:ping_colored%</>",
     ""
   ],
   "hidden_in_commands": false

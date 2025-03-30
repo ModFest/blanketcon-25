@@ -1,0 +1,16 @@
+{
+	"type": "silicate:compound",
+	"or": true,
+	"conditions": [
+		{
+			"type": "silicate:entity_vehicle",
+			"param_type": "silicate:this_entity",
+			"condition": "barricade-example:true"
+		},
+		{
+			"type": "silicate:entity_passenger",
+			"param_type": "silicate:this_entity",
+			"condition": "barricade-example:true"
+		}
+	]
+}

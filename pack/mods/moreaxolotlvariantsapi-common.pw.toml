@@ -1,0 +1,15 @@
+name = "MoreAxolotlVariantsAPI-Common"
+filename = "mavapi-fabric-2.0.0-alpha.3-mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Ampflower/MoreAxolotlVariantsAPI-Common/releases/download/2.0.0-alpha.3/mavapi-fabric-2.0.0-alpha.3-mc1.21.1.jar"
+hash-format = "sha256"
+hash = "00d081eb8efd4fbfeb23b17ede02446c253533c515609d267e14ffcea6072632"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "Ampflower/MoreAxolotlVariantsAPI-Common"
+tag = "2.0.0-alpha.3"

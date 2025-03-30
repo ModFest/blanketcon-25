@@ -1,8 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "allium/hangman/main.lua"
+
+[[files]]
+file = "allium/hangman/manifest.json"
+
+[[files]]
+file = "allium/hangman/words.lua"
+
+[[files]]
 file = "basicweapons_materialpacks/bwmp_copper_minecraft.pw.toml"
 metafile = true
+
+[[files]]
+file = "config/ChineseIME/config.json"
 
 [[files]]
 file = "config/accessories_temp_mixin_disable.txt"
@@ -14,7 +26,19 @@ file = "config/ballotbox.toml"
 file = "config/bobby.conf"
 
 [[files]]
+file = "config/brewery_resources.json"
+
+[[files]]
+file = "config/canary.json"
+
+[[files]]
+file = "config/chitinous_ties.json5"
+
+[[files]]
 file = "config/chunksfadein.properties"
+
+[[files]]
+file = "config/combat_amenities.json5"
 
 [[files]]
 file = "config/crunchy_crunchy_advancements.toml"
@@ -23,19 +47,46 @@ file = "config/crunchy_crunchy_advancements.toml"
 file = "config/emi.css"
 
 [[files]]
+file = "config/enchdesc.json"
+
+[[files]]
 file = "config/familiar_friends.json"
 
 [[files]]
 file = "config/fireblanket/fireblanket.txt"
 
 [[files]]
+file = "config/getDown.json5"
+
+[[files]]
+file = "config/glowcase.toml"
+
+[[files]]
 file = "config/hoofprint.toml"
+
+[[files]]
+file = "config/immersive_mc-server.json"
+
+[[files]]
+file = "config/inventory_tabs.toml"
+
+[[files]]
+file = "config/magiclib.json"
+
+[[files]]
+file = "config/meret.toml"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
 
 [[files]]
 file = "config/modfest_sync/behaviour.properties"
+
+[[files]]
+file = "config/modmenu.json"
+
+[[files]]
+file = "config/pfm.json"
 
 [[files]]
 file = "config/quickerconnectbutton.json5"
@@ -47,7 +98,16 @@ file = "config/roles.json"
 file = "config/simplefog.json"
 
 [[files]]
+file = "config/simpleupdatechecker_modpack.json"
+
+[[files]]
 file = "config/sodium-options.json"
+
+[[files]]
+file = "config/sounds/chat.json"
+
+[[files]]
+file = "config/stfu.json5"
 
 [[files]]
 file = "config/styled-chat.json"
@@ -71,13 +131,41 @@ file = "config/surveyor.toml"
 file = "config/teabridge.json"
 
 [[files]]
+file = "config/trailiertales/mixins.json5"
+
+[[files]]
+file = "config/vanillin.json"
+
+[[files]]
+file = "config/waila/blacklist.json5"
+
+[[files]]
 file = "config/waila/waila.json"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
 
 [[files]]
+file = "config/wilderwild/block.json5"
+
+[[files]]
+file = "config/wilderwild/mixins.json5"
+
+[[files]]
 file = "config/wwizardry.json"
+
+[[files]]
+file = "jsonpatcher/global_patches/assets/gen_assets.jsonpatch"
+
+[[files]]
+file = "jsonpatcher/scripts/make_items.jsonpatch"
+
+[[files]]
+file = "mods/Apoli-2.12.0-alpha.17+mc.1.21.1-blanketcon3.jar"
+
+[[files]]
+file = "mods/accessories-tc-layer.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
@@ -120,7 +208,15 @@ file = "mods/bobby.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
 metafile = true
 
 [[files]]
@@ -132,11 +228,19 @@ file = "mods/drogstyle.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dynamic_asset_generator.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ears.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
 metafile = true
 
 [[files]]
@@ -156,7 +260,11 @@ file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fireblanket-0.6.2+1.21.jar"
+file = "mods/fireblanket-0.7.5+1.21.1.jar"
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/glide-away.pw.toml"
@@ -187,11 +295,20 @@ file = "mods/jamlib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lavender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/map-utils.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/meret-6.0.0.jar"
+file = "mods/meret.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -206,7 +323,19 @@ file = "mods/modmenu.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/moreaxolotlvariantsapi-common.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/now-playing-fabric-1.5.13+stereomerge+1.21.jar"
+
+[[files]]
+file = "mods/origins.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/pbwarps.pw.toml"
@@ -229,6 +358,14 @@ file = "mods/polymer.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/potentials.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/quicker-connect-button.pw.toml"
 metafile = true
 
@@ -241,7 +378,12 @@ file = "mods/scattered-shards.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/shrimpsicle-0.0.2-1.21.1.jar"
+file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shrimpsicle.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/sidekick.pw.toml"
@@ -264,11 +406,19 @@ file = "mods/sodium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/softer-pastels.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/spawnanywhere.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sseds.pw.toml"
 metafile = true
 
 [[files]]
@@ -300,7 +450,7 @@ file = "mods/teabridge.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/trinkets.pw.toml"
+file = "mods/timelock.pw.toml"
 metafile = true
 
 [[files]]
@@ -320,7 +470,179 @@ file = "mods/wthit.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
 file = "options.txt"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/apple_liquor.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/apple_mead.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/beer.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/cherry_tea.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/chorus_brew.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/cider.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/dark_beer.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/glow_wine.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/green_tea.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/mead.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/rum.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/tea.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/vodka.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/wheat_beer.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/whiskey.json"
+
+[[files]]
+file = "polymer/override_assets/assets/brewery/models/item/brewery_drink/wine.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/borsch.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/chicken_soup.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/cocktail.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/cup.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/fish_soup.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/jar.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/mug.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/shot.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/tall_glass.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/tom_yum.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/models/item/wine_glass.json"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/borsch.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/chicken_soup.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/cocktail.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/cocktail_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/cup.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/cup_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/fish_soup.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/jar.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/jar_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/mug.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/mug_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/shot.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/shot_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/soup.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/soup_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/tall_glass.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/tall_glass_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/tom_yum.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/wine_glass.png"
+
+[[files]]
+file = "polymer/override_assets/assets/cabbage_substances/textures/item/wine_glass_overlay.png"
+
+[[files]]
+file = "polymer/override_assets/pack.mcmeta"
+
+[[files]]
+file = "polymer/override_assets/pack.png"
+
+[[files]]
+file = "resourcepacks/badradio.zip"
+
+[[files]]
+file = "resources/common/required/bovines_cow_variants/assets/blanketcon25/textures/entity/cow/cold_cow.png"
+
+[[files]]
+file = "resources/common/required/bovines_cow_variants/assets/blanketcon25/textures/entity/cow/warm_cow.png"
+
+[[files]]
+file = "resources/common/required/bovines_cow_variants/data/blanketcon25/bovinesandbuttercups/cow_variant/cold_cow.json"
+
+[[files]]
+file = "resources/common/required/bovines_cow_variants/data/blanketcon25/bovinesandbuttercups/cow_variant/warm_cow.json"
+
+[[files]]
+file = "resources/common/required/bovines_cow_variants/pack.mcmeta"
+
+[[files]]
+file = "resources/common/required/bovines_cow_variants/pack.png"
 
 [[files]]
 file = "resources/common/required/mf_music/assets/minecraft/sounds.json"
@@ -398,6 +720,45 @@ file = "resources/common/required/mf_music/pack.mcmeta"
 file = "resources/common/required/mf_music/pack.png"
 
 [[files]]
+file = "resources/common/required/mf_origins/assets/origins/lang/en_us.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/arachnid.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/avian.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/blazeborn.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/elytrian.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/enderian.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/feline.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/human.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/merling.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/phantom.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/data/origins/origins/shulk.json"
+
+[[files]]
+file = "resources/common/required/mf_origins/pack.mcmeta"
+
+[[files]]
 file = "resources/common/required/mf_shards/assets/modfest/lang/en_us.json"
 
 [[files]]
@@ -437,6 +798,57 @@ file = "resources/common/required/mf_shards/data/scattered_shards/shard_type/typ
 file = "resources/common/required/mf_shards/pack.mcmeta"
 
 [[files]]
+file = "resources/common/required/spirit_vector_overrides/data/spirit_vector/tags/block/wall_jumpable.json"
+
+[[files]]
+file = "resources/common/required/spirit_vector_overrides/pack.mcmeta"
+
+[[files]]
+file = "resources/common/required/spirit_vector_overrides/pack.png"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/data/barricade-example/barricade/advanced_barrier/cow.json"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/data/barricade-example/barricade/advanced_barrier/horse.json"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/data/barricade-example/barricade/advanced_barrier/riding_only.json"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/data/barricade-example/silicate/condition_template/is_riding.json"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/data/barricade-example/silicate/condition_template/true.json"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/pack.mcmeta"
+
+[[files]]
+file = "resources/datapack/required/barricade-example/pack.png"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/data/fancy_items_mod/default_components/all_of_it.json"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/data/minecraft/default_components/baked_potato.json"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/data/minecraft/default_components/enchanted_golden_apple.json"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/data/minecraft/default_components/netherite_scrap.json"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/data/something_that_isnt_a_mod/default_components/not_a_real_item.json"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/data/trickster/default_components/knots.json"
+
+[[files]]
+file = "resources/datapack/required/default_components_demo/pack.mcmeta"
+
+[[files]]
 file = "resources/datapack/required/mf_ballotbox/data/ballotbox/ballot/categories.json"
 
 [[files]]
@@ -461,7 +873,31 @@ file = "resources/datapack/required/mf_fireblanket/data/fireblanket/tags/item/it
 file = "resources/datapack/required/mf_fireblanket/pack.mcmeta"
 
 [[files]]
+file = "resources/datapack/required/mf_spell_dimension/data/bc25/dimension/spell_dimension.json"
+
+[[files]]
+file = "resources/datapack/required/mf_spell_dimension/data/bc25/dimension_type/spell_dimension.json"
+
+[[files]]
+file = "resources/datapack/required/mf_spell_dimension/pack.mcmeta"
+
+[[files]]
+file = "resources/datapack/required/thwackinator_extra/data/thwackinator/tags/block/bouncy_blocks.json"
+
+[[files]]
+file = "resources/datapack/required/thwackinator_extra/pack.mcmeta"
+
+[[files]]
+file = "resources/resourcepack/optional/Semi-realistic Planet Scaling.zip"
+
+[[files]]
 file = "resources/resourcepack/required/Unsanded-1.1.1-custom.zip"
+
+[[files]]
+file = "resources/resourcepack/required/blanketcon-patches/assets/extravaganza/lang/en_us.json"
+
+[[files]]
+file = "resources/resourcepack/required/blanketcon-patches/pack.mcmeta"
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/mtr_custom_resources.json"
@@ -939,6 +1375,51 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/rails/s
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/pack.mcmeta"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/blockstates/cauldron.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/items/blossom_dust.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/items/cauldron.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/items/cherry_blossom_cake.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/models/block/cauldron.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/models/item/blossom_dust.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/models/item/cherry_blossom_cake.json"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/textures/block/cauldron_inner.png"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/textures/block/cauldron_side.png"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/textures/block/cauldron_top.png"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/textures/item/blossom_dust.png"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/assets/fancy_items_mod/textures/item/cherry_blossom_cake.png"
+
+[[files]]
+file = "resources/resourcepack/required/default_components_demo/pack.mcmeta"
+
+[[files]]
+file = "resources/resourcepack/required/jsonpatcher-demo/assets/jsonpatcher_demo/textures/item/demo_item.png"
+
+[[files]]
+file = "resources/resourcepack/required/jsonpatcher-demo/pack.mcmeta"
 
 [[files]]
 file = "resources/resourcepack/required/mf_branding/assets/glowcase/lang/en_us.json"

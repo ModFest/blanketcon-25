@@ -1,0 +1,21 @@
+{
+	"backslotX": 0,
+	"backslotY": 0,
+	"backslotParticles": true,
+	"enchantmentParticleChance": 3,
+	"backslotAmbientSoundVolume": 100,
+	"backslotSwapSoundVolume": 100,
+	"flipBackslotDisplay": false,
+	"flipBeltslotDisplay": false,
+	"removeDurability": false,
+	"itemArrows": false,
+	"swingThrough": true,
+	"correctTridentReturn": true,
+	"riptideFix": true,
+	"builtInLoyalty": false,
+	"throwableFirecharge": false,
+	"shieldTweaks": true,
+	"shieldParryTime": 5,
+	"enderPearlTweaks": true,
+	"bowTweaks": true
+}

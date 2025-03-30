@@ -1,0 +1,11 @@
+{
+    "type": "bc25:spell_dimension",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "layers": [],
+            "biome": "minecraft:the_void",
+            "structure_overrides": []
+        }
+    }
+}

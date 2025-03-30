@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 import json
 import os
-import shlex
 import shutil
 import subprocess
 import sys
 import tempfile
-import urllib.request
 from pathlib import Path
-from typing import Any, NewType, Optional
+from typing import Any
+
+import requests
 
 import assemble_packwiz
 import common
@@ -34,7 +34,7 @@ def main():
     if not pack_toml_file.exists():
         print(f"{pack_toml_file} does not exist")
         raise Exception("Pack is not a valid packwiz pack (pack.toml) doesn't exist")
-    
+
     # Parse pack information
 
     pack_info = common.parse_packwiz(pack_toml_file)
@@ -89,7 +89,7 @@ def main():
             cached_state = {}
     else:
         cached_state = {}
-    
+
     # Make sure we have an install of the server files
     server_hash = desired_cache_state["server"]
     if server_hash != cached_state.get("server"):
@@ -105,7 +105,7 @@ def main():
         shutil.rmtree(runtime_cache)
         cached_state["server"] = None
         save_cache_state(cached_state, cache_state_file) # Don't forget to immediatly save any changes to the state
-    
+
     if cached_state.get("server") == None:
         # Set up new server files
         setup_server(java, mc_version, loader, loader_version, cached_server_dir)
@@ -114,7 +114,7 @@ def main():
         save_cache_state(cached_state, cache_state_file)
     else:
         print(f"Cache hit: a {mc_version} server using {loader} {loader_version} is in the cache")
-    
+
     # Make sure we have an install of packwiz
     bootstrap_version = desired_cache_state["pw_bootstrap"]
     if bootstrap_version != cached_state.get("pw_bootstrap"):
@@ -173,7 +173,7 @@ def main():
         "-s", "server", # Tell packwiz to install only server files
         f"file://{pack_toml_file}"
     ])
-    
+
     # Symlink the cached server files and cached pack files
     shutil.rmtree(exec_dir)
     exec_dir.mkdir(parents=True)
@@ -188,10 +188,13 @@ def main():
                 dest = exec_dir / (f.relative_to(cached_pack_dir))
                 dest.parent.mkdir(exist_ok=True, parents=True)
                 os.symlink(f, dest, target_is_directory=False)
+        dotconnector = runtime_cache / ".connector"
+        dotconnector.mkdir(exist_ok=True, parents=True)
+        os.symlink(dotconnector, exec_dir / "mods" / ".connector", target_is_directory=True)
     else:
         for f in cached_pack_dir.iterdir():
             os.symlink(f, exec_dir / (f.relative_to(cached_pack_dir)), target_is_directory=f.is_dir())
-    
+
     dotfabric = runtime_cache / ".fabric"
     dotfabric.mkdir(exist_ok=True, parents=True)
     os.symlink(dotfabric, exec_dir / ".fabric", target_is_directory=True)
@@ -229,7 +232,7 @@ def main():
         sys.exit(1)
     else:
         print(f"Minecraft exited with status code 0")
-    
+
     if crashreport_dir.exists() and len(list(crashreport_dir.iterdir())) > 0:
         print(f"! Found files in the crash-reports directory. Marking test as failed")
         sys.exit(2)
@@ -249,7 +252,8 @@ def setup_server(java, mc_version, loader, loader_version, directory):
         # Download and run the appropriate installer
         if loader == "fabric":
             print(f"Downloading {loader}-installer {FABRIC_INSTALLER_VERSION} to {installer}")
-            urllib.request.urlretrieve(f"https://maven.fabricmc.net/net/fabricmc/fabric-installer/{FABRIC_INSTALLER_VERSION}/fabric-installer-{FABRIC_INSTALLER_VERSION}.jar", installer)
+            with open(installer, "wb") as f:
+                f.write(requests.get(f"https://maven.fabricmc.net/net/fabricmc/fabric-installer/{FABRIC_INSTALLER_VERSION}/fabric-installer-{FABRIC_INSTALLER_VERSION}.jar").content)
             subprocess.run([java, "-jar", installer,
                 "server",
                 "-dir", directory,
@@ -259,7 +263,8 @@ def setup_server(java, mc_version, loader, loader_version, directory):
             ])
         elif loader == "neoforge":
             print(f"Downloading {loader} installer for {loader_version} to {installer}")
-            urllib.request.urlretrieve(f"https://maven.neoforged.net/releases/net/neoforged/neoforge/{loader_version}/neoforge-{loader_version}-installer.jar", installer)
+            with open(installer, "wb") as f:
+                f.write(requests.get(f"https://maven.neoforged.net/releases/net/neoforged/neoforge/{loader_version}/neoforge-{loader_version}-installer.jar").content)
             # NeoForge installers are always meant for a certain neoforge and minecraft version
             subprocess.run([java, "-jar", installer, "--install-server", directory])
         else:
@@ -281,7 +286,8 @@ def validate_server(loader, server_dir) -> str | None:
 def setup_packwiz_bootstrap(java, bootstrap_version, directory):
     print(f"Downloading packwiz bootstrap {bootstrap_version}")
     directory.mkdir(exist_ok=True, parents=True)
-    urllib.request.urlretrieve(f"https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/{bootstrap_version}/packwiz-installer-bootstrap.jar", directory / "packwiz_bootstrap.jar")
+    with open(directory / "packwiz_bootstrap.jar", "wb") as f:
+        f.write(requests.get(f"https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/{bootstrap_version}/packwiz-installer-bootstrap.jar").content)
 
 def validate_packwiz(packwiz_dir) -> str | None:
     if not (packwiz_dir / "packwiz_bootstrap.jar").exists():
@@ -294,7 +300,8 @@ def setup_mc_test_injector(java, injector_version, directory):
     unprefixed = injector_version
     if unprefixed.startswith("v"):
         unprefixed = unprefixed[1:]
-    urllib.request.urlretrieve(f"https://github.com/TheEpicBlock/mc-test-injector/releases/download/{injector_version}/McTestInjector-{unprefixed}.jar", directory / "McTestInjector.jar")
+    with open(directory / "McTestInjector.jar", "wb") as f:
+        f.write(requests.get(f"https://github.com/TheEpicBlock/mc-test-injector/releases/download/{injector_version}/McTestInjector-{unprefixed}.jar").content)
 
 def validate_test_injector(packwiz_dir) -> str | None:
     if not (packwiz_dir / "McTestInjector.jar").exists():
@@ -309,14 +316,14 @@ def run_server(exec_dir, java, loader, java_args, mc_args, **kwargs) -> subproce
         # Pass the jdk options as an env variable
         if len(java_args) > 0:
             env["JDK_JAVA_OPTIONS"] = " ".join(java_args)
-        
+
         # Set env to use the right java
         path = os.environ["PATH"] if "PATH" in os.environ else ""
         if os.name == "nt":
             env["PATH"] = f"{java.parent};{path}"
         else:
             env["PATH"] = f"{java.parent}:{path}"
-        
+
         # Run the bash file
         bash_file = "run.bat" if os.name == "nt" else "run.sh"
         return subprocess.run([exec_dir / bash_file] + mc_args, env=env, **kwargs)
