@@ -1,0 +1,56 @@
+{
+    "joy:bii": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    },
+    "joy:enbee": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    },
+    "joy:trans_bee": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    },
+    "joy:tree": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    },
+    "joy:sock_fox": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    },
+    "joy:sniffer": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.800, 0.23, 1.20]
+            }
+        ]
+    }
+}

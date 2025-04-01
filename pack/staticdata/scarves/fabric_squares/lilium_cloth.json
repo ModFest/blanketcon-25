@@ -1,0 +1,19 @@
+{
+	"lilium:cloth_crimson": "lilium:block/cloth_crimson",
+	"lilium:cloth_amber": "lilium:block/cloth_amber",
+	"lilium:cloth_canary": "lilium:block/cloth_canary",
+	"lilium:cloth_chartreuse": "lilium:block/cloth_chartreuse",
+	"lilium:cloth_emerald": "lilium:block/cloth_emerald",
+	"lilium:cloth_spring_green": "lilium:block/cloth_spring_green",
+	"lilium:cloth_aqua": "lilium:block/cloth_aqua",
+	"lilium:cloth_capri": "lilium:block/cloth_capri",
+	"lilium:cloth_ultramarine": "lilium:block/cloth_ultramarine",
+	"lilium:cloth_violet": "lilium:block/cloth_violet",
+	"lilium:cloth_lilac": "lilium:block/cloth_lilac",
+	"lilium:cloth_fuchsia": "lilium:block/cloth_fuchsia",
+	"lilium:cloth_rose": "lilium:block/cloth_rose",
+	"lilium:cloth_gray": "lilium:block/cloth_gray",
+	"lilium:cloth_light_gray": "lilium:block/cloth_light_gray",
+	"lilium:cloth_white": "lilium:block/cloth_white",
+	"lilium:ancient_cobblestone": "lilium:block/cobblestone"
+}

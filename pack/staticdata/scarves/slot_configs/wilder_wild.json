@@ -1,0 +1,20 @@
+{
+    "wilder_wild:crab": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    },
+    "wilder_wild:ostrich": {
+        "slots": [
+            {
+                "slot": "trinkets:head/left_scarf/0",
+                "anchor_point": "",
+                "offset": [0.218, 0.23, 0.15]
+            }
+        ]
+    }
+}

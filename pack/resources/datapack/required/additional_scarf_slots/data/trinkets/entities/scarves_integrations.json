@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "entities": [
+    "joy:bii", "joy:enbee", "joy:trans_bee", "joy:tree", "joy:sock_fox", "joy:sniffer",
+    "minecraft:axolotl",
+    "wwizardry:snail",
+    "wilder_wild:crab", "wilder_wild:ostrich",
+    "chickensaur:chickensaur"
+  ],
+
+  "slots": [
+    "head/left_scarf"
+  ]
+}
+
