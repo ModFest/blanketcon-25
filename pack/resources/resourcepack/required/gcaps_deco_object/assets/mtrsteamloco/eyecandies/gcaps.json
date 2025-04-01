@@ -1,0 +1,25 @@
+{
+    "gcaps_1x": {
+      "name": "GBoard CAPS (1x)",
+      "flipV": true,
+      "model": ["mtrsteamloco:eyecandies/mozc_caps.obj"]
+    },
+    "gcaps_2x": {
+      "name": "GBoard CAPS (2x)",
+      "scale": [ 2, 2, 2 ],
+      "flipV": true,
+      "model": ["mtrsteamloco:eyecandies/mozc_caps.obj"]
+    },
+    "gcaps_4x": {
+      "name": "GBoard CAPS (4x)",
+      "scale": [ 4, 4, 4 ],
+      "flipV": true,
+      "model": ["mtrsteamloco:eyecandies/mozc_caps.obj"]
+    },
+    "gcaps_6x": {
+      "name": "GBoard CAPS (6x)",
+      "scale": [ 6, 6, 6 ],
+      "flipV": true,
+      "model": ["mtrsteamloco:eyecandies/mozc_caps.obj"]
+    }
+}
