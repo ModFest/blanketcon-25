@@ -22,27 +22,37 @@ models = uploadPartedModels(rawModels);
 idTexConnector = Resources.idRelative("s_train_connector.png");
 
 // Bogie
+var isMonorail = cxTrainType == "cxd106" || cxTrainType == "cxd109";
+var monorailTypeLangen = cxTrainType == "cxd106";
 
-if (typeof(monorailTypeLangen) === undefined) {
-  var monorailTypeLangen = false;
-}
 if (monorailTypeLangen) {
   rawModelBogieBase = ModelManager.loadRawModel(Resources.manager(),
-  Resources.idRelative("bogie_base.obj"), null);
+    Resources.idRelative("bogie_base.obj"), null);
   rawModelBogieBase.applyUVMirror(false, true);
   modelBogie = ModelManager.uploadVertArrays(rawModelBogieBase);
   
   rawModelBogieWheel = ModelManager.loadRawModel(Resources.manager(),
-  Resources.idRelative("bogie_wheel.obj"), null);
+    Resources.idRelative("bogie_wheel.obj"), null);
   rawModelBogieWheel.applyUVMirror(false, true);
   rawModelBogieWheel.applyTranslation(0, -1.3723, 1);
   modelBogieWheel = ModelManager.uploadVertArrays(rawModelBogieWheel);
-} else {
+} else if (isMonorail) {
   rawModelBogieBase = ModelManager.loadRawModel(Resources.manager(),
-  Resources.idRelative("bogie.obj"), null);
+    Resources.idRelative("bogie.obj"), null);
   rawModelBogieBase.applyUVMirror(false, true);
   rawModelBogieBase.applyTranslation(0, 0.4, 0);
   modelBogie = ModelManager.uploadVertArrays(rawModelBogieBase);
+} else {
+  rawModelBogieBase = ModelManager.loadRawModel(Resources.manager(),
+    Resources.idr("bogie_mini.csv"), null);
+  modelBogie = ModelManager.uploadVertArrays(rawModelBogieBase);
+  rawModelEquipments = ModelManager.loadRawModel(Resources.manager(),
+    Resources.idr("dipan1.csv"), null);
+  modelEquipments = ModelManager.uploadVertArrays(rawModelEquipments);
+  rawModelEquipmentsShort = rawModelEquipments.copy();
+  rawModelEquipmentsShort.sourceLocation = null;
+  rawModelEquipmentsShort.applyScale(1, 1, 0.6);
+  modelEquipmentsShort = ModelManager.uploadVertArrays(rawModelEquipmentsShort);
 }
 
 // PIS

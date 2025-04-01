@@ -77,17 +77,32 @@ function renderTrain(ctx, state, train) {
       ctx.drawCarModel(models["end"], i, matrices);
       matrices.popPushPose();
 
-      matrices.translate(0, 2.45, 3);
+      matrices.translate(0, 2.45, 2.45);
       renderBogie(ctx, state, matrices, i, trainInAir, true);
+      if (!isMonorail) {
+        matrices.translate(0, 0, -3.8);
+        ctx.drawCarModel(modelEquipmentsShort, i, matrices);
+      }
     } else if (i == train.trainCars() - 1) {
       ctx.drawCarModel(models["head"], i, matrices);
       ctx.drawCarModel(state.dhHeadDisp.model, i, matrices);
       ctx.drawCarModel(train.isReversed() ? models["headlight"] : models["taillight"], i, matrices);
       ctx.drawCarModel(models["end"], i, matrices);
 
-      matrices.translate(0, 2.45, -3);
+      matrices.translate(0, 2.45, -2.45);
       renderBogie(ctx, state, matrices, i, trainInAir, true);
+      if (!isMonorail) {
+        matrices.translate(0, 0, 3.8);
+        ctx.drawCarModel(modelEquipmentsShort, i, matrices);
+      }
     } else {
+      if (!isMonorail) {
+        matrices.pushPose();
+        matrices.translate(0, -1, 0);
+        ctx.drawCarModel(modelEquipments, i, matrices);
+        matrices.popPose();
+      }
+
       matrices.rotateY(Math.PI);
       ctx.drawCarModel(models["end"], i, matrices);
       if (i < train.trainCars() / 2) ctx.drawCarModel(state.dhSideDisp.model, i, matrices);
@@ -127,6 +142,9 @@ function renderTrain(ctx, state, train) {
 }
 
 function renderBogie(ctx, state, matrices, i, trainInAir, isCar) {
+  if (!isMonorail) {
+    matrices.translate(0, -3.45, 0);
+  }
   if (isCar) {
     ctx.drawCarModel(modelBogie, i, matrices);
   } else {
