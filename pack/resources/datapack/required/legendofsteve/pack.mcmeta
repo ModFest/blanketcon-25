@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"description": "Removes bombs from some loot tables to prevent destruction",
+		"pack_format": 48
+	}
+}

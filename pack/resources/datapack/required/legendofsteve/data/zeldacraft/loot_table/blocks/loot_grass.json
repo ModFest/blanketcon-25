@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "zeldacraft:emerald_shard",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"weight": 100
+				},
+				{
+					"type": "minecraft:item",
+					"name": "zeldacraft:magic_jar",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"name": "zeldacraft:emerald_chunk",
+					"weight": 5
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:block_state_property",
+					"block": "zeldacraft:loot_grass",
+					"properties": {
+						"age": "1"
+					}
+				}
+			]
+		}
+	]
+}
