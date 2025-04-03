@@ -1,0 +1,9 @@
+{
+	"name": "Fairy Barrier",
+	"icon": "barricade-example:blue_fairy_pendant",
+	"condition": {
+		"type": "silicate:entity_type",
+		"param_type": "silicate:this_entity",
+		"entity_type": "zeldacraft:fairy"
+	}
+}
