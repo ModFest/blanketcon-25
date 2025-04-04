@@ -1,13 +1,13 @@
 name = "Ballotbox"
-filename = "ballotbox-0.6.0+1.21.jar"
+filename = "ballotbox-0.6.1+1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/6d6uwdZy/versions/fGr8cQaP/ballotbox-0.6.0%2B1.21.jar"
+url = "https://cdn.modrinth.com/data/6d6uwdZy/versions/CG3sFGka/ballotbox-0.6.1%2B1.21.jar"
 hash-format = "sha512"
-hash = "0e7a1305345cf59e567998be72580e161394229c3ed64bd2881d284fd63600e245486bb1dde224da490548e0654ccfd6f96f34607e69b4167f2abe7a595f9137"
+hash = "17ceca0cae6a2465794b219035fc8e0649cba081fdf63a3907a8eb449027b88b5701c4d8fb8ce2e4091af47d42e453b14bf2f7df2157066ca07826a934fad0d0"
 
 [update]
 [update.modrinth]
 mod-id = "6d6uwdZy"
-version = "fGr8cQaP"
+version = "CG3sFGka"

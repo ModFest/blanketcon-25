@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://github.com/ModFest/modfest-role-sync/releases/download/0.3.1/modfest-role-sync-0.3.1.jar"
-hash-format = "sha256"
-hash = "3acdde2c75b45aabe9e626df7b9d2b355ab1afff61fe0db04d26a6b0b4a3d8b0"
+hash-format = "sha512"
+hash = "45bdf36a3bcc7b5dca5de02be503ecd8b53f098b50d48c5b46eb4d5ff7683c12466fbe70d8abbaa65f6cf2a621b5bb803356279c009743c259676a8d0475d27c"
 
 [update]
 [update.github]

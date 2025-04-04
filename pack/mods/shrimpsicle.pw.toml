@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://github.com/JR1811/shrimpsicle/releases/download/0.0.3-1.21.1/shrimpsicle-0.0.3-1.21.1.jar"
-hash-format = "sha256"
-hash = "31c6f9279caa6bdf1fede6e645d43ee38a60709d24e1b64fd1c50e95f33589cd"
+hash-format = "sha512"
+hash = "faabed70105682ec5e7da53d2b304677e83c797ee3a2dad8b6ef5a21675c37d482738d8feaabb9e229c9db265d295815726969c7a9ba24db0a85ebf12e26286f"
 
 [update]
 [update.github]

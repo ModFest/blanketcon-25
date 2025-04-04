@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://github.com/ModFest/meret/releases/download/0.1.0/meret-0.1.0%2B1.21.jar"
-hash-format = "sha256"
-hash = "b8e9804cf763243519770000b3aee91077ccb619bce3c7e0908ddc10c93ab6db"
+hash-format = "sha512"
+hash = "b46eaf6948b6ffb48491a2fb724189db0ac24c7f7e8ce026bab83d794293cb74d2478c6a2d53eec50df8c9a4b73a2d270af6ad8e1da67d63990c6bb8c1287eb4"
 
 [update]
 [update.github]

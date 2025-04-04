@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://github.com/FoundationGames/SSEDS/releases/download/0.2/sseds-0.2.jar"
-hash-format = "sha256"
-hash = "e5ccf8de477f93f557434abee0c0112240e2b173975136ce7a0faea0d3cca48e"
+hash-format = "sha512"
+hash = "1b38a64b85d2f6db1f79d3fbf62c5f917d365829d8e986112327630d4b2c6f81935976b7f73f80bbf44706038408b4f70ccf5a203fa35df132f368cd3348a821"
 
 [update]
 [update.github]

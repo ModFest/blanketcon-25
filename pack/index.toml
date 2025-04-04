@@ -98,6 +98,12 @@ file = "config/simplefog.json"
 file = "config/simpleupdatechecker_modpack.json"
 
 [[files]]
+file = "config/sky-aesthetics.json"
+
+[[files]]
+file = "config/snapper.json"
+
+[[files]]
 file = "config/sodium-options.json"
 
 [[files]]
@@ -457,6 +463,10 @@ metafile = true
 
 [[files]]
 file = "mods/timelock.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tmyk.pw.toml"
 metafile = true
 
 [[files]]
@@ -852,6 +862,12 @@ file = "resources/datapack/required/default_components_demo/data/trickster/defau
 file = "resources/datapack/required/default_components_demo/pack.mcmeta"
 
 [[files]]
+file = "resources/datapack/required/legendofsteve/data/zeldacraft/loot_table/blocks/loot_grass.json"
+
+[[files]]
+file = "resources/datapack/required/legendofsteve/pack.mcmeta"
+
+[[files]]
 file = "resources/datapack/required/mf_ballotbox/data/ballotbox/ballot/categories.json"
 
 [[files]]
@@ -907,6 +923,9 @@ file = "resources/resourcepack/required/Unsanded-1.1.1-custom.zip"
 
 [[files]]
 file = "resources/resourcepack/required/blanketcon-patches/assets/extravaganza/lang/en_us.json"
+
+[[files]]
+file = "resources/resourcepack/required/blanketcon-patches/assets/worldcomment/textures/gui/comment-tool.png"
 
 [[files]]
 file = "resources/resourcepack/required/blanketcon-patches/pack.mcmeta"
@@ -1008,10 +1027,19 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/b
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/bogie_base.obj"
 
 [[files]]
+file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/bogie_mini.csv"
+
+[[files]]
+file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/bogie_mini.png"
+
+[[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/bogie_wheel.mtl"
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/bogie_wheel.obj"
+
+[[files]]
+file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/dipan1.csv"
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/gizmo.mtl"
@@ -1098,9 +1126,6 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/s
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/cxd106/tcjc_pis_cfg.js"
 
 [[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/mesh_test.js"
-
-[[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/player_driver.png"
 
 [[files]]
@@ -1114,12 +1139,6 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/s_train_
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/s_train_cab_driver.obj"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/s_train_cyanex_blue.js"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtr/zbx1425/s_train_cyanex_blue.png"
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/alex_wriggle.png"
@@ -1278,9 +1297,6 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecand
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/common_jp_stop_pos_sign/sign/sign_vertical.png"
 
 [[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/forail_object.json"
-
-[[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/forail_railway_signage.json"
 
 [[files]]
@@ -1299,36 +1315,6 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecand
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/fr_railway_signage/ohl_end_1_twall.obj"
 
 [[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_hkb_plat_1_platform_edge_1/hkl_hkb_plat_1_platform_edge_1_left.mtl"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_hkb_plat_1_platform_edge_1/hkl_hkb_plat_1_platform_edge_1_left.obj"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_hkb_plat_1_platform_edge_1/hkl_hkb_plat_1_platform_edge_1_right.mtl"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_hkb_plat_1_platform_edge_1/hkl_hkb_plat_1_platform_edge_1_right.obj"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_trial_ride_day_cardboard_cut_out/hkl_trial_ride_day_cardboard_cut_out.mtl"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_trial_ride_day_cardboard_cut_out/hkl_trial_ride_day_cardboard_cut_out.obj"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/hkl_trial_ride_day_cardboard_cut_out/texture_flipped.png"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/jp_trap_point_em_1/jp_trap_point_em_1.mtl"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/jp_trap_point_em_1/jp_trap_point_em_1.obj"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/forail/jp_trap_point_em_1/jp_trap_point_em_1.png"
-
-[[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/ohl_support/ohl_support_1.json"
 
 [[files]]
@@ -1339,9 +1325,6 @@ file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecand
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/ohl_support/ohl_support_1_push.obj"
-
-[[files]]
-file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/schwebe_support.json"
 
 [[files]]
 file = "resources/resourcepack/required/cxd106108109/assets/mtrsteamloco/eyecandies/signal/signal.png"
@@ -1426,6 +1409,21 @@ file = "resources/resourcepack/required/default_components_demo/assets/fancy_ite
 
 [[files]]
 file = "resources/resourcepack/required/default_components_demo/pack.mcmeta"
+
+[[files]]
+file = "resources/resourcepack/required/gcaps_deco_object/assets/mtrsteamloco/eyecandies/gcaps.json"
+
+[[files]]
+file = "resources/resourcepack/required/gcaps_deco_object/assets/mtrsteamloco/eyecandies/mozc_caps.mtl"
+
+[[files]]
+file = "resources/resourcepack/required/gcaps_deco_object/assets/mtrsteamloco/eyecandies/mozc_caps.obj"
+
+[[files]]
+file = "resources/resourcepack/required/gcaps_deco_object/assets/mtrsteamloco/eyecandies/mozc_caps.png"
+
+[[files]]
+file = "resources/resourcepack/required/gcaps_deco_object/pack.mcmeta"
 
 [[files]]
 file = "resources/resourcepack/required/jsonpatcher-demo/assets/jsonpatcher_demo/textures/item/demo_item.png"

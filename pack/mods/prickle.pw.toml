@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/aaRl8GiW/versions/aGDJh61g/prickle-fabric-1.21.1-21.1.6.jar"
-hash-format = "sha1"
-hash = "37a4d086303671e64baf8a2814e8c3e8326d16e2"
+hash-format = "sha512"
+hash = "d4cde1cca30cbc112634b0516f4c5693358788d2446628a25f3f5f7424752debd75b9779a84c973d1c10fedab2c5d60ab61737087922a93f74109e22c5de29f9"
 
 [update]
 [update.modrinth]

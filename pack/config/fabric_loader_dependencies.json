@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"overrides": {
+		"sdsfabric": {
+			"-depends": {
+				"fabricloader": ""
+			}
+		},
+		"pesky_seagulls": {
+			"-depends": {
+				"smartbrainlib": ""
+			}
+		}
+	}
+}

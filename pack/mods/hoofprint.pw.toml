@@ -3,8 +3,8 @@ filename = "hoofprint-0.8.0-alpha.6+1.21.jar"
 
 [download]
 url = "https://github.com/HestiMae/hoofprint/releases/download/v0.8.0-alpha.6%2B1.20/hoofprint-0.8.0-alpha.6%2B1.21.jar"
-hash-format = "sha256"
-hash = "54c946dc33ee19ea68fdd73d0dd2191d6cf7b9ff10ad1e4724b6408e2a208b77"
+hash-format = "sha512"
+hash = "bd2ddac6b9ac22b8f3df2d294b208d94ffdf7649320c254297111369b2d12e99a2b528e7b20fe75d08f9bf8a0c990502fdd61fed3dcda895b3697e3af0b9976e"
 
 [update]
 [update.github]

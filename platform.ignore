@@ -17,10 +17,13 @@ jsonpatcher
 world-comment
 
 # crash on disconnect
-cook-it
+#cook-it
 
 # crash on launch
-subtle-effects
+#subtle-effects
+
+# Currently breaks chunkloading
+colorful-lanterns
 
 # need meta fixed, then testing
 coretechs
@@ -28,7 +31,6 @@ pesky-seagulls
 powerchord
 sunglasses
 tmyk
-
 
 ## test -> main
 advanced-networking

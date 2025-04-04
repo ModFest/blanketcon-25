@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://github.com/Patbox/pbwarps/releases/download/0.1.0%2B1.21.1/pbwarps-0.1.0%2B1.21.1.jar"
-hash-format = "sha256"
-hash = "942ab31b591bfefd9c2ad51e65ed763d9a1312bf9b261c5c10d9c008e5255d6a"
+hash-format = "sha512"
+hash = "ba763bca37c4b08b88451960223a9b5800404b3afd2c32e7cf993672c0fa63d255d9e4751d8438740638addd9dae618adb063caf23865bf03cd5329353953f9a"
 
 [update]
 [update.github]

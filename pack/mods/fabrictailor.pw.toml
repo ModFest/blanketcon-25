@@ -3,8 +3,8 @@ filename = "fabrictailor-2.5.0+bc25.1.jar"
 
 [download]
 url = "https://github.com/MerchantCalico/FabricTailor/releases/download/2.5.0%2Bbc25.1/fabrictailor-2.5.0+bc25.1.jar"
-hash-format = "sha256"
-hash = "fa7fd2dd222f44c238a935a1c93ee19a13caf16fee3efdcfb5de756f26073bb3"
+hash-format = "sha512"
+hash = "776a23e2682a95d413a13611aefc0025b9fcf58974e5984c2e96c5e3496bbe005b6a5071ab57afffa6bcd7b5a6869b4b8f67611797f1c3d6a22def037f5e31c0"
 
 [update]
 [update.github]

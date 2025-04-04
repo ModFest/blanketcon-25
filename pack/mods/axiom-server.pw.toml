@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/N6n5dqoA/versions/XhYMtBB9/Axiom-4.6.2-for-MC1.21.jar"
-hash-format = "sha1"
-hash = "1582eaeb1984dfa527729eb2bb83aae423422724"
+hash-format = "sha512"
+hash = "26c3c85998f3bd6d14207be9c05d19de223b11249d071127cbd4f90b4b2c92adaaf9c2178a6ea4db6f3fb1fe170250cd8d0a4055b28dcd4bffc40a8f53cc4c20"
 
 [update]
 [update.modrinth]

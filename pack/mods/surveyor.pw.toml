@@ -3,8 +3,8 @@ filename = "surveyor-1.0.0-alpha.6+1.21.jar"
 
 [download]
 url = "https://github.com/sisby-folk/surveyor/releases/download/v1.0.0-alpha.6%2B1.20/surveyor-1.0.0-alpha.6%2B1.21.jar"
-hash-format = "sha256"
-hash = "479540ed9d56a37f92f157c6948f63e9299f32c342e49f190456306bf87dd5b3"
+hash-format = "sha512"
+hash = "b97d457f345d41c3a4c1384d6d63c6cd7511a9a3cd302a5a1586444d94a474573867074928cc9302e3e061591d26367b99ffa32ee1df31bea5668bca60eb36d2"
 
 [update]
 [update.github]

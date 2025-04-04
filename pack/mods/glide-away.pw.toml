@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/iWkVbeKr/versions/kGu2xAVM/glideaway-1.2.3%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "576a51848e83cc9b2981dbcc5c1000512cf36122"
+hash-format = "sha512"
+hash = "9dd0f6045502e6cc91392cf9b21cbd9843cedd5c5fddfa1cb7f649718843527dde49ccca64faa98161406cceb194bb7d2f046682d7653be39808d73e6209bae7"
 
 [update]
 [update.modrinth]

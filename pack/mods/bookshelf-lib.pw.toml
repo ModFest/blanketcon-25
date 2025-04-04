@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/uy4Cnpcm/versions/U87GVHh9/bookshelf-fabric-1.21.1-21.1.50.jar"
-hash-format = "sha1"
-hash = "7ce43d58568eb958330a85c4ac28acdf69d4b2fd"
+hash-format = "sha512"
+hash = "fdc352b9608eca1c520b1bc770c21fd0dbbdb1da92d056d6cf89bc4e03542cfcf6e87cda0a2bfb2cf423c7b0471860edf19f0b1bcdf0b6953be298fab98ebbc2"
 
 [update]
 [update.modrinth]

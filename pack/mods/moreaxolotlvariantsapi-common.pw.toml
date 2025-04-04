@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://github.com/Ampflower/MoreAxolotlVariantsAPI-Common/releases/download/2.0.0-alpha.3/mavapi-fabric-2.0.0-alpha.3-mc1.21.1.jar"
-hash-format = "sha256"
-hash = "00d081eb8efd4fbfeb23b17ede02446c253533c515609d267e14ffcea6072632"
+hash-format = "sha512"
+hash = "e8275ade0bef59e856648e59738a6fdeec891d19087d23cc9f5b2dba1fc27470d9fc212808ec3f3e9f77281200388391d78a8f3b333f92a45b6182802a0d6c82"
 
 [update]
 [update.github]
