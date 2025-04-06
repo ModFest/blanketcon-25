@@ -1,0 +1,23 @@
+{
+  "target": "glowcase:*",
+  "add": {
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "type": "minecraft:generic.armor",
+          "id": "minecraft:armor.chestplate",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:generic.movement_speed",
+          "id": "minecraft:armor.chestplate",
+          "amount": -0.01,
+          "operation": "add_multiplied_base",
+          "slot": "chest"
+        }
+      ]
+    }
+  }
+}
