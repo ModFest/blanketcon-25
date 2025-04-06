@@ -196,10 +196,6 @@ file = "mods/bobby.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/bookshelf-lib.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -225,10 +221,6 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/enchantment-descriptions.pw.toml"
 metafile = true
 
 [[files]]
@@ -347,10 +339,6 @@ metafile = true
 
 [[files]]
 file = "mods/potentials.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/prickle.pw.toml"
 metafile = true
 
 [[files]]
@@ -865,6 +853,12 @@ file = "resources/datapack/required/mf_spell_dimension/data/bc25/dimension_type/
 
 [[files]]
 file = "resources/datapack/required/mf_spell_dimension/pack.mcmeta"
+
+[[files]]
+file = "resources/datapack/required/thwackinator_extra/data/thwackinator/tags/block/bouncy_blocks.json"
+
+[[files]]
+file = "resources/datapack/required/thwackinator_extra/pack.mcmeta"
 
 [[files]]
 file = "resources/resourcepack/optional/Semi-realistic Planet Scaling.zip"
