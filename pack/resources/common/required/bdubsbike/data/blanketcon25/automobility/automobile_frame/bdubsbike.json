@@ -1,0 +1,59 @@
+{
+    "hitboxes": [
+        {
+            "origin": [
+                0.0,
+                0.7,
+                0.0
+            ],
+            "width": 1.5,
+            "height": 1.3
+        }
+    ],
+    "horn": {
+        "sound": {
+            "sound_id": "automobility:entity.automobile.party_horn"
+        },
+        "loop_start": -1.0,
+        "loop_end": -1.0,
+        "pitches": [
+            1.0
+        ]
+    },
+    "display": {
+        "engine_position": [
+            0.0,
+            13.0,
+            -13.0
+        ],
+        "rear_attachment_offset": 9.0,
+        "front_attachment_offset": 9.0,
+        "driver_seat": [
+            0.0,
+            12.0,
+            0.0
+        ],
+        "texture": "blanketcon25:textures/entity/automobile/frame/bdubsbike.png",
+        "model": "blanketcon25:frame/bdubsbike",
+        "wheels": [
+            {
+                "yaw": 0.0,
+                "end": "front",
+                "side": "center",
+                "forward": 24.0,
+                "right": 1.25,
+                "scale": 1.5
+            },
+            {
+                "yaw": 0.0,
+                "end": "back",
+                "side": "center",
+                "forward": -5.0,
+                "right": 1.25,
+                "scale": 1.5
+            }
+        ],
+        "length_pixels": 20.0
+    },
+    "weight": 0.25
+}

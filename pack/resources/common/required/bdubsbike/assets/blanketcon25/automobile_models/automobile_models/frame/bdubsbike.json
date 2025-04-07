@@ -1,0 +1,8 @@
+{
+    "type": "automobility:basic",
+    "material": "cutout",
+    "model_layer": "blanketcon25:automobile/frame/bdubsbike/main",
+    "translation": [0, 0, 0],
+    "rotation": [0, 0, 0],
+    "scale": [2, 2, 2]
+}
