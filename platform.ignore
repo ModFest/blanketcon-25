@@ -11,7 +11,7 @@ surveyor
 cantilever
 
 # Disorderly mixin https://github.com/Nico44YT/Liby/blob/fabric-1.21.1/src/main/java/nazario/liby/mixin/TagGroupLoaderMixin.java
-snapshotmc
+#snapshotmc
 
 # Currently broken
 jsonpatcher
@@ -32,7 +32,7 @@ colorful-lanterns
 #coretechs
 #pesky-seagulls
 powerchord
-sunglasses
+#sunglasses
 #tmyk
 
 # ruining grass
@@ -42,7 +42,7 @@ thoroughfabric
 #advanced-networking
 #affinity
 #alchimiae-magicae
-allium
+#allium
 #berry-bounty
 #bouquet
 builderdash
@@ -70,11 +70,11 @@ oceanic-weaponry
 #server-cosmetics
 #shuttfup
 #simple-resource-loader
-snapshotmc
+#snapshotmc
 #sooperdooperscooper
 #stellaris
 #superposition
-trickster
+#trickster
 #vivatech
 #wandering-wizardry
 #worldinajar

@@ -930,6 +930,18 @@ file = "resources/resourcepack/optional/Semi-realistic Planet Scaling.zip"
 file = "resources/resourcepack/required/Unsanded-1.1.1-custom.zip"
 
 [[files]]
+file = "resources/resourcepack/required/blanketcon-fruit-basket/assets/scattered_shards/models/item/shard_tablet.json"
+
+[[files]]
+file = "resources/resourcepack/required/blanketcon-fruit-basket/assets/scattered_shards/textures/item/shard_tablet.png"
+
+[[files]]
+file = "resources/resourcepack/required/blanketcon-fruit-basket/pack.mcmeta"
+
+[[files]]
+file = "resources/resourcepack/required/blanketcon-fruit-basket/pack.png"
+
+[[files]]
 file = "resources/resourcepack/required/blanketcon-patches/assets/extravaganza/lang/en_us.json"
 
 [[files]]

@@ -1,0 +1,14 @@
+{
+    "type": "automobility:auto_mechanic_table",
+    "category": "automobility:frames",
+    "sortnum": 99905,
+    "ingredients": [
+        {"item": "minecraft:clock"},
+        {"item": "minecraft:moss_block"},
+        {"item": "minecraft:tuff"}
+    ],
+    "result": {
+        "item": "automobility:automobile_frame",
+        "component": "blanketcon25:bdubsbike"
+    }
+}

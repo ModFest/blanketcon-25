@@ -3,6 +3,58 @@
 		{
 			"id": "affinity:the_sky",
 			"required": false
+		},
+		{
+			"id": "glowcase:hyperlink_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:item_display_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:item_provider_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:particle_display",
+			"required": false
+		},
+		{
+			"id": "glowcase:sound_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:text_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:popup_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:screen_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:sprite_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:recipe_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:outline_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:item_acceptor_block",
+			"required": false
+		},
+		{
+			"id": "glowcase:entity_display_block",
+			"required": false
 		}
 	]
 }
