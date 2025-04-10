@@ -14,7 +14,7 @@
             "commands": {
 				".*": "allow"
             },
-			"worldinajar:create_jar": true
+            "worldinajar:create_jar": true
         }
     },
     "participant": {
