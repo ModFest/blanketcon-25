@@ -13,7 +13,8 @@
             "entity_selectors": true,
             "commands": {
 				".*": "allow"
-            }
+            },
+			"worldinajar:create_jar": true
         }
     },
     "participant": {
