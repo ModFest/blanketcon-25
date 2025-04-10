@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:cake",
+        "#minecraft:candle_cakes",
+        "bovinesandbuttercups:placeable_edible",
+        "trickster:charging_array",
+        "trickster:modular_spell_construct",
+        "trickster:scroll_shelf",
+        "trickster:spell_construct"
+    ]
+}
