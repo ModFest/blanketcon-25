@@ -1,1 +1,1 @@
-shard award @s decorative:durian
+shard award @s default_components:modfest_durian
