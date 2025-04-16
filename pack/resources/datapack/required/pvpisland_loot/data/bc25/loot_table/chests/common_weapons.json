@@ -76,6 +76,20 @@
         {
           "type": "minecraft:item",
           "name": "festive_frenzy:sharpened_candy_cane"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "extravaganza:golden_festive_coin",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 12,
+                "max": 24
+              }
+            }
+          ]
         }
       ]
     }
