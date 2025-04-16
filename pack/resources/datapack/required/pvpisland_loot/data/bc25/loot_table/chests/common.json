@@ -15,7 +15,26 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "bc25:chests/common_ammo"
+          "value": "bc25:chests/common_ammo",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bc25:chests/common_omni_ammo",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
         }
       ]
     },
