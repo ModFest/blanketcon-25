@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "omnicrossbow:omni": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pierced:long_crossbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hibernalherbs:syrum_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hibernalherbs:arkonium_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cerulean:fuchsia_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ubesdelight:rolling_pin_wood"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:skillet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "basicweapons:bronze_dagger"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "basicweapons:bronze_quarterstaff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "snapshot_mc:hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "basicweapons:iron_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "festive_frenzy:frostflake_cannon",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "festive_frenzy:sharpened_candy_cane"
+        }
+      ]
+    }
+  ]
+}

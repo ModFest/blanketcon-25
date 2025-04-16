@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pierced:harpoon_crossbow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hibernalherbs:slowness_herbal_blend"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hibernalherbs:mining_fatigue_herbal_blend"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hibernalherbs:speed_herbal_blend"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hibernalherbs:night_vision_herbal_blend"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "amarong:amarong_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "basicweapons:diamond_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "klaxon:steel_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "taccorpstrinkets:quartzite_hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pierced:harpoon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "basicweapons:netherite_club"
+        }
+      ]
+    }
+  ]
+}

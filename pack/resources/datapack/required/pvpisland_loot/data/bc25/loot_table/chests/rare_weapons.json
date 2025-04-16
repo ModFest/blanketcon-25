@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lilium:discharge_cannon",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "lilium:discharge_cannon_charge_level": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "affinity:azalea_bow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "oxide:pure_nail"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "necessities:max_jumps",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "id": "minecraft:1744783545173",
+                      "slot": "feet"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spirit_vector:spirit_vector"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soteria:soterian_lance"
+        }
+      ]
+    }
+  ]
+}
