@@ -1,8 +1,16 @@
 {
     "values": [
         "minecraft:cake",
+		"minecraft:dragon_egg",
         "#minecraft:candle_cakes",
         "bovinesandbuttercups:placeable_edible",
+		"charta:cherry_bar_shelf",
+		"charta:cactus_wine_glass",
+		"charta:berry_wine_glass",
+		"charta:empty_beer_glass",
+		"charta:empty_wine_glass",
+		"charta:sorghum_beer_glass",
+		"charta:wheat_beer_glass",
         "trickster:charging_array",
         "trickster:modular_spell_construct",
         "trickster:scroll_shelf",
