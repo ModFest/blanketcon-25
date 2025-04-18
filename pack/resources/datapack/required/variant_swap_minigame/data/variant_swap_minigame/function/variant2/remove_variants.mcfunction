@@ -1,0 +1,17 @@
+clear @p terracotta
+clear @p white_terracotta
+clear @p light_gray_terracotta
+clear @p gray_terracotta
+clear @p black_terracotta
+clear @p brown_terracotta
+clear @p red_terracotta
+clear @p orange_terracotta
+clear @p yellow_terracotta
+clear @p lime_terracotta
+clear @p green_terracotta
+clear @p cyan_terracotta
+clear @p light_blue_terracotta
+clear @p blue_terracotta
+clear @p purple_terracotta
+clear @p magenta_terracotta
+clear @p pink_terracotta
