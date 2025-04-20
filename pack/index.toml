@@ -71,6 +71,9 @@ file = "config/immersive_mc-server.json"
 file = "config/inventory_tabs.toml"
 
 [[files]]
+file = "config/lmft.json"
+
+[[files]]
 file = "config/magiclib.json"
 
 [[files]]
@@ -90,6 +93,9 @@ file = "config/quickerconnectbutton.json5"
 
 [[files]]
 file = "config/roles.json"
+
+[[files]]
+file = "config/recipe_cooldown.cfg"
 
 [[files]]
 file = "config/simplefog.json"
@@ -391,6 +397,10 @@ metafile = true
 
 [[files]]
 file = "mods/quicker-connect-button.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/recipecooldown.pw.toml"
 metafile = true
 
 [[files]]
