@@ -1,8 +1,8 @@
 setblock -26 79 426 air
-title @p title {"text":"Success!", "color":"green"}
-title @p subtitle {"text":"You placed all blocks correctly!", "color":"aqua"}
-playsound minecraft:entity.player.levelup master @p ~ ~ ~ 1 1
-playsound minecraft:ui.toast.challenge_complete master @p ~ ~ ~ 1 1
-scoreboard players add @p vs_wins 1
-execute if score @p vs_v1 matches 0 run scoreboard players set @p vs_v1 1
+title @a[tag=variant1_player,limit=1] title {"text":"Success!", "color":"green"}
+title @a[tag=variant1_player,limit=1] subtitle {"text":"You placed all blocks correctly!", "color":"aqua"}
+playsound minecraft:entity.player.levelup master @a[tag=variant1_player,limit=1] ~ ~ ~ 1 1
+playsound minecraft:ui.toast.challenge_complete master @a[tag=variant1_player,limit=1] ~ ~ ~ 1 1
+scoreboard players add @a[tag=variant1_player,limit=1] vs_wins 1
+execute if score @a[tag=variant1_player,limit=1] vs_v1 matches 0 run scoreboard players set @a[tag=variant1_player,limit=1] vs_v1 1
 function variant_swap_minigame:variant1/cleanup

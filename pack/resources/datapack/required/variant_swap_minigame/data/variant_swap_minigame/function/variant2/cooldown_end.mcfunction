@@ -1,1 +1,1 @@
-title @p actionbar {"text":"", "color":"reset"}
+title @a[tag=variant2_player,limit=1] actionbar {"text":""}
