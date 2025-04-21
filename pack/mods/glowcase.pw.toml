@@ -1,15 +1,13 @@
-name = "glowcase"
-filename = "glowcase-2.1.4+1.21.jar"
+name = "Glowcase"
+filename = "glowcase-2.1.5+1.21.jar"
 side = "both"
 
 [download]
-url = "https://github.com/ModFest/glowcase/releases/download/2.14/glowcase-2.1.4%2B1.21.jar"
-hash-format = "sha256"
-hash = "94159d8aa8fb9598a28370b6a4ec3a7dfd7ef8bd292e868233a42586bb671745"
+url = "https://cdn.modrinth.com/data/HPdKhYvx/versions/EPw6xWWM/glowcase-2.1.5%2B1.21.jar"
+hash-format = "sha512"
+hash = "525cc9385081c9daaa863b2845dd66edc201a49d3685b523586dd9732701e253855bc0b3e24e68cb5734ff5ce2dce33c873b08c090b71af14722a90ede7b346d"
 
 [update]
-[update.github]
-branch = "1.21"
-regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
-slug = "ModFest/glowcase"
-tag = "2.14"
+[update.modrinth]
+mod-id = "HPdKhYvx"
+version = "EPw6xWWM"
