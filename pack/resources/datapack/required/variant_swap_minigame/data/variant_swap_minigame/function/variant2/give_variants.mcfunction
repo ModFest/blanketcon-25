@@ -1,17 +1,17 @@
-give @p terracotta 64
-give @p white_terracotta 64
-give @p light_gray_terracotta 64
-give @p gray_terracotta 64
-give @p black_terracotta 64
-give @p brown_terracotta 64
-give @p red_terracotta 64
-give @p orange_terracotta 64
-give @p yellow_terracotta 64
-give @p lime_terracotta 64
-give @p green_terracotta 64
-give @p cyan_terracotta 64
-give @p light_blue_terracotta 64
-give @p blue_terracotta 64
-give @p purple_terracotta 64
-give @p magenta_terracotta 64
-give @p pink_terracotta 64
+give @p terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p white_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p light_gray_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p gray_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p black_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p brown_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p red_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p orange_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p yellow_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p lime_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p green_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p cyan_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p light_blue_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p blue_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p purple_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p magenta_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p pink_terracotta 64 {{CanPlaceOn:["minecraft:white_wool"]}}

@@ -1,11 +1,11 @@
-give @p oak_planks 64
-give @p spruce_planks 64
-give @p birch_planks 64
-give @p jungle_planks 64
-give @p acacia_planks 64
-give @p dark_oak_planks 64
-give @p mangrove_planks 64
-give @p cherry_planks 64
-give @p bamboo_planks 64
-give @p crimson_planks 64
-give @p warped_planks 64
+give @p oak_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p spruce_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p birch_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p jungle_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p acacia_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p dark_oak_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p mangrove_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p cherry_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p bamboo_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p crimson_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p warped_planks 64 {{CanPlaceOn:["minecraft:white_wool"]}}

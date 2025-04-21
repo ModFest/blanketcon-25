@@ -1,34 +1,34 @@
-give @p glass 64
-give @p white_stained_glass 64
-give @p light_gray_stained_glass 64
-give @p gray_stained_glass 64
-give @p black_stained_glass 64
-give @p brown_stained_glass 64
-give @p red_stained_glass 64
-give @p orange_stained_glass 64
-give @p yellow_stained_glass 64
-give @p lime_stained_glass 64
-give @p green_stained_glass 64
-give @p cyan_stained_glass 64
-give @p light_blue_stained_glass 64
-give @p blue_stained_glass 64
-give @p purple_stained_glass 64
-give @p magenta_stained_glass 64
-give @p pink_stained_glass 64
-give @p glass_pane 64
-give @p white_stained_glass_pane 64
-give @p light_gray_stained_glass_pane 64
-give @p gray_stained_glass_pane 64
-give @p black_stained_glass_pane 64
-give @p brown_stained_glass_pane 64
-give @p red_stained_glass_pane 64
-give @p orange_stained_glass_pane 64
-give @p yellow_stained_glass_pane 64
-give @p lime_stained_glass_pane 64
-give @p green_stained_glass_pane 64
-give @p cyan_stained_glass_pane 64
-give @p light_blue_stained_glass_pane 64
-give @p blue_stained_glass_pane 64
-give @p purple_stained_glass_pane 64
-give @p magenta_stained_glass_pane 64
-give @p pink_stained_glass_pane 64
+give @p glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p white_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p light_gray_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p gray_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p black_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p brown_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p red_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p orange_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p yellow_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p lime_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p green_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p cyan_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p light_blue_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p blue_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p purple_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p magenta_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p pink_stained_glass 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p white_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p light_gray_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p gray_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p black_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p brown_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p red_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p orange_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p yellow_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p lime_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p green_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p cyan_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p light_blue_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p blue_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p purple_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p magenta_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
+give @p pink_stained_glass_pane 64 {{CanPlaceOn:["minecraft:white_wool"]}}
