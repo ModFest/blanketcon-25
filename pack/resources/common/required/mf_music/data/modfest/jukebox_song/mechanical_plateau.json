@@ -1,10 +1,1 @@
-{
-	"comparator_output": 2,
-	"description": {
-		"translate": "now-playing.modfest:music/mechanical_plateau"
-	},
-	"length_in_seconds": 238.0,
-	"sound_event": {
-		"sound_id": "modfest:music.mechanical_plateau"
-	}
-}
+{"comparator_output": 1, "description": {"translate": "now-playing.modfest:music/mechanical_plateau"}, "length_in_seconds": 237.5, "sound_event": {"sound_id": "modfest:music.mechanical_plateau"}}
