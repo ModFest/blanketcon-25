@@ -23,6 +23,7 @@
 		"superposition:filter",
 		"superposition:computer",
 		"superposition:combinator",
-		"superposition:constant_combinator"
+		"superposition:constant_combinator",
+		"#pridemoths:moth_enclosures"
 	]
 }
