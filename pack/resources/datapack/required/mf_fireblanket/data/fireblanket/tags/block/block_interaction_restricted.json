@@ -16,7 +16,7 @@
 		"minecraft:hopper",
 		"minecraft:crafter",
 		"map_utils:variable_redstone_block",
-		"#missingwilds:jars",
+		"#missingwilds:food_jars",
 		"hollow:jar",
 		"superposition:signal_generator",
 		"superposition:amplifier",
