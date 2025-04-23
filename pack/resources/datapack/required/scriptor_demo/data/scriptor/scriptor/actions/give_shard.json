@@ -1,0 +1,13 @@
+{
+    "cost": 0.1,
+    "disabled": false,
+    "cast_at_position": [
+      "shard award @caster scriptor:modfest_dragonfruit"
+    ],
+    "cast_on_entity": [
+      "shard award @caster scriptor:modfest_dragonfruit"
+    ],
+    "cast_on_item": [
+      "shard award @caster scriptor:modfest_dragonfruit"
+    ]
+  }
