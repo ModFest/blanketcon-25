@@ -335,6 +335,18 @@
 			"modfest:music/stereo/hot_treacle"
 		]
 	},
+	"music.the_ruins": {
+		"subtitle": "now-playing.modfest:music/the_ruins",
+		"sounds": [
+			"modfest:music/the_ruins"
+		]
+	},
+	"music.stereo.the_ruins": {
+		"subtitle": "now-playing.modfest:music/the_ruins",
+		"sounds": [
+			"modfest:music/stereo/the_ruins"
+		]
+	},
 	"music.area.airship": {
 		"subtitle": "now-playing.modfest:music/area/airship",
 		"sounds": [
