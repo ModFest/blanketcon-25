@@ -1,0 +1,125 @@
+{
+    "$schema": "../../../custom_renderer_schema.json",
+    "rendering_functions": [
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "head",
+                    "side": "FRONT"
+                },
+                {
+                    "type": "scale",
+                    "x": 0.7,
+                    "y": 0.25,
+                    "z": 0.35
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": -0.25,
+                    "z": 0
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "gold_block"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "head",
+                    "side": "FRONT"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 270,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": 0.225,
+                    "y": 0.0,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 2.5,
+                    "y": 2.5,
+                    "z": 2.5
+                }
+            ],
+            "rendering_function": {
+                "type":"entity",
+                "entity_id": "item_display",
+                "stack": {
+                    "width": 1,
+                    "item": {
+                        "id": "minecraft:spyglass",
+                        "count": 1,
+                        "components": {
+                            "accessories:item_cosmetic_override": {
+                                "id": "air"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "head",
+                    "side": "FRONT"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 270,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": -0.225,
+                    "y": 0.0,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 2.5,
+                    "y": 2.5,
+                    "z": 2.5
+                }
+            ],
+            "rendering_function": {
+                "type":"entity",
+                "entity_id": "item_display",
+                "stack": {
+                    "width": 1,
+                    "item": {
+                        "id": "minecraft:spyglass",
+                        "count": 1,
+                        "components": {
+                            "accessories:item_cosmetic_override": {
+                                "id": "air"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

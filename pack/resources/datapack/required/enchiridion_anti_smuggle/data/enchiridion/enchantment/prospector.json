@@ -1,0 +1,68 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchiridion.prospector"
+    },
+    "effects": {
+        "enchiridion:block_loot": [
+            {
+                "effect": {
+                    "table": "enchiridion:prospector_digging"
+                },
+                "requirements": {
+                    "condition": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "condition": "enchiridion:block_params",
+                            "predicate": {
+                                "blocks": "#enchiridion:can_prospect"
+                            }
+                        },
+                        {
+                            "chance": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 0.04,
+                                    "per_level_above_first": 0.02
+                                }
+                            },
+                            "condition": "minecraft:random_chance"
+                        }
+                    ]
+                }
+            }
+        ],
+        "enchiridion:run_functions_on_block_loot": [
+            {
+                "effect": {
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:prospector"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#minecraft:exclusive_set/mining",
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchiridion:enchantable/shovel",
+    "weight": 2
+}

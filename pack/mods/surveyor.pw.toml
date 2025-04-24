@@ -1,14 +1,14 @@
 name = "surveyor"
-filename = "surveyor-1.0.0-alpha.6+1.21.jar"
+filename = "surveyor-1.0.0-alpha.8+1.21.jar"
 
 [download]
-url = "https://github.com/sisby-folk/surveyor/releases/download/v1.0.0-alpha.6%2B1.20/surveyor-1.0.0-alpha.6%2B1.21.jar"
-hash-format = "sha512"
-hash = "b97d457f345d41c3a4c1384d6d63c6cd7511a9a3cd302a5a1586444d94a474573867074928cc9302e3e061591d26367b99ffa32ee1df31bea5668bca60eb36d2"
+url = "https://github.com/sisby-folk/surveyor/releases/download/v1.0.0-alpha.8%2B1.20/surveyor-1.0.0-alpha.8%2B1.21.jar"
+hash-format = "sha256"
+hash = "903cf3f70cd68a3dd16e7739fde7d80a2661c8d40c6e6d3c4d71b5ebc46894ef"
 
 [update]
 [update.github]
 branch = "1.20"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)1.21\\.jar$"
 slug = "sisby-folk/surveyor"
-tag = "v1.0.0-alpha.6+1.20"
+tag = "v1.0.0-alpha.8+1.20"

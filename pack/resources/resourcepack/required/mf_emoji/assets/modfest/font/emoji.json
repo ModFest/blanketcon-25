@@ -278,6 +278,42 @@
 			"chars": [
 				""
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "modfest:emoji/ananas_great.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "modfest:emoji/ananas_good.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "modfest:emoji/ananas_question.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": [
+				""
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "modfest:emoji/ananas_none.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": [
+				""
+			]
 		}
 	]
 }

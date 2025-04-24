@@ -1,0 +1,13 @@
+{
+    "$schema": "../../../../custom_renderer_schema.json",
+    "rendering_functions": [
+        {
+            "type": "renderer",
+            "renderer_id": "accessories:wool_programming_socks/base_with_strips",
+            "references": {
+                "#primary_wool_type": "white_wool",
+                "#secondary_wool_type": "pink_wool"
+            }
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "$schema": "../../../custom_renderer_schema.json",
+    "references": {},
+    "rendering_functions": [
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "head",
+                    "side": "TOP"
+                },
+                {
+                    "type": "translation",
+                    "x": 0.035,
+                    "y": 0.7,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 0.8,
+                    "y": 0.05,
+                    "z": 0.8
+                }
+            ],
+            "rendering_function": {
+                "type": "entity",
+                "entity_id": "item_display",
+                "stack": {
+                    "width": 1,
+                    "item": {
+                        "id": "affinity:dragon_drop",
+                        "count": 2,
+                        "components": {
+                            "accessories:item_cosmetic_override": {
+                                "id": "air"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "head",
+                    "side": "TOP"
+                },
+                {
+                    "type": "translation",
+                    "x": 0.1,
+                    "y": 2.5,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 3.5,
+                    "y": 3.5,
+                    "z": 3.5
+                }
+            ],
+            "rendering_function": {
+                "type": "entity",
+                "entity_id": "item_display",
+                "stack": {
+                    "width": 1,
+                    "item": {
+                        "id": "shrimpsicle:ananas",
+                        "count": 2
+                    }
+                }
+            }
+        }
+    ]
+}

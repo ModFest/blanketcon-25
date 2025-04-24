@@ -10,67 +10,54 @@ var pisConfig = {
   },
 
   "stations": {
-    "exc": { "door": "left", "specDep": true },
-    "npp": { "door": "right", "specDep": true },
-    "sob": { "door": "right" },
-    "syr": { },
-    "yfp": { "door": "left" },
-    "yub": { "door": "right" },
-    "wyu": { },
-    "est": { "door": "right" },
-    "xwm": { },
-    "nzr": { "door": "left" },
-
+    "grp": { },
+    "res": { "door": "left" },
+    "vol": { },
+    "dun": { "door": "right", "tbOnPlat": true },
+    "chd": { "door": "right" },
+    "foc": { "door": "left", "tbOnPlat": true },
+    "boe": { "door": "left" },
+    "cap": { "door": "right", "tbOnPlat": true },
+    "jur": { "door": "right" },
+    "cac": { "door": "right" },
+    "bes": { "door": "both", "tbOnPlat": true }
   },
 
   "routes": {
-    "10s": { "annRouteName": "rel", isLoopLine: true,
-      "destName": "内环|CW Loop", "headSideDest": "R 内环|CW Loop",
-      "destInfo": "本列车运行红线\n内环方向"
+    "1s": { "annRouteName": "nsl", "routeName": "東北綫|N/E Line",
+      "destName": "廣場|Grand Plaza", "headSideDest": "嘉年華碼頭|Carnival Pier"
     },
-    "10x": { "annRouteName": "rel", isLoopLine: true,
-      "destName": "外环|ACW Loop", "headSideDest": "R 外环|ACW Loop",
-      "destInfo": "本列车运行红线\n外环方向"
+    "1x": { "annRouteName": "nsl", "routeName": "東北綫|N/E Line",
+      "headSideDest": "沙   丘|Dunes"
     },
-    "11s": { "annRouteName": "rel",
-      "headSideDest": "RA 北角|North Point",
-      "destInfo": "本列车运行红线\n外环方向, 终点是小镇西\n之后, 直通运行黄线\n北角码头方向"
+    "2s": { "annRouteName": "ewl", "routeName": "西北綫|N/W Line",
+      "destName": "廣場|Grand Plaza", "headSideDest": "別 誌 西|Beachside"
     },
-    "11x": { "annRouteName": "rel",
-      "headSideDest": "R 小镇西|West Yuushya",
-      "destInfo": "本列车运行红线\n内环方向, 终点是小镇西"
+    "2x": { "annRouteName": "ewl", "routeName": "西北綫|N/W Line",
+      "headSideDest": "崖   樹|Forest Cliffs"
     },
-    "20s": { "annRouteName": "aml",
-      "headSideDest": "A 北角|North Point",
-      "destInfo": "本列车运行黄线\n北角码头方向"
+    "3s": { "annRouteName": "nsl", "routeName": "西南綫|S/W Line",
+      "destName": "廣場|Grand Plaza", "headSideDest": "沙   丘|Dunes"
     },
-    "20x": { "annRouteName": "aml",
-      "headSideDest": "AR 小镇西|West Yuushya",
-      "destInfo": "本列车运行黄线\n小镇西方向\n之后, 直通运行红线\n内环方向"
+    "3x": { "annRouteName": "nsl", "routeName": "西南綫|S/W Line",
+      "headSideDest": "嘉年華碼頭|Carnival Pier"
+    },
+    "4s": { "annRouteName": "ewl", "routeName": "東南綫|S/E Line",
+      "destName": "廣場|Grand Plaza", "headSideDest": "崖   樹|Forest Cliffs"
+    },
+    "4x": { "annRouteName": "ewl", "routeName": "東南綫|S/E Line",
+      "headSideDest": "別 誌 西|Beachside"
     }
   },
 
   "routeStations": {
-    "10s_syr": { "door": "right" }, 
-    "10x_syr": { "door": "left" },
-    "11s_syr": { "door": "right" },
-    "11x_syr": { "door": "left" },
-    
-    "10s_wyu": { "door": "left" }, 
-    "10x_wyu": { "door": "right" },
-    "11s_wyu": { "door": "right" },
-    "11x_wyu": { "door": "right" },
-    "20s_wyu": { "door": "left" },
-    "20x_wyu": { "door": "right" },
-    
-    "10s_xwm": { "door": "left" }, 
-    "10x_xwm": { "door": "right" },
-    "11s_xwm": { "door": "left" },
-    "11x_xwm": { "door": "right" },
-    "20s_xwm": { "door": "left" },
-    "20x_xwm": { "door": "right" },
+    "1s_grp": { "door": "right" },
+    "2s_grp": { "door": "left" },
+    "3s_grp": { "door": "right" },
+    "4s_grp": { "door": "left" },
 
-    "11s_wyu": { "specDep": true }
+    "1s_vol": { "door": "left" },
+    "1x_vol": { "door": "right" }
   },
 };
 

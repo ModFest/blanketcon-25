@@ -1,0 +1,246 @@
+{
+    "$schema": "../../../custom_renderer_schema.json",
+    "references": {
+        "#primary_entity_id": "cow"
+    },
+    "rendering_functions": [
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 180,
+                    "axis": {
+                        "x": 0,
+                        "y": 1,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": 0.355,
+                    "z": 0.4
+                },
+                {
+                    "type": "scale",
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 0.25
+                }
+            ],
+            "rendering_function": {
+                "type": "entity",
+                "entity_id": "#primary_entity_id"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 0,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": 0.1,
+                    "z": -0.3
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "dark_oak_trapdoor"
+            }
+        },{
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 0,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": 0.29,
+                    "z": -0.3
+                },
+                {
+                    "type": "scale",
+                    "x": 0.7,
+                    "y": 0.7,
+                    "z": 0.7
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "red_carpet"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 0,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": 0.4,
+                    "y": 0.2,
+                    "z": -0.7
+                },
+                {
+                    "type": "scale",
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "dark_oak_fence"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 0,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": -0.4,
+                    "y": 0.2,
+                    "z": -0.7
+                },
+                {
+                    "type": "scale",
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "dark_oak_fence"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 0,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": 0.4,
+                    "y": 0.6,
+                    "z": -0.7
+                },
+                {
+                    "type": "scale",
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 0.25
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "glowstone"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "body",
+                    "side": "BACK"
+                },
+                {
+                    "type": "axis_rotation",
+                    "angle": 0,
+                    "axis": {
+                        "x": 1,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                {
+                    "type": "translation",
+                    "x": -0.4,
+                    "y": 0.6,
+                    "z": -0.7
+                },
+                {
+                    "type": "scale",
+                    "x": 0.25,
+                    "y": 0.25,
+                    "z": 0.25
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "glowstone"
+            }
+        }
+    ]
+}

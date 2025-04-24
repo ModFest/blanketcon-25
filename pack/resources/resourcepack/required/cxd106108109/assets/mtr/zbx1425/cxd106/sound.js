@@ -4,35 +4,27 @@ function setupSounds(ctx, state) {
 }
 
 function playAnn(ctx, state, train) {
-  var stations = train.getThisRoutePlatforms();
+  let stations = train.getThisRoutePlatforms();
   if (stations.size() <= 1) return;
-  var nextIndex = train.getThisRoutePlatformsNextIndex();
+  let nextIndex = train.getThisRoutePlatformsNextIndex();
   if (nextIndex <= 0 || nextIndex >= stations.size()) return;
 
-  var stationConfig = getStationConfig(stations, nextIndex);
-  var prevStationConfig = nextIndex > 0 ? getStationConfig(stations, nextIndex - 1) : {};
+  let stationConfig = getStationConfig(stations, nextIndex);
+  let nextStationConfig = nextIndex < stations.size() ? getStationConfig(stations, nextIndex) : {};
 
   if (stationConfig.code === undefined || stationConfig.code === "") {
     state.playingAnn.setState("");
   } else {
-    var distLastStation = train.railProgress() - stations.get(nextIndex - 1).distance;
-    var distNextStation = stations.get(nextIndex).distance - train.railProgress();
-    var isLoopLine = stations.get(0).station.id == stations.get(stations.size() - 1).station.id;
-    var soundToPlay;
+    let distLastStation = train.railProgress() - stations.get(nextIndex - 1).distance;
+    let distNextStation = stations.get(nextIndex).distance - train.railProgress();
+    let isLoopLine = stations.get(0).station.id == stations.get(stations.size() - 1).station.id;
+    let soundToPlay;
     if (distNextStation < stationConfig.arriveDistance) {
-      if (nextIndex == stations.size() - 1 && !isLoopLine) {
+      if (!!nextStationConfig["tbOnPlat"]) {
         soundToPlay = stationConfig.routeStationCode + "_arr_term";
-      } else {
-        soundToPlay = stationConfig.routeStationCode + "_arr";
       }
     } else if (distLastStation > 15) {
-      if (nextIndex == stations.size() - 1 && !isLoopLine) {
-        soundToPlay = stationConfig.routeStationCode + "_next_term";
-      } else if (!!prevStationConfig["specDep"]) {
-        soundToPlay = stationConfig.routeStationCode + "_next_specdep";
-      } else {
-        soundToPlay = stationConfig.routeStationCode + "_next";
-      }
+      soundToPlay = stationConfig.routeStationCode + "_next";
     } else {
       soundToPlay = "";
     }

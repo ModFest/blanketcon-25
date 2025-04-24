@@ -23,6 +23,7 @@ function paintPisRoute(g, state, train, side) {
     if (nextIndex + i >= stations.size()) break;
     let station = stations.get(nextIndex + i);
     if (i > 1 && nextIndex + i - 1 > 0 && station.station.id == stations.get(nextIndex + i - 1).station.id) break;
+    if (i > 2 && nextIndex + i - 2 > 0 && station.station.id == stations.get(nextIndex + i - 2).station.id) break;
     
     let stationName = "" + TextUtil.getCjkParts(station.station.name);
     if (stationName.length > 4) stationName = stationName.substring(0, 4);
@@ -68,7 +69,8 @@ function paintPisRoute(g, state, train, side) {
       break;
     }
     let station = stations.get(nextIndex + i);
-    if (i > 1 && nextIndex + i - 1 > 0 && station.station.id == stations.get(nextIndex + i - 1).station.id) {
+    if ((i > 1 && nextIndex + i - 1 > 0 && station.station.id == stations.get(nextIndex + i - 1).station.id)
+    || (i > 2 && nextIndex + i - 2 > 0 && station.station.id == stations.get(nextIndex + i - 2).station.id)) {
       if (i != stationOnPage - 1 && i != 2) {
         g.setColor(Color.WHITE);
         paintTextL(g, "(分)", x + 9, lineTopY + 18, 8);
@@ -128,12 +130,12 @@ function paintPisRoute(g, state, train, side) {
     g.setColor(thisDoorOpen ? new Color(0, 0x83 / 255, 0x4f / 255) : new Color(0x4f / 255, 0, 0));
     g.fillRect(0, 128 - 20, 256, 20);
     g.setColor(Color.WHITE);
-    paintTextC(g, thisDoorOpen ? "本侧开门  Exit this side" : "对侧开门  Exit other side",
+    paintTextC(g, thisDoorOpen ? "本側開門  Exit this side" : "對側開門  Exit other side",
       256 / 2, 128 - 3, 14);
   } else {
     // Cartoon train animation
-    let animProg = (Timing.elapsed() % 4) / 4;
-    let animX = rtl ? (256 - animProg * (256 + 50)) : (animProg * (256 + 47));
-    g.drawImage(imgCartoonTrain, animX, lineTopY + 20, rtl ? 47 : -47, 30, null);
+    // let animProg = (Timing.elapsed() % 4) / 4;
+    // let animX = rtl ? (256 - animProg * (256 + 50)) : (animProg * (256 + 47));
+    // g.drawImage(imgCartoonTrain, animX, lineTopY + 20, rtl ? 47 : -47, 30, null);
   }
 }

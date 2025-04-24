@@ -303,12 +303,19 @@ file = "mods/immortal-coral.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/item-model-component-backport.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/jamlib.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/kawaii-dishes-1.13-beta12.jar"
 
 [[files]]
 file = "mods/lavender.pw.toml"
@@ -479,6 +486,10 @@ metafile = true
 
 [[files]]
 file = "mods/tmyk.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/veil-fabric-1-21-1-1-0-1-bc1-jar.pw.toml"
 metafile = true
 
 [[files]]

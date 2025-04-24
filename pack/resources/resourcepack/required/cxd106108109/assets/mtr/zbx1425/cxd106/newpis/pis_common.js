@@ -28,7 +28,7 @@ function paintPisTopInfo(g, state, train) {
   if (state.posPhase.stateNow() == "rte" || state.posPhase.stateNow() == "dpt") {
     paintTextL(g, isCjk ? "下一站" : "Next Station", 74, 12, 10);
   } else {
-    paintTextL(g, isCjk ? "列车到达" : "This is", 74, 12, 10);
+    paintTextL(g, isCjk ? "列車到達" : "This is", 74, 12, 10);
   }
 
   // Clock

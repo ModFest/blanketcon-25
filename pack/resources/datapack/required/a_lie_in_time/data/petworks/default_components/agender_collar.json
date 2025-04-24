@@ -1,0 +1,11 @@
+{
+  "add": {
+    "minecraft:item_name": "'The Lie'",
+    "minecraft:lore": [
+      "{
+        'text': 'It took way too long for me to notice this...',
+        'color': 'dark_gray'
+      }"
+    ]
+  }
+}

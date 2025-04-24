@@ -1,7 +1,7 @@
 {
 	"display_settings": {
 		"draw_mini_icons": true,
-		"library_color": "#ffdf93",
+		"library_color": "#0d414e",
 		"library_set_name_color": "#ffffff",
 		"viewer_top_color": "#ffdf93",
 		"viewer_bottom_color": "#c28304"
@@ -13,7 +13,7 @@
 			"offsets": {
 				"normal": {
 					"top": 8,
-					"left": 4
+					"left": 8
 				},
 				"mini": {
 					"top": 2,
@@ -44,11 +44,11 @@
 			"offsets": {
 				"normal": {
 					"top": 8,
-					"left": 7
+					"left": 10
 				},
 				"mini": {
 					"top": 2,
-					"left": 3
+					"left": 2
 				}
 			},
 			"textures": {
@@ -74,8 +74,8 @@
 		"display": {
 			"offsets": {
 				"normal": {
-					"top": 13,
-					"left": 3
+					"top": 10,
+					"left": 10
 				},
 				"mini": {
 					"top": 3,
@@ -137,11 +137,11 @@
 			"offsets": {
 				"normal": {
 					"top": 13,
-					"left": 3
+					"left": 8
 				},
 				"mini": {
-					"top": 6,
-					"left": 1
+					"top": 3,
+					"left": 2
 				}
 			},
 			"textures": {
@@ -167,12 +167,12 @@
 		"display": {
 			"offsets": {
 				"normal": {
-					"top": 13,
-					"left": 3
+					"top": 8,
+					"left": 8
 				},
 				"mini": {
-					"top": 6,
-					"left": 1
+					"top": 2,
+					"left": 2
 				}
 			},
 			"textures": {
@@ -199,7 +199,7 @@
 			"offsets": {
 				"normal": {
 					"top": 9,
-					"left": 3
+					"left": 7
 				},
 				"mini": {
 					"top": 2,
@@ -229,12 +229,12 @@
 		"display": {
 			"offsets": {
 				"normal": {
-					"top": 13,
-					"left": 3
+					"top": 10,
+					"left": 6
 				},
 				"mini": {
-					"top": 6,
-					"left": 1
+					"top": 3,
+					"left": 2
 				}
 			},
 			"textures": {

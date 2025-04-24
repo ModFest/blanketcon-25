@@ -1,0 +1,11 @@
+clear @p oak_planks
+clear @p spruce_planks
+clear @p birch_planks
+clear @p jungle_planks
+clear @p acacia_planks
+clear @p dark_oak_planks
+clear @p mangrove_planks
+clear @p cherry_planks
+clear @p bamboo_planks
+clear @p crimson_planks
+clear @p warped_planks

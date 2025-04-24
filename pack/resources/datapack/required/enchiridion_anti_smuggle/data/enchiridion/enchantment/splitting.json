@@ -1,0 +1,63 @@
+{
+    "anvil_cost": 4,
+    "description": {
+        "translate": "enchantment.enchiridion.splitting"
+    },
+    "effects": {
+        "enchiridion:run_functions_on_block_loot": [
+            {
+                "effect": {
+                    "functions": [
+                        {
+                            "function": "enchiridion:split_to_planks"
+                        },
+                        {
+                            "add": true,
+                            "count": {
+                                "type": "minecraft:enchantment_level",
+                                "amount": {
+                                    "type": "minecraft:linear",
+                                    "base": 4.0,
+                                    "per_level_above_first": 1.0
+                                }
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:tool_chamber"
+                                }
+                            }
+                        }
+                    ],
+                    "predicate": {
+                        "items": "#enchiridion:can_split"
+                    }
+                },
+                "requirements": {
+                    "condition": "enchiridion:block_params",
+                    "predicate": {
+                        "blocks": "#enchiridion:can_split"
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "#minecraft:exclusive_set/mining",
+    "max_cost": {
+        "base": 65,
+        "per_level_above_first": 9
+    },
+    "max_level": 2,
+    "min_cost": {
+        "base": 15,
+        "per_level_above_first": 9
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#enchiridion:enchantable/axe",
+    "weight": 2
+}

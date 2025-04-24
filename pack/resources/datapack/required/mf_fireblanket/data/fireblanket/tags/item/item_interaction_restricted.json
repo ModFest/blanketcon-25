@@ -1,6 +1,8 @@
 {
 	"values": [
 		"minecraft:shears",
-		"berry_bounty:sinister_berry"
+		"berry_bounty:sinister_berry",
+		"polyfactory:dynamite",
+		"polyfactory:sticky_dynamite"
 	]
 }
