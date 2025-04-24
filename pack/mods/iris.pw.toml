@@ -1,0 +1,7 @@
+name = "iris"
+filename = "iris-fabric-1.8.8-snapshot-bc1+mc1.21.1-local.jar"
+
+[download]
+url = "https://jaskarth.com/pub/mods/iris-fabric-1.8.8-snapshot-bc1+mc1.21.1-local.jar"
+hash-format = "sha256"
+hash = "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3"

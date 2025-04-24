@@ -107,40 +107,40 @@
 			"modfest:music/stereo/battle_brick_boulder"
 		]
 	},
-	"music.step_step_right_up": {
-		"subtitle": "now-playing.modfest:music/step_step_right_up",
+	"music.step_step_right_on_up": {
+		"subtitle": "now-playing.modfest:music/step_step_right_on_up",
 		"sounds": [
-			"modfest:music/step_step_right_up"
+			"modfest:music/step_step_right_on_up"
 		]
 	},
-	"music.stereo.step_step_right_up": {
-		"subtitle": "now-playing.modfest:music/step_step_right_up",
+	"music.stereo.step_step_right_on_up": {
+		"subtitle": "now-playing.modfest:music/step_step_right_on_up",
 		"sounds": [
-			"modfest:music/stereo/step_step_right_up"
+			"modfest:music/stereo/step_step_right_on_up"
 		]
 	},
-	"music.really_truly": {
-		"subtitle": "now-playing.modfest:music/really_truly",
+	"music.testing_waters": {
+		"subtitle": "now-playing.modfest:music/testing_waters",
 		"sounds": [
-			"modfest:music/really_truly"
+			"modfest:music/testing_waters"
 		]
 	},
-	"music.stereo.really_truly": {
-		"subtitle": "now-playing.modfest:music/really_truly",
+	"music.stereo.testing_waters": {
+		"subtitle": "now-playing.modfest:music/testing_waters",
 		"sounds": [
-			"modfest:music/stereo/really_truly"
+			"modfest:music/stereo/testing_waters"
 		]
 	},
-	"music.steps_of_swans": {
-		"subtitle": "now-playing.modfest:music/steps_of_swans",
+	"music.steps_of_the_swans": {
+		"subtitle": "now-playing.modfest:music/steps_of_the_swans",
 		"sounds": [
 			"modfest:music/steps_of_swans"
 		]
 	},
-	"music.stereo.steps_of_swans": {
-		"subtitle": "now-playing.modfest:music/steps_of_swans",
+	"music.stereo.steps_of_the_swans": {
+		"subtitle": "now-playing.modfest:music/steps_of_the_swans",
 		"sounds": [
-			"modfest:music/stereo/steps_of_swans"
+			"modfest:music/stereo/steps_of_the_swans"
 		]
 	},
 	"music.me_booty": {
@@ -321,6 +321,88 @@
 		"subtitle": "now-playing.modfest:music/prologue",
 		"sounds": [
 			"modfest:music/stereo/prologue"
+		]
+	},
+	"music.hot_treacle": {
+		"subtitle": "now-playing.modfest:music/hot_treacle",
+		"sounds": [
+			"modfest:music/hot_treacle"
+		]
+	},
+	"music.stereo.hot_treacle": {
+		"subtitle": "now-playing.modfest:music/hot_treacle",
+		"sounds": [
+			"modfest:music/stereo/hot_treacle"
+		]
+	},
+	"music.area.airship": {
+		"subtitle": "now-playing.modfest:music/area/airship",
+		"sounds": [
+			"modfest:music/stereo/aerodrome",
+			"modfest:music/stereo/floraison"
+		]
+	},
+	"music.area.jungle": {
+		"subtitle": "now-playing.modfest:music/area/jungle",
+		"sounds": [
+			"modfest:music/stereo/amalgamate",
+			"modfest:music/stereo/dioxide",
+			"modfest:music/stereo/coalesce"
+		]
+	},
+	"music.area.forest": {
+		"subtitle": "now-playing.modfest:music/area/forest",
+		"sounds": [
+			"modfest:music/stereo/cerasus",
+			"modfest:music/stereo/gather",
+			"modfest:music/stereo/enchanting",
+			"modfest:music/stereo/mechanical_plateau"
+		]
+	},
+	"music.area.town": {
+		"subtitle": "now-playing.modfest:music/area/town",
+		"sounds": [
+			"modfest:music/stereo/battle_brick_boulder",
+			"modfest:music/stereo/steps_of_the_swans"
+		]
+	},
+	"music.area.beach": {
+		"subtitle": "now-playing.modfest:music/area/beach",
+		"sounds": [
+			"modfest:music/stereo/brand_new_discoveries",
+			"modfest:music/stereo/wawariding_the_waves",
+			"modfest:music/stereo/sub_aquatique",
+			"modfest:music/stereo/testing_waters"
+		]
+	},
+	"music.area.volcano": {
+		"subtitle": "now-playing.modfest:music/area/volcano",
+		"sounds": [
+			"modfest:music/stereo/brand_new_discoveries",
+			"modfest:music/stereo/unstable_transmission",
+			"modfest:music/stereo/hot_treacle"
+		]
+	},
+	"music.area.carnival": {
+		"subtitle": "now-playing.modfest:music/area/carnival",
+		"sounds": [
+			"modfest:music/stereo/step_step_right_on_up",
+			"modfest:music/stereo/asteraceae"
+		]
+	},
+	"music.area.pirate": {
+		"subtitle": "now-playing.modfest:music/area/pirate",
+		"sounds": [
+			"modfest:music/stereo/me_booty"
+		]
+	},
+	"music.area.intermezzo": {
+		"subtitle": "now-playing.modfest:music/area/intermezzo",
+		"sounds": [
+			"modfest:music/stereo/everpresence",
+			"modfest:music/stereo/take_your_time",
+			"modfest:music/stereo/hakonechloa",
+			"modfest:music/stereo/hyperacusis"
 		]
 	}
 }

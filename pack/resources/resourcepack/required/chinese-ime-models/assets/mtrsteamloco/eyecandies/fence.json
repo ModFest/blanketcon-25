@@ -1,0 +1,5 @@
+{
+    "name": "Chinese IME - Fence",
+    "model": "mtrsteamloco:eyecandies/fence/chineseime_fence.obj",
+    "scale": [ 1.0, 1.0, 1.0 ]
+}

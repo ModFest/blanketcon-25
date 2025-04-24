@@ -1,7 +1,7 @@
 {
 	"display_settings": {
 		"draw_mini_icons": true,
-		"library_color": "#ffdf93",
+		"library_color": "#0d414e",
 		"library_set_name_color": "#ffffff",
 		"viewer_top_color": "#ffdf93",
 		"viewer_bottom_color": "#c28304"
@@ -140,7 +140,7 @@
 					"left": 8
 				},
 				"mini": {
-					"top": 2,
+					"top": 3,
 					"left": 2
 				}
 			},

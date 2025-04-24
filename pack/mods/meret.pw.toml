@@ -1,15 +1,15 @@
 name = "meret"
-filename = "meret-0.1.0+1.21.jar"
+filename = "meret-0.1.3+1.21.jar"
 side = "both"
 
 [download]
-url = "https://github.com/ModFest/meret/releases/download/0.1.0/meret-0.1.0%2B1.21.jar"
-hash-format = "sha512"
-hash = "b46eaf6948b6ffb48491a2fb724189db0ac24c7f7e8ce026bab83d794293cb74d2478c6a2d53eec50df8c9a4b73a2d270af6ad8e1da67d63990c6bb8c1287eb4"
+url = "https://github.com/ModFest/meret/releases/download/0.1.3/meret-0.1.3%2B1.21.jar"
+hash-format = "sha256"
+hash = "58af1cc6432f61df57debcf232b73f723391f9fc93e5c72b2caf026e5a9ded8d"
 
 [update]
 [update.github]
 branch = "1.21"
 regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
 slug = "ModFest/meret"
-tag = "0.1.0"
+tag = "0.1.3"
