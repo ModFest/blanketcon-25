@@ -1,0 +1,196 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 4.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:arrow"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "direct_attacker",
+                    "scores": {
+                        "enchiridion_": 3
+                    }
+                },
+                {
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.02,
+                        "per_level_above_first": 0.05
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.15
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 0.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.5,
+                                "min": 1.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                },
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:weakness"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:tipped_arrow"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "direct_attacker",
+                    "scores": {
+                        "enchiridion_": 4
+                    }
+                },
+                {
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchanted_chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.01,
+                        "per_level_above_first": 0.05
+                    },
+                    "enchantment": "minecraft:looting",
+                    "unenchanted_chance": 0.05
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": 0.0,
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.5,
+                                "min": 1.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id":"enchiridion:combat_game"
+                                },
+                                "minecraft:fireworks": {
+                                    "flight_duration": 1,
+                                    "explosions": [
+                                        {   
+                                            "colors": [
+                                                12206847
+                                            ],
+                                            "fade_colors": [
+                                                15245055
+                                            ],
+                                            "has_trail": true,
+                                            "has_twinkle": true,
+                                            "shape": "small_ball"
+                                        },
+                                        {   
+                                            "colors": [
+                                                6962391
+                                            ],
+                                            "fade_colors": [
+                                                11505110
+                                            ],
+                                            "has_trail": true,
+                                            "has_twinkle": true,
+                                            "shape": "small_ball"
+                                        },
+                                        {   
+                                            "colors": [
+                                                15756799
+                                            ],
+                                            "fade_colors": [
+                                                16762365
+                                            ],
+                                            "has_trail": true,
+                                            "has_twinkle": true,
+                                            "shape": "small_ball"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:firework_rocket"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ]
+}
