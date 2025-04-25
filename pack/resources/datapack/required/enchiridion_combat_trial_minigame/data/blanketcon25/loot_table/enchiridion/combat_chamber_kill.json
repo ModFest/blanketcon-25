@@ -97,7 +97,7 @@
                     "condition": "minecraft:entity_scores",
                     "entity": "direct_attacker",
                     "scores": {
-                        "enchiridion_": 3
+                        "enchiridion_selected_ranged": 3
                     }
                 },
                 {
@@ -156,7 +156,7 @@
                     "condition": "minecraft:entity_scores",
                     "entity": "direct_attacker",
                     "scores": {
-                        "enchiridion_": 4
+                        "enchiridion_selected_ranged": 4
                     }
                 },
                 {
