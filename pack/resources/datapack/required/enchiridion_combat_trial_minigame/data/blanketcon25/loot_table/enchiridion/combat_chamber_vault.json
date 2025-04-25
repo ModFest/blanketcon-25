@@ -39,16 +39,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "max": 10.0,
+                                "max": 9.0,
                                 "min": 6.0
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "area_tools:dissolve": {
-                                    "area_id": "enchiridion:combat_game"
-                                }
                             }
                         }
                     ],
@@ -90,6 +82,20 @@
                         }
                     ],
                     "name": "minecraft:experience_bottle",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3.0,
+                                "min": 1.0
+                            }
+                        }
+                    ],
+                    "name": "miencraft:lapis_lazuili",
                     "weight": 2
                 },
                 {

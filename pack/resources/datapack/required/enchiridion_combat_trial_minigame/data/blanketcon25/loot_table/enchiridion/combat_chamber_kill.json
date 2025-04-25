@@ -8,6 +8,29 @@
                     "type": "minecraft:item",
                     "functions": [
                         {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3.0,
+                                "min": 1.0
+                            }
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "zeldacraft:emerald_shard",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
                             "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
@@ -34,7 +57,32 @@
                             }
                         }
                     ],
-                    "name": "minecraft:arrow"
+                    "name": "minecraft:arrow",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:lapis_lazuli",
+                    "weight": 1
                 }
             ],
             "rolls": 1.0
