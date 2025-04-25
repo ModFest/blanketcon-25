@@ -7,9 +7,9 @@ function paintPisInterrupt(g, state, train) {
   g.setColor(Color.WHITE);
   let interrupt = state.interruptPhase.stateNow();
   if (interrupt == "hold") {
-    intInfoLines = [ "临时停车", "Temporary Hold" ];
+    intInfoLines = [ "臨時停車", "Temporary Hold" ];
   } else if (interrupt == "dc") {
-    intInfoLines = [ "请不要靠近车门", "Doors closing" ];
+    intInfoLines = [ "請勿靠近車門", "Doors closing" ];
   }
   let fontSize = 20;
   let lineSpacing = 4;

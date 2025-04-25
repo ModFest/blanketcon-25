@@ -1,0 +1,164 @@
+{
+  "$schema": "../../../custom_renderer_schema.json",
+  "references": {
+    "#primary_entity_id": "chicken"
+  },
+  "rendering_functions": [
+    {
+      "type": "transformation",
+      "transformations": [
+        {
+          "type": "transform_to",
+          "model_part": "left_leg",
+          "side": "BOTTOM"
+        }
+      ],
+      "rendering_function": {
+        "unique_id": "accessories:left_leg_particle",
+        "type": "particle",
+        "particle_data": {
+          "type": "dust",
+          "color": [1, 1.0, 1.0],
+          "scale": 2
+        },
+        "delay": 20,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "force": true,
+        "count": 5
+      }
+    },
+    {
+      "type": "transformation",
+      "transformations": [
+        {
+          "type": "transform_to",
+          "model_part": "right_leg",
+          "side": "BOTTOM"
+        }
+      ],
+      "rendering_function": {
+        "unique_id": "accessories:right_leg_particle",
+        "type": "particle",
+        "particle_data": {
+          "type": "dust",
+          "color": [1, 1.0, 1.0],
+          "scale": 2
+        },
+        "delay": 20,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "force": true,
+        "count": 5
+      }
+    },
+    {
+      "type": "transformation",
+      "transformations": [
+        {
+          "type": "transform_to",
+          "model_part": "right_leg",
+          "side": "BOTTOM"
+        },
+        {
+          "type": "scale",
+          "x": 1.5,
+          "y": 1.5,
+          "z": 1.5
+        },
+        {
+          "type": "translation",
+          "x": 0,
+          "y": -0.35,
+          "z": 0
+        }
+      ],
+      "rendering_function": {
+        "type": "entity",
+        "entity_id": "#primary_entity_id",
+        "allow_ticking": false
+      }
+    },
+    {
+      "type": "transformation",
+      "transformations": [
+        {
+          "type": "transform_to",
+          "model_part": "left_leg",
+          "side": "BOTTOM"
+        },
+        {
+          "type": "scale",
+          "x": 1.5,
+          "y": 1.5,
+          "z": 1.5
+        },
+        {
+          "type": "translation",
+          "x": 0,
+          "y": -0.35,
+          "z": 0
+        }
+      ],
+      "rendering_function": {
+        "type": "entity",
+        "entity_id": "#primary_entity_id",
+        "allow_ticking": false
+      }
+    },
+    {
+      "type": "transformation",
+      "transformations": [
+        {
+          "type": "transform_to",
+          "model_part": "left_leg",
+          "side": "BOTTOM"
+        },
+        {
+          "type": "translation",
+          "x": 0,
+          "y": 0.15,
+          "z": 0
+        },
+        {
+          "type": "scale",
+          "x": 0.575,
+          "y": 0.575,
+          "z": 0.575
+        }
+      ],
+      "rendering_function": {
+        "type": "block",
+        "id": "minecraft:honey_block"
+      }
+    },
+    {
+      "type": "transformation",
+      "transformations": [
+        {
+          "type": "transform_to",
+          "model_part": "right_leg",
+          "side": "BOTTOM"
+        },
+        {
+          "type": "translation",
+          "x": 0,
+          "y": 0.15,
+          "z": 0
+        },
+        {
+          "type": "scale",
+          "x": 0.575,
+          "y": 0.575,
+          "z": 0.575
+        }
+      ],
+      "rendering_function": {
+        "type": "block",
+        "id": "minecraft:honey_block"
+      }
+    }
+  ]
+}

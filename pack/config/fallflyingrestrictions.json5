@@ -16,6 +16,7 @@
 		inventoryBlock: true,
 		eatingBlock: false,
 		itemUsageBlock: false,
+		rocketUsageBlock: false,
 	},
 	// Restriction Values will only be considered if their corresponding features are enabled
 	restrictionValues: {
@@ -23,5 +24,10 @@
 		flyingTooHighDownForce: 0.08,
 		safeAboveGroundHeight: 5,
 		flyingHeightLimit: 300,
+	},
+	// Global settings are overruled by manually specified local zones
+	globalZoneRestrictions: {
+		preventStartFlying: true,
+		interruptFlying: true,
 	},
 }

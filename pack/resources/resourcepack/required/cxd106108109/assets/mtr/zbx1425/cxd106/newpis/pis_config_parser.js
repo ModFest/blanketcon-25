@@ -7,7 +7,7 @@ function getStationConfig(stations, nextIndex) {
     result["routeStaCode"] = "isl_cab";
     result["staName"] = "銅鑼灣|Causeway Bay";
     result["routeName"] = "港島綫|Island Line";
-    result["destName"] = "回   库|Not in Service";
+    result["destName"] = "回   厰|Not in Service";
     return result;
   }
   if (nextIndex >= stations.size() || nextIndex < 0) return result;

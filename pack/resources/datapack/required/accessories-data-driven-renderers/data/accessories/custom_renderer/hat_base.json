@@ -1,0 +1,22 @@
+{
+    "$schema": "../../../custom_renderer_schema.json",
+    "references": {
+        "#primary_entity_id": "wither"
+    },
+    "rendering_functions": [
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "head",
+                    "side": "TOP"
+                }
+            ],
+            "rendering_function": {
+                "type": "entity",
+                "entity_id": "#primary_entity_id"
+            }
+        }
+    ]
+}

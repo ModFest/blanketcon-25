@@ -1,0 +1,279 @@
+{
+    "$schema": "../../../custom_renderer_schema.json",
+    "references": {
+    },
+    "rendering_functions": [
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "left_leg",
+                    "side": "BOTTOM"
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": -0.01,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 0.525,
+                    "y": 0.6,
+                    "z": 0.525
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "#primary_wool_type"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "left_leg",
+                    "side": "BOTTOM"
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": 0.59,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 0.525,
+                    "y": 0.6,
+                    "z": 0.525
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "#primary_wool_type"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "left_leg",
+                    "side": "TOP"
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": -0.48,
+                    "z": 0
+                }
+            ],
+            "rendering_function": {
+                "type": "compound",
+                "rendering_functions": [
+                    {
+                        "type": "transformation",
+                        "transformations": [
+                            {
+                                "type": "translation",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            {
+                                "type": "scale",
+                                "x": 0.535,
+                                "y": 0.06,
+                                "z": 0.535
+                            }
+                        ],
+                        "rendering_function": {
+                            "type": "block",
+                            "id": "#secondary_wool_type"
+                        }
+                    },
+                    {
+                        "type": "transformation",
+                        "transformations": [
+                            {
+                                "type": "translation",
+                                "x": 0,
+                                "y": -0.1,
+                                "z": 0
+                            },
+                            {
+                                "type": "scale",
+                                "x": 0.535,
+                                "y": 0.06,
+                                "z": 0.535
+                            }
+                        ],
+                        "rendering_function": {
+                            "type": "block",
+                            "id": "#secondary_wool_type"
+                        }
+                    },
+                    {
+                        "type": "transformation",
+                        "transformations": [
+                            {
+                                "type": "translation",
+                                "x": 0,
+                                "y": -0.2,
+                                "z": 0
+                            },
+                            {
+                                "type": "scale",
+                                "x": 0.535,
+                                "y": 0.06,
+                                "z": 0.535
+                            }
+                        ],
+                        "rendering_function": {
+                            "type": "block",
+                            "id": "#secondary_wool_type"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "right_leg",
+                    "side": "BOTTOM"
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": -0.01,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 0.525,
+                    "y": 0.6,
+                    "z": 0.525
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "#primary_wool_type"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "right_leg",
+                    "side": "BOTTOM"
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": 0.59,
+                    "z": 0
+                },
+                {
+                    "type": "scale",
+                    "x": 0.525,
+                    "y": 0.6,
+                    "z": 0.525
+                }
+            ],
+            "rendering_function": {
+                "type": "block",
+                "id": "#primary_wool_type"
+            }
+        },
+        {
+            "type": "transformation",
+            "transformations": [
+                {
+                    "type": "transform_to",
+                    "model_part": "right_leg",
+                    "side": "TOP"
+                },
+                {
+                    "type": "translation",
+                    "x": 0,
+                    "y": -0.48,
+                    "z": 0
+                }
+            ],
+            "rendering_function": {
+                "type": "compound",
+                "rendering_functions": [
+                    {
+                        "type": "transformation",
+                        "transformations": [
+                            {
+                                "type": "translation",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            {
+                                "type": "scale",
+                                "x": 0.535,
+                                "y": 0.06,
+                                "z": 0.535
+                            }
+                        ],
+                        "rendering_function": {
+                            "type": "block",
+                            "id": "#secondary_wool_type"
+                        }
+                    },
+                    {
+                        "type": "transformation",
+                        "transformations": [
+                            {
+                                "type": "translation",
+                                "x": 0,
+                                "y": -0.1,
+                                "z": 0
+                            },
+                            {
+                                "type": "scale",
+                                "x": 0.535,
+                                "y": 0.06,
+                                "z": 0.535
+                            }
+                        ],
+                        "rendering_function": {
+                            "type": "block",
+                            "id": "#secondary_wool_type"
+                        }
+                    },
+                    {
+                        "type": "transformation",
+                        "transformations": [
+                            {
+                                "type": "translation",
+                                "x": 0,
+                                "y": -0.2,
+                                "z": 0
+                            },
+                            {
+                                "type": "scale",
+                                "x": 0.535,
+                                "y": 0.06,
+                                "z": 0.535
+                            }
+                        ],
+                        "rendering_function": {
+                            "type": "block",
+                            "id": "#secondary_wool_type"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

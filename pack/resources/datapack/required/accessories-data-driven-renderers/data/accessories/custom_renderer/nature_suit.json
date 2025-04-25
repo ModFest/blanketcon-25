@@ -1,0 +1,390 @@
+{
+  "$schema": "../../../custom_renderer_schema.json",
+  "references": {
+    "#top_leg_id": "grass_block",
+    "#bottom_leg_id": "dirt",
+    "#upper_body_id": "oak_log",
+    "#around_head_id": "oak_leaves",
+    "#above_head_id": "bee_nest",
+    "#above_head_entity_id": "bee"
+  },
+  "first_person_arm_target": "BOTH",
+  "rendering_functions": [
+    {
+      "#comment": "Rendering for right leg",
+      "type": "compound",
+      "rendering_functions": [
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "right_leg",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -0.975,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#top_leg_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "right_leg",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -1.975,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#bottom_leg_id"
+          }
+        }
+      ]
+    },
+    {
+      "#comment": "Rendering for left leg",
+      "type": "compound",
+      "rendering_functions": [
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "left_leg",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -0.975,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#top_leg_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "left_leg",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -1.975,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#bottom_leg_id"
+          }
+        }
+      ]
+    },
+    {
+      "#comment": "Rendering for right arm",
+      "type": "compound",
+      "first_person_arm_target": "RIGHT",
+      "rendering_functions": [
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "right_arm",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -0.925,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#upper_body_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "right_arm",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -1.925,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#upper_body_id"
+          }
+        }
+      ]
+    },
+    {
+      "#comment": "Rendering for left arm",
+      "type": "compound",
+      "first_person_arm_target": "LEFT",
+      "rendering_functions": [
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "left_arm",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -0.925,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#upper_body_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "left_arm",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.6,
+              "y": 0.8,
+              "z": 0.6
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -1.925,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#upper_body_id"
+          }
+        }
+      ]
+    },
+    {
+      "#comment": "Rendering for main body",
+      "type": "compound",
+      "rendering_functions": [
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "body",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 1.1,
+              "y": 0.8,
+              "z": 0.65
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -0.925,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#upper_body_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "body",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 1.1,
+              "y": 0.8,
+              "z": 0.65
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -1.925,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#upper_body_id"
+          }
+        }
+      ]
+    },
+    {
+      "#comment": "Rendering for the head",
+      "type": "compound",
+      "rendering_functions": [
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "head",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#above_head_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "head",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 1.10,
+              "y": 1.10,
+              "z": 1.10
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": -1,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "block",
+            "id": "#around_head_id"
+          }
+        },
+        {
+          "type": "transformation",
+          "transformations": [
+            {
+              "type": "transform_to",
+              "model_part": "head",
+              "side": "TOP"
+            },
+            {
+              "type": "scale",
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            {
+              "type": "translation",
+              "x": 0,
+              "y": 1,
+              "z": 0
+            }
+          ],
+          "rendering_function": {
+            "type": "entity",
+            "entity_id": "#above_head_entity_id"
+          }
+        }
+      ]
+    }
+  ]
+}

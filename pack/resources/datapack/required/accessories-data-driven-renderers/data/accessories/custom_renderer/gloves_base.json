@@ -1,0 +1,88 @@
+{
+    "$schema": "../../../custom_renderer_schema.json",
+    "first_person_arm_target": "BOTH",
+    "rendering_functions": [
+        {
+            "type": "compound",
+            "first_person_arm_target": "NONE",
+            "rendering_functions": [
+                {
+                    "type": "transformation",
+                    "transformations": [
+                        {
+                            "type": "transform_to",
+                            "model_part": "left_arm",
+                            "side": "BOTTOM"
+                        },
+                        {
+                            "type": "translation",
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.55
+                        },
+                        {
+                            "type": "axis_rotation",
+                            "angle": 80,
+                            "axis": {
+                                "x": 1,
+                                "y": 0,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "type": "scale",
+                            "x": 1.4,
+                            "y": 1.4,
+                            "z": 1.4
+                        }
+                    ],
+                    "rendering_function": {
+                        "type": "entity",
+                        "entity_id": "#gloves_entity"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "compound",
+            "first_person_arm_target": "BOTH",
+            "rendering_functions": [
+                {
+                    "type": "transformation",
+                    "transformations": [
+                        {
+                            "type": "transform_to",
+                            "model_part": "right_arm",
+                            "side": "BOTTOM"
+                        },
+                        {
+                            "type": "translation",
+                            "x": 0,
+                            "y": 0,
+                            "z": -0.55
+                        },
+                        {
+                            "type": "axis_rotation",
+                            "angle": 80,
+                            "axis": {
+                                "x": 1,
+                                "y": 0,
+                                "z": 0
+                            }
+                        },
+                        {
+                            "type": "scale",
+                            "x": 1.4,
+                            "y": 1.4,
+                            "z": 1.4
+                        }
+                    ],
+                    "rendering_function": {
+                        "type": "entity",
+                        "entity_id": "#gloves_entity"
+                    }
+                }
+            ]
+        }
+    ]
+}
