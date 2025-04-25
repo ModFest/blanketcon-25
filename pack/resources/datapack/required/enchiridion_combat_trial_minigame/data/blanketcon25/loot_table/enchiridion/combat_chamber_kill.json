@@ -60,7 +60,7 @@
                         "per_level_above_first": 0.05
                     },
                     "enchantment": "minecraft:looting",
-                    "unenchanted_chance": 0.15
+                    "unenchanted_chance": 0.015
                 }
             ],
             "entries": [
@@ -119,7 +119,7 @@
                         "per_level_above_first": 0.05
                     },
                     "enchantment": "minecraft:looting",
-                    "unenchanted_chance": 0.05
+                    "unenchanted_chance": 0.005
                 }
             ],
             "entries": [
