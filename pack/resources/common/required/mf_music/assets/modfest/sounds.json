@@ -503,6 +503,24 @@
 			}
 		]
 	},
+	"music.the_ruins": {
+		"subtitle": "now-playing.modfest:music/the_ruins",
+		"sounds": [
+			{
+				"name": "modfest:music/the_ruins",
+				"stream": true
+			}
+		]
+	},
+	"music.stereo.the_ruins": {
+		"subtitle": "now-playing.modfest:music/the_ruins",
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/the_ruins",
+				"stream": true
+			}
+		]
+	},
 	"music.area.airship": {
 		"subtitle": "now-playing.modfest:music/area/airship",
 		"sounds": [

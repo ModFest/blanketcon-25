@@ -12,7 +12,7 @@
 		"replace": true,
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/mechanical_plateau",
+				"name": "modfest:music/stereo/prologue",
 				"stream": true
 			}
 		]

@@ -1,0 +1,20 @@
+# Items / screens to register for portable crafting
+# Item ID - Screen Handler Type
+# Items must be block items
+# Blocks must actually open the specified screen handler type on use when placed, or this won't work
+[blockItemScreens]
+	"minecraft:crafting_table" = "minecraft:crafting"
+	"minecraft:smithing_table" = "minecraft:smithing"
+	"minecraft:grindstone" = "minecraft:grindstone"
+	"minecraft:anvil" = "minecraft:anvil"
+	"minecraft:cartography_table" = "minecraft:cartography_table"
+	"enchiridion:anvil" = "enchiridion:anvil"
+	"rods_from_god:synthesis_table" = "rods_from_god:synthesis_screen_handler"
+	"minecraft:loom" = "minecraft:loom"
+	"minecraft:stonecutter" = "minecraft:stonecutter"
+
+# Tags to accept for the items registered above
+# Adding a Tag replaces the default by-ID item matching functionality
+# Item Tag - Item ID
+[blockItemTags]
+	"c:player_workstations/crafting_tables" = "minecraft:crafting_table"

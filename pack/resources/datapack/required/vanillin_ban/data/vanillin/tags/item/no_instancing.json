@@ -61,6 +61,8 @@
 		"pierced:harpoon_crossbow",
 		"rods_from_god:the_one_watch",
 		"superposition:signal_scope",
-		"shyvvtrials:lance"
+		"shyvvtrials:lance",
+		"minecraft:spyglass",
+		"minecraft:trident"
 	]
 }

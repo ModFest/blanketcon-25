@@ -39,11 +39,11 @@ invertTabsByDefault = false
 # default: 0
 blockRaycastTimeout = 0
 
-# 
+#
 # -------------------------------
-# 
+#
 # Manually set whether tabs should be shown on a given screen
-# 
+#
 [screenOverrides]
 	"charta:crazy_eights" = false
 	"charta:solitaire" = false
@@ -53,39 +53,39 @@ blockRaycastTimeout = 0
 	"spirit_vector:rune_matrix" = false
 	"advanced_networking:controller" = false
 
-# 
+#
 # -------------------------------
-# 
+#
 # Manually set the left bound offset for a given screen
 # Positive values expand the left boundary, allowing more tabs to be drawn
 # null means the player inventory
-# 
+#
 [leftBoundOffsetOverride]
 	"minecraft:loom" = 0
 
-# 
+#
 # -------------------------------
-# 
+#
 # Manually set the right bound offset for a given screen
 # Positive values expand the right boundary, allowing more tabs to be drawn
 # null means the player inventory
-# 
+#
 [rightBoundOffsetOverride]
 	"minecraft:loom" = 0
 
-# 
+#
 # -------------------------------
-# 
+#
 # Manually choose where to place tabs on a given screen
 # false means above, true means below
 # null key means the player inventory
-# 
+#
 [invertedTabsOverride]
 	"minecraft:beacon" = false
 
-# 
+#
 # -------------------------------
-# 
+#
 # Manually set the Tab Provider for a given block or tag
 # | -Provider ID-        | -Tab Behaviour-                            | -Default Blocks Added-
 # | block_shulker_box    | Checks shulker blocked state               | Adds all ShulkerBoxBlocks
@@ -95,42 +95,53 @@ blockRaycastTimeout = 0
 # | block_simple_storage | Sorted alongside other chest-like tabs     | Adds all BarrelBlocks
 # | block_simple         | No special logic                           | Adds all BlockWithEntities, except 25 known-bad vanilla block classes - this adds lots of invalid modded blocks!
 # | ""                   | No tab at all!                             | Use this to disable bad block tabs in your pack
-# 
+#
 [blockProviderOverrides]
 	"minecraft:crafting_table" = "inventory_tabs:block_unique"
 	"#minecraft:doors" = ""
-	"minecraft:fletching_table" = ""
+	"#fireblanket:block_interaction_restricted" = ""
+	"minecraft:fletching_table" = "inventory_tabs:block_unique"
+	"alchimiae:alembic" = "inventory_tabs:block_simple"
+	"alchimiae:boiler" = "inventory_tabs:block_simple"
+	"klaxon:deepslate_blast_processor" = "inventory_tabs:block_simple"
+	"farmersdelight:cooking_pot" = "inventory_tabs:block_simple"
+	"brewinandchewin:keg" = "inventory_tabs:block_simple"
+	"breezebounce:inflation_machine" = "inventory_tabs:block_simple"
+	"stellaris:vacuumator" = "inventory_tabs:block_simple"
+	"pfm:iron_microwave" = "inventory_tabs:block_simple"
+	"moue_milkshakes:mixer" = "inventory_tabs:block_simple"
 
-# 
+
+#
 # -------------------------------
-# 
+#
 # Manually set the Tab Provider for a given entity or tag
 # | -Provider ID- | -Tab Behaviour-                          | -Default Entities Added-
 # | entity_sneak  | Uses sneak-interact, checks tamed/riding | Adds all RideableOpenableInventories
 # | entity_simple | Checks player isn't riding the entity    | Adds all StorageMinecartEntities
 # | ""            | No tab at all!                           | Use this to disable bad entity tabs in your pack
-# 
+#
 [entityProviderOverrides]
 	"minecraft:chest_minecart" = "inventory_tabs:entity_simple"
 
-# 
+#
 # -------------------------------
-# 
+#
 # Manually set the Tab Provider for a given item or tag
 # | -Provider ID- | -Tab Behaviour-                      | -Default Items Added-
 # | item_unique   | Only one tab can exist per item type | Adds nothing
 # | item_simple   | No special logic                     | Adds nothing
 # | ""            | No tab at all!                       | Use this to disable bad item tabs in your pack
-# 
+#
 [itemProviderOverrides]
 	"minecraft:dirt" = ""
 
-# 
+#
 # -------------------------------
-# 
+#
 # Enable or disable the default added logic for each tab provider (see above)
 # Non-registry Tab Providers like player_inventory and vehicle_inventory can't be disabled here
-# 
+#
 [registryProviderDefaults]
 	"inventory_tabs:block_shulker_box" = true
 	"inventory_tabs:block_ender_chest" = true

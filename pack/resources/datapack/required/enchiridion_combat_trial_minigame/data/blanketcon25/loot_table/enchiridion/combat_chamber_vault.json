@@ -1,0 +1,135 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                },
+                                "minecraft:can_place_on": {
+                                    "blocks": "minecraft:purple_concrete"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:bookshelf"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 1.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 9.0,
+                                "min": 6.0
+                            }
+                        }
+                    ],
+                    "name": "zeldacraft:emerald_shard",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:arrow",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3.0,
+                                "min": 1.0
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "minecraft:experience_bottle",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "max": 3.0,
+                                "min": 1.0
+                            }
+                        }
+                    ],
+                    "name": "miencraft:lapis_lazuili",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "farmersdelight:beef_stew",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "area_tools:dissolve": {
+                                    "area_id": "enchiridion:combat_game"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "farmersdelight:vegetable_soup",
+                    "weight": 1
+                }
+            ],
+            "rolls": 3.0
+        }
+    ]
+}

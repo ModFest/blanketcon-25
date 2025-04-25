@@ -3,6 +3,8 @@
 		"minecraft:shears",
 		"berry_bounty:sinister_berry",
 		"polyfactory:dynamite",
-		"polyfactory:sticky_dynamite"
+		"polyfactory:sticky_dynamite",
+		"minecraft:bucket",
+		"minecraft:water_bucket"
 	]
 }

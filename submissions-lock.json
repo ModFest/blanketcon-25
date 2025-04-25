@@ -1146,11 +1146,11 @@
 		"files": {
 			"mods/cc-polymer.pw.toml": {
 				"download": {
-					"hash": "cfacbeba09e89f4976c9b1793d3ace717a570307cb3d48e830b448e537dc11a2285cbb0dc30d7d6f9215a1f1c2e470d8cd360bba5d444daa89ec9e78f5d385d1",
+					"hash": "1e1bd1f3abd5ed8cfa24377b1aebd73e6babebe10ae7c7ed3ed341a89c02aed24cac2966684d3de3cd9132fa271ab78fe0cbfba3ef08ed83a7eccd4d0ade6fb3",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/MfXTuV8J/versions/8XtMhvRv/cc-tweaked-polymer-patch-1.115.1.0%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/MfXTuV8J/versions/PJImCQqA/cc-tweaked-polymer-patch-1.115.1.1%2B1.21.1.jar"
 				},
-				"filename": "cc-tweaked-polymer-patch-1.115.1.0+1.21.1.jar",
+				"filename": "cc-tweaked-polymer-patch-1.115.1.1+1.21.1.jar",
 				"name": "Polymer Patch for CC:Tweaked",
 				"side": "server"
 			},
@@ -1175,22 +1175,22 @@
 				"side": "server"
 			}
 		},
-		"key": "ec7e7ed523cdf23a557096395c8925c047082e8e1bb1f3bfa7cde7700b9de4be"
+		"key": "30587113aaf74fa096b5fa95d2d2e01b1f4e0cd34d20fcbb48e4b6d50b59824c"
 	},
 	"cerulean": {
 		"files": {
 			"mods/cerulean.pw.toml": {
 				"download": {
-					"hash": "b56df1c93edea9c21cd03d9e48aecf86dcd84b36ddb1e922c7ad6202a0107e0d208e44a364ca420902261f194c8ce53b0371451591e66613cf130fc33278c2f9",
+					"hash": "33fd07efdbceee2e91b3aa8b9b290a89b84b2217f79f96f067b7380e12bd96706e4acea1d96de4b2ba174b1ef1182a2ea3fd12b17be02cd8336089b1e8ede695",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/a6qSiVxz/versions/i2b8eY9Z/cerulean-1.1.4.jar"
+					"url": "https://cdn.modrinth.com/data/a6qSiVxz/versions/UILy9Yvs/cerulean-1.1.5.jar"
 				},
-				"filename": "cerulean-1.1.4.jar",
+				"filename": "cerulean-1.1.5.jar",
 				"name": "Cerulean",
 				"side": "both"
 			}
 		},
-		"key": "9ebf57989deee6dd9713325ded815dfd4dfce1a54a4419f3bf55cadf0c0dd7ad"
+		"key": "80fd42331f939a4c385c2d98e7e112a6e6161d740fdfee863f1f40aed1f6c77d"
 	},
 	"charta": {
 		"files": {
@@ -1261,11 +1261,11 @@
 		"files": {
 			"mods/chitinous_ties.pw.toml": {
 				"download": {
-					"hash": "f9820c07e9bd45d53fc8b653f1601881b702abc96506cbb70f474901e25286573f59b9dc0e7cedb11567c4d274d440829e7e9ed2bb00155a6d4edbe39fc5a8c2",
+					"hash": "74a7f92ac186c29993c54e4556f17c1bdb407d527d4865c479c6db5c763860182d7d956b0fcf46a4a8041def932889654277aab4168c517bb717c3b48534bad4",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/MkLZoL69/versions/BtRutRYW/chitinous_ties-2.4.0-bc25.1%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/MkLZoL69/versions/Rlr5SkHk/chitinous_ties-2.4.1-bc25.1%2B1.21.1.jar"
 				},
-				"filename": "chitinous_ties-2.4.0-bc25.1+1.21.1.jar",
+				"filename": "chitinous_ties-2.4.1-bc25.1+1.21.1.jar",
 				"name": "Chitinous Ties",
 				"side": "both"
 			},
@@ -1290,7 +1290,7 @@
 				"side": "both"
 			}
 		},
-		"key": "89cab2954c46e826d2725f9b7e5a0387d9b1b459e0a85837d05c5c735a6e23b7"
+		"key": "a7a50afe8f69e298e37ff8e89bb5a6233b5fc39b3a0ecb3a0601800b4af5b4ff"
 	},
 	"city_vehicles_automobility_addon": {
 		"files": {
@@ -2120,26 +2120,26 @@
 		"files": {
 			"mods/fabric-api.pw.toml": {
 				"download": {
-					"hash": "15457923c076aabb32b52ddc0bd9fdd4bd88cd80cc34c76b5ac0263ba576dc51d788ac6e69303aa451a3d544755f84676f5814308f180a57b3d61ebaa8bd7410",
+					"hash": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/TMgpR77k/fabric-api-0.115.4%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
 				},
-				"filename": "fabric-api-0.115.4+1.21.1.jar",
+				"filename": "fabric-api-0.115.6+1.21.1.jar",
 				"name": "Fabric API",
 				"side": "both"
 			},
 			"mods/have-another-pretty-particle-yayyyyyyyy.pw.toml": {
 				"download": {
-					"hash": "8800731f104256587d61c037ca9840779d9d496dce9e6d7bf57abdcbafe39824d9b431c0fc43e54b13128004d45f156690ae00e4b02a5949894955b2b52a2502",
+					"hash": "62a13e77a92b71ef89ba2bbd6b1bd16f1b141c0690f4836635e64e0c607e4214cf00053f03116e1cc0f5d4be6c0ad95d5d107ae34a8a2df4aa93047662809896",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/KVSwjhVT/versions/86RBG5eq/happy-0.0.4.jar"
+					"url": "https://cdn.modrinth.com/data/KVSwjhVT/versions/w9ULu8u8/happy-0.0.5.jar"
 				},
-				"filename": "happy-0.0.4.jar",
+				"filename": "happy-0.0.5.jar",
 				"name": "Have Another Pretty Particle. Yayyyyyyyy",
 				"side": "both"
 			}
 		},
-		"key": "fd4636a7e3db2a86c0f7eb95c024f7b63eceed7708ad65d33538d3a4c8dd1ba8"
+		"key": "69bbb58228836fc86d06322e43d591beb202622b896914149f00ef14309c0c85"
 	},
 	"headpat": {
 		"files": {
@@ -2275,26 +2275,26 @@
 		"files": {
 			"mods/fabric-api.pw.toml": {
 				"download": {
-					"hash": "15457923c076aabb32b52ddc0bd9fdd4bd88cd80cc34c76b5ac0263ba576dc51d788ac6e69303aa451a3d544755f84676f5814308f180a57b3d61ebaa8bd7410",
+					"hash": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/TMgpR77k/fabric-api-0.115.4%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
 				},
-				"filename": "fabric-api-0.115.4+1.21.1.jar",
+				"filename": "fabric-api-0.115.6+1.21.1.jar",
 				"name": "Fabric API",
 				"side": "both"
 			},
 			"mods/hollow.pw.toml": {
 				"download": {
-					"hash": "5921720331a25dd6f36f1b3a7cf0d20863c202f1cfdf570f3c4220e17ed7291c6cfcbe59089ddb53adfc7eafd9ae1ab8b871da46fb35fa2681e9595e38b07b49",
+					"hash": "b97f87816b89f512bbe62cc2020377a73b49e90d8f834fe3350260cb1c3450b4154b69c9afcd04ee0b1dbf28a93d26ccfe5b9a2ff05c0324eed081ade8280413",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/EQovXCIt/versions/EsOAuvBQ/hollow-1.3.2-bc8-1.3.2-bc8.jar"
+					"url": "https://cdn.modrinth.com/data/EQovXCIt/versions/np31iiOZ/hollow-1.3.2-bc9-1.3.2-bc9.jar"
 				},
-				"filename": "hollow-1.3.2-bc8-1.3.2-bc8.jar",
+				"filename": "hollow-1.3.2-bc9-1.3.2-bc9.jar",
 				"name": "Hollow",
 				"side": "both"
 			}
 		},
-		"key": "98640414cc60d5771982ac749ad3218f9f856a43ce9c149acff1e7f4fd8448da"
+		"key": "656ae71e32127a04d13732dc06982eae5ed345f2c21e36d74b4eff7b54084b23"
 	},
 	"honque": {
 		"files": {
@@ -3060,11 +3060,11 @@
 		"files": {
 			"mods/fabric-api.pw.toml": {
 				"download": {
-					"hash": "15457923c076aabb32b52ddc0bd9fdd4bd88cd80cc34c76b5ac0263ba576dc51d788ac6e69303aa451a3d544755f84676f5814308f180a57b3d61ebaa8bd7410",
+					"hash": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/TMgpR77k/fabric-api-0.115.4%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
 				},
-				"filename": "fabric-api-0.115.4+1.21.1.jar",
+				"filename": "fabric-api-0.115.6+1.21.1.jar",
 				"name": "Fabric API",
 				"side": "both"
 			},
@@ -3887,16 +3887,16 @@
 		"files": {
 			"mods/pulchra-occultorum.pw.toml": {
 				"download": {
-					"hash": "d75230721e3b6f524e08ee637cf15a9c37924b4f175248e70af14c8841c3a386f66105cb3d3201481e587ccdac4d61529b8861e31bf3aadee7d3a4fe52b2b965",
+					"hash": "02bb9255291dfe134e08b0328b09fc1b34efd091ea094d2f31dfd292dfae6a0eee4497dce78b261e7a23717d7ce02dfa9055a2277e7312d4cd85460d7daa5d63",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/4vHHqRFc/versions/4oTuj6pQ/pulchra-occultorum-0.0.20-1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/4vHHqRFc/versions/QovywqsE/pulchra-occultorum-0.0.21-1.21.1.jar"
 				},
-				"filename": "pulchra-occultorum-0.0.20-1.21.1.jar",
+				"filename": "pulchra-occultorum-0.0.21-1.21.1.jar",
 				"name": "Pulchra Occultorum",
 				"side": "both"
 			}
 		},
-		"key": "0d52e57672e89d5a4cd622376c932e497afbcf3ebb454615abe223dd2d72cadc"
+		"key": "c54cc69558d90cc16bb18d416425925c9140f78cb39ff6bd4474010a9ec3e468"
 	},
 	"pumpkin-pie-delight": {
 		"files": {
@@ -3987,16 +3987,16 @@
 		"files": {
 			"mods/rods-from-god.pw.toml": {
 				"download": {
-					"hash": "d787fc1c841cffedcbfdd3a3af05b2c4b1e2254b6bdee3b758500f9131e3bbf90d86e8f0c78240a7c2ffdc2c8c266606efebd9905cf4b130f82c07deb374f183",
+					"hash": "a9840f1580d362193ffe0804aed7012ca6ad36f80d2a15bc880d2a2d73263fd166cd5bd418d44f6e24435316fb03b6eeda7dd6611c03ca26093305f25305e458",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/lfJQNrlz/versions/5skTYPUh/rods_from_god-2.0.10%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/lfJQNrlz/versions/Ncm43f5k/rods_from_god-2.0.11%2B1.21.1.jar"
 				},
-				"filename": "rods_from_god-2.0.10+1.21.1.jar",
+				"filename": "rods_from_god-2.0.11+1.21.1.jar",
 				"name": "Rods from God",
 				"side": "both"
 			}
 		},
-		"key": "82783eb2a9793ecd993e9441599ce958b8dc86822e1e88353032ebe08d1ec55e"
+		"key": "b71db1e93ef5424c85dcea549d37ac095600757f07772ab4aa2800e1e9c7ab00"
 	},
 	"rounded_mod": {
 		"files": {
@@ -4372,11 +4372,11 @@
 			},
 			"mods/soteria.pw.toml": {
 				"download": {
-					"hash": "9b7c58a12bc4231479a40b6a0d0398561d5a8103b7420905c5fc4fcecbd23cd2e5d435d8596f7388b2ff5c9214cccf9d34b1fc956784d61064eaba1609c62e33",
+					"hash": "d644d4e604007307f5ca19edcd075d693ef4ab79fdd4dc12d9b1ec0d8d06fe84f8552c2ad2335b0dd3d3dd388c0580586e365eeb38b7bf4b74afe3eb3e8f134f",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/iKGgUVoo/versions/kNfppzAF/soteria-0.3.9%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/iKGgUVoo/versions/HVpNxrud/soteria-0.3.10%2B1.21.1.jar"
 				},
-				"filename": "soteria-0.3.9+1.21.1.jar",
+				"filename": "soteria-0.3.10+1.21.1.jar",
 				"name": "Soteria",
 				"side": "both"
 			},
@@ -4391,7 +4391,7 @@
 				"side": "both"
 			}
 		},
-		"key": "232cbf99c1e718f00c121d023aaf3fcbe10664c22ca699ff086da333ee66df23"
+		"key": "201ec5c0fbf7f7d304f139e468853d645a2f3e7baccd18036a41d98b176fc6fd"
 	},
 	"spirit-vector": {
 		"files": {
@@ -4592,12 +4592,22 @@
 		"files": {
 			"mods/fabric-api.pw.toml": {
 				"download": {
-					"hash": "15457923c076aabb32b52ddc0bd9fdd4bd88cd80cc34c76b5ac0263ba576dc51d788ac6e69303aa451a3d544755f84676f5814308f180a57b3d61ebaa8bd7410",
+					"hash": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/TMgpR77k/fabric-api-0.115.4%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
 				},
-				"filename": "fabric-api-0.115.4+1.21.1.jar",
+				"filename": "fabric-api-0.115.6+1.21.1.jar",
 				"name": "Fabric API",
+				"side": "both"
+			},
+			"mods/sunglasses.pw.toml": {
+				"download": {
+					"hash": "07734455a4c95d430ddf7511e75d60be82f490076bb8f66c6c042f13bcdce51a1e336179f5e95a5ce89aebde7ee16a1544f71b0d39f43ad094191ce033d81aa4",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/P1u9z9xS/versions/SCv6WFQb/sunglasses-0.3.0%2B1.21.jar"
+				},
+				"filename": "sunglasses-0.3.0+1.21.jar",
+				"name": "Sunglasses",
 				"side": "both"
 			}
 		},

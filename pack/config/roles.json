@@ -19,6 +19,15 @@
             "worldinajar:create_jar": true
         }
     },
+    "modrinth": {
+      "level": 10,
+      "overrides": {
+        "name_decoration": {
+          "prefix": {"text": "[Modrinth] ", "color": "lime"},
+          "contexts": ["chat", "tab_list"]
+        }
+      }
+    },
     "participant": {
         "level": 10,
         "overrides": {

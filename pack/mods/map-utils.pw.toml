@@ -1,13 +1,13 @@
 name = "Map Utils"
-filename = "map_utils-2.2.0+1.21.1.jar"
+filename = "map_utils-2.2.1+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/B8AjIH2E/versions/OfN0Lzwx/map_utils-2.2.0%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/B8AjIH2E/versions/X1ytNv6e/map_utils-2.2.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "67c611cd31da51c61a49e0b05ad4652d4dd07a071a8fe4db319520c27f74485ab3aaf55b29ced8146da8ac7e4353562e7a60ee4a154e17044fcc159d304bd048"
+hash = "cf174c56b1c2bcd506094cfa5e2c50b4265fc3b730ce2f7e0456fd10621c380b61fcfa945398604abe2b705d3e93a79ea2582581f51f9fae04b6fcf28180aabf"
 
 [update]
 [update.modrinth]
 mod-id = "B8AjIH2E"
-version = "OfN0Lzwx"
+version = "X1ytNv6e"

@@ -54,5 +54,10 @@
 	"now-playing.modfest:music/stereo/erruption": "Nulb  - Erruption",
 	"now-playing.modfest:music/stereo/floraison": "WorldWidePixel - Floraison",
 	"now-playing.modfest:music/stereo/wawariding_the_waves": "Superkat32 - WaWaRiding The Waves",
-	"now-playing.modfest:music/stereo/prologue": "WorldWidePixel - Prologue"
+	"now-playing.modfest:music/stereo/prologue": "WorldWidePixel - Prologue",
+	"now-playing.modfest:music/the_ruins": "WorldWidePixel - The Ruins",
+	"now-playing.hollow:music/game/wildflower": "WorldWidePixel - Wildflower",
+	"now-playing.hollow:music/game/waterlily": "WorldWidePixel - Waterlily",
+	"now-playing.hollow:music/game/echo": "WorldWidePixel - Echo",
+	"now-playing.hollow:records/postmortem": "WorldWidePixel - Postmortem"
 }
