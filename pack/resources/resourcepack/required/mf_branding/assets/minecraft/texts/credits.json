@@ -97,8 +97,1546 @@
 		"section": "Jam & Showcase Participants",
 		"disciplines": [
 			{
-				"discipline": "Modding Teams",
+				"discipline": "Showcase Teams",
 				"titles": [
+					{
+						"title": "Accessories",
+						"names": [
+							"chyz",
+							"Blodhgarm",
+							"Dr. Zeal"
+						]
+					},
+					{
+						"title": "Advanced Networking",
+						"names": [
+							"MattiDragon"
+						]
+					},
+					{
+						"title": "Affinity",
+						"names": [
+							"naschhorn",
+							"glisco",
+							"Turtle",
+							"chyz"
+						]
+					},
+					{
+						"title": "Alchimiae Magicae",
+						"names": [
+							"blur"
+						]
+					},
+					{
+						"title": "All-Terrain Tripodal Attackers",
+						"names": [
+							"SkyNotTheLimit"
+						]
+					},
+					{
+						"title": "Allium",
+						"names": [
+							"hugeblank"
+						]
+					},
+					{
+						"title": "Amarong",
+						"names": [
+							"SkyNotTheLimit"
+						]
+					},
+					{
+						"title": "Amy's Industrious Mod",
+						"names": [
+							"Apple"
+						]
+					},
+					{
+						"title": "Animated loading screen",
+						"names": [
+							"Cyao"
+						]
+					},
+					{
+						"title": "Anshar",
+						"names": [
+							"Lgmrszd",
+							"hama",
+							"Nulb",
+							"comp500",
+							"unilock",
+							"SkyNotTheLimit"
+						]
+					},
+					{
+						"title": "Armisteel",
+						"names": [
+							"hama",
+							"VirtuaLilith",
+							"Echo",
+							"WorldWidePixel"
+						]
+					},
+					{
+						"title": "Armor Stand Editor",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "asahi",
+						"names": [
+							"hugeblank"
+						]
+					},
+					{
+						"title": "Autocut",
+						"names": [
+							"skycatminepokie"
+						]
+					},
+					{
+						"title": "Automobility",
+						"names": [
+							"FoundationGames"
+						]
+					},
+					{
+						"title": "AutoWhitelist",
+						"names": [
+							"Awakened Redstone"
+						]
+					},
+					{
+						"title": "Bad Apple Shader",
+						"names": [
+							"Ampflower 🌺",
+							"Thinkseal",
+							"Blurry"
+						]
+					},
+					{
+						"title": "Barkeep",
+						"names": [
+							"LemmaEOF"
+						]
+					},
+					{
+						"title": "Barricade",
+						"names": [
+							"Calico",
+							"UltrusBot",
+							"Sylv",
+							"Kneelawk"
+						]
+					},
+					{
+						"title": "Basic Storage",
+						"names": [
+							"Khazoda"
+						]
+					},
+					{
+						"title": "Basic Weapons",
+						"names": [
+							"Khazoda"
+						]
+					},
+					{
+						"title": "Bee Buddies",
+						"names": [
+							"Queen of the Bees"
+						]
+					},
+					{
+						"title": "Berry Bounty",
+						"names": [
+							"jaevy",
+							"hama"
+						]
+					},
+					{
+						"title": "Block Breaker & Block Placer",
+						"names": [
+							"Khazoda"
+						]
+					},
+					{
+						"title": "Blocky Bass",
+						"names": [
+							"Tropheus Jay",
+							"Carter"
+						]
+					},
+					{
+						"title": "Blur+",
+						"names": [
+							"Motschen"
+						]
+					},
+					{
+						"title": "Boatism",
+						"names": [
+							"ShiroJR"
+						]
+					},
+					{
+						"title": "Boids",
+						"names": [
+							"Tomate0613"
+						]
+					},
+					{
+						"title": "Borukva Food",
+						"names": [
+							"ratskui",
+							"Zefir🤙🧅"
+						]
+					},
+					{
+						"title": "Borukva Food Exotic",
+						"names": [
+							"Sun_Phoen1x"
+						]
+					},
+					{
+						"title": "Bouquet",
+						"names": [
+							"hugeblank"
+						]
+					},
+					{
+						"title": "Bovines and Buttercups (Mooblooms)",
+						"names": [
+							"Calico",
+							"Octal",
+							"UltrusBot",
+							"Kneelawk"
+						]
+					},
+					{
+						"title": "Breaking Bedrock",
+						"names": [
+							"anawesomguy"
+						]
+					},
+					{
+						"title": "Breeze Bounce",
+						"names": [
+							"ChefMooon"
+						]
+					},
+					{
+						"title": "Brewin' And Chewin'",
+						"names": [
+							"Calico",
+							"Probleyes"
+						]
+					},
+					{
+						"title": "Bronze",
+						"names": [
+							"Khazoda"
+						]
+					},
+					{
+						"title": "Builderdash",
+						"names": [
+							"FoundationGames"
+						]
+					},
+					{
+						"title": "Bundled",
+						"names": [
+							"Yak"
+						]
+					},
+					{
+						"title": "Buoys",
+						"names": [
+							"rotgruengelb"
+						]
+					},
+					{
+						"title": "Cabbage Glasses",
+						"names": [
+							"cabbagepigeon"
+						]
+					},
+					{
+						"title": "Cabbage Substances",
+						"names": [
+							"cabbagepigeon"
+						]
+					},
+					{
+						"title": "Camera Tweaks",
+						"names": [
+							"Felix"
+						]
+					},
+					{
+						"title": "Canary",
+						"names": [
+							"Tropheus Jay"
+						]
+					},
+					{
+						"title": "Cantilever",
+						"names": [
+							"hama",
+							"WorldWidePixel",
+							"Echo"
+						]
+					},
+					{
+						"title": "Carnival Cuisine",
+						"names": [
+							"ToastTextures"
+						]
+					},
+					{
+						"title": "Cerulean",
+						"names": [
+							"Emi",
+							"jaskarth"
+						]
+					},
+					{
+						"title": "Charta",
+						"names": [
+							"D4rk"
+						]
+					},
+					{
+						"title": "Chickensaurs",
+						"names": [
+							"maple",
+							"whimsicalities",
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "Chinese IME",
+						"names": [
+							"Dooji"
+						]
+					},
+					{
+						"title": "Chitinous Ties",
+						"names": [
+							"Viscountexx",
+							"Queen of the Bees"
+						]
+					},
+					{
+						"title": "City Vehicles (Automobility Addon)",
+						"names": [
+							"FoundationGames"
+						]
+					},
+					{
+						"title": "Colorful Lanterns",
+						"names": [
+							"Sun_Phoen1x"
+						]
+					},
+					{
+						"title": "Colourful Clocks",
+						"names": [
+							"ChefMooon"
+						]
+					},
+					{
+						"title": "Combat Amenities",
+						"names": [
+							"Hollowed",
+							"Mercury"
+						]
+					},
+					{
+						"title": "Confetti Stuff",
+						"names": [
+							"Tomate0613"
+						]
+					},
+					{
+						"title": "Cook It!",
+						"names": [
+							"ToastTextures"
+						]
+					},
+					{
+						"title": "Coretechs",
+						"names": [
+							"Arzumify"
+						]
+					},
+					{
+						"title": "Crag",
+						"names": [
+							"Zarkana"
+						]
+					},
+					{
+						"title": "Crossbow Scoping",
+						"names": [
+							"SkyNotTheLimit"
+						]
+					},
+					{
+						"title": "Crystalline",
+						"names": [
+							"juko",
+							"infinityfarzad"
+						]
+					},
+					{
+						"title": "Dancerizer",
+						"names": [
+							"Sammy"
+						]
+					},
+					{
+						"title": "Decorative",
+						"names": [
+							"Motschen"
+						]
+					},
+					{
+						"title": "Default Components",
+						"names": [
+							"Awakened Redstone"
+						]
+					},
+					{
+						"title": "Desolated Pastels",
+						"names": [
+							"asojidev"
+						]
+					},
+					{
+						"title": "Don't Do That",
+						"names": [
+							"chyz"
+						]
+					},
+					{
+						"title": "Dream Burst Spirit Vector",
+						"names": [
+							"hama",
+							"Nulb",
+							"VirtuaLilith"
+						]
+					},
+					{
+						"title": "Electromechanics",
+						"names": [
+							"chyz",
+							"Blodhgarm",
+							"Dr. Zeal"
+						]
+					},
+					{
+						"title": "Enchiridion",
+						"names": [
+							"Omniv",
+							"Calico",
+							"Octal",
+							"UltrusBot",
+							"Kneelawk"
+						]
+					},
+					{
+						"title": "Explosive Enhancement",
+						"names": [
+							"Superkat32"
+						]
+					},
+					{
+						"title": "Extended Drawers",
+						"names": [
+							"MattiDragon"
+						]
+					},
+					{
+						"title": "Extra Trinkets",
+						"names": [
+							"Teal Wolf 25",
+							"Elegast Kelural"
+						]
+					},
+					{
+						"title": "Extravaganza!",
+						"names": [
+							"Aethyus",
+							"Aeramisu - Lycorian",
+							"Mega",
+							"Caillouxe",
+							"Neokys"
+						]
+					},
+					{
+						"title": "Fabric Binary Search Tool",
+						"names": [
+							"skycatminepokie"
+						]
+					},
+					{
+						"title": "Fabulously Optimized",
+						"names": [
+							"robotkoer",
+							"TheBossMagnus",
+							"Kichura",
+							"jaylace"
+						]
+					},
+					{
+						"title": "FallFlyingRestrictions",
+						"names": [
+							"ShiroJR",
+							"apfelrunder"
+						]
+					},
+					{
+						"title": "Familiar Friends",
+						"names": [
+							"Deadlydiamond98"
+						]
+					},
+					{
+						"title": "familiar magic",
+						"names": [
+							"afamiliarquiet"
+						]
+					},
+					{
+						"title": "Farmer's Delight Refabricated",
+						"names": [
+							"Calico",
+							"vectorwing"
+						]
+					},
+					{
+						"title": "Festive Frenzy",
+						"names": [
+							"Powercyphe",
+							"the woke rat"
+						]
+					},
+					{
+						"title": "Fletching Expanded",
+						"names": [
+							"supertoady"
+						]
+					},
+					{
+						"title": "Friendship Bracelets",
+						"names": [
+							"ElectricSteve"
+						]
+					},
+					{
+						"title": "Fright's Delight",
+						"names": [
+							"ChefMooon"
+						]
+					},
+					{
+						"title": "gCAPS",
+						"names": [
+							"LX86"
+						]
+					},
+					{
+						"title": "GetDown",
+						"names": [
+							"chyz"
+						]
+					},
+					{
+						"title": "Glide Away!",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Hackcraft",
+						"names": [
+							"Cyao"
+						]
+					},
+					{
+						"title": "Happy Pride Moth!",
+						"names": [
+							"DakotaPride"
+						]
+					},
+					{
+						"title": "Have Another Pretty Particle. Yayyyyyyyy",
+						"names": [
+							"Superkat32"
+						]
+					},
+					{
+						"title": "Headpat a Friend!",
+						"names": [
+							"enjarai"
+						]
+					},
+					{
+						"title": "Healing Pretty Good",
+						"names": [
+							"Deadlydiamond98"
+						]
+					},
+					{
+						"title": "Hibernal Herbs",
+						"names": [
+							"DakotaPride"
+						]
+					},
+					{
+						"title": "Hide Body Parts",
+						"names": [
+							"ShiroJR",
+							"apfelrunder"
+						]
+					},
+					{
+						"title": "Hollow",
+						"names": [
+							"hama",
+							"WorldWidePixel",
+							"Echo"
+						]
+					},
+					{
+						"title": "Honque",
+						"names": [
+							"hama"
+						]
+					},
+					{
+						"title": "Hoofprint",
+						"names": [
+							"GardenSystem"
+						]
+					},
+					{
+						"title": "HyphaPiracea",
+						"names": [
+							"Phanastrae"
+						]
+					},
+					{
+						"title": "Illusionable",
+						"names": [
+							"ShiroJR"
+						]
+					},
+					{
+						"title": "ImmersiveMC",
+						"names": [
+							"hammy275"
+						]
+					},
+					{
+						"title": "Impenduits",
+						"names": [
+							"Myriantics"
+						]
+					},
+					{
+						"title": "Impillagers",
+						"names": [
+							"Minico",
+							"TheBlindBandit6",
+							"smiileyface",
+							"Blue Ninja"
+						]
+					},
+					{
+						"title": "Inline",
+						"names": [
+							"sam"
+						]
+					},
+					{
+						"title": "Inventory Tabs",
+						"names": [
+							"Sisby folk"
+						]
+					},
+					{
+						"title": "It's as Shrimple as That",
+						"names": [
+							"Tropheus Jay",
+							"Carter"
+						]
+					},
+					{
+						"title": "Item Descriptions",
+						"names": [
+							"cassiancc"
+						]
+					},
+					{
+						"title": "Joy",
+						"names": [
+							"TheClashFruit",
+							"rotgruengelb",
+							"Ampflower 🌺",
+							"Thinkseal",
+							"WorldWidePixel",
+							"Blurry",
+							"Sake"
+						]
+					},
+					{
+						"title": "JsonPatcher",
+						"names": [
+							"MattiDragon"
+						]
+					},
+					{
+						"title": "Just Enough Opinions Podcast",
+						"names": [
+							"G_cat",
+							"frog",
+							"Akoto090"
+						]
+					},
+					{
+						"title": "Kawaii Dishes",
+						"names": [
+							"Hakimen",
+							"CYANO★FLOWER"
+						]
+					},
+					{
+						"title": "KLAXON",
+						"names": [
+							"Myriantics"
+						]
+					},
+					{
+						"title": "KRender",
+						"names": [
+							"Calico",
+							"Kneelawk"
+						]
+					},
+					{
+						"title": "Life-Size Bdubs",
+						"names": [
+							"Superkat32"
+						]
+					},
+					{
+						"title": "Lilium",
+						"names": [
+							"CYANO★FLOWER"
+						]
+					},
+					{
+						"title": "Litavis",
+						"names": [
+							"TheFluffycart55"
+						]
+					},
+					{
+						"title": "Maddy's Origins",
+						"names": [
+							"noobulus"
+						]
+					},
+					{
+						"title": "Magic 8 Ball",
+						"names": [
+							"Tropheus Jay",
+							"Carter"
+						]
+					},
+					{
+						"title": "Map Album",
+						"names": [
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "MapShot",
+						"names": [
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "Marksman",
+						"names": [
+							"ThePotatoArchivist"
+						]
+					},
+					{
+						"title": "Minegrapht",
+						"names": [
+							"sam"
+						]
+					},
+					{
+						"title": "Mino++",
+						"names": [
+							"Zbx1425"
+						]
+					},
+					{
+						"title": "Mirror Mod",
+						"names": [
+							"Ocelot"
+						]
+					},
+					{
+						"title": "Mirthdew Encore",
+						"names": [
+							"Phanastrae"
+						]
+					},
+					{
+						"title": "Missing Wilds",
+						"names": [
+							"UltrusBot"
+						]
+					},
+					{
+						"title": "Mod Descriptions",
+						"names": [
+							"cassiancc"
+						]
+					},
+					{
+						"title": "Mod Garden",
+						"names": [
+							"Calico",
+							"Octal",
+							"UltrusBot",
+							"Sylv"
+						]
+					},
+					{
+						"title": "Modded Wiki",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Month Of Swords",
+						"names": [
+							"sam"
+						]
+					},
+					{
+						"title": "More Paths",
+						"names": [
+							"rotgruengelb"
+						]
+					},
+					{
+						"title": "Motschen's Better Leaves",
+						"names": [
+							"Motschen"
+						]
+					},
+					{
+						"title": "Moue Milkshakes",
+						"names": [
+							"Stereo528"
+						]
+					},
+					{
+						"title": "mrpack4server",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Music Moods",
+						"names": [
+							"Ampflower 🌺"
+						]
+					},
+					{
+						"title": "My Nether's Delight Refabricated",
+						"names": [
+							"Calico"
+						]
+					},
+					{
+						"title": "Necessities",
+						"names": [
+							"Felix"
+						]
+					},
+					{
+						"title": "NeoMTR",
+						"names": [
+							"Zbx1425"
+						]
+					},
+					{
+						"title": "nix-minecraft",
+						"names": [
+							"Infinidoge"
+						]
+					},
+					{
+						"title": "Note Block Studio",
+						"names": [
+							"Bentroen",
+							"erora"
+						]
+					},
+					{
+						"title": "Note Block World",
+						"names": [
+							"Bentroen",
+							"erora"
+						]
+					},
+					{
+						"title": "Oceanic Weaponry",
+						"names": [
+							"Sneakedy",
+							"ShivAngel"
+						]
+					},
+					{
+						"title": "OmniCrossbow",
+						"names": [
+							"ThePotatoArchivist"
+						]
+					},
+					{
+						"title": "Operation: Starcleave",
+						"names": [
+							"Phanastrae"
+						]
+					},
+					{
+						"title": "Ouch!",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Oxide",
+						"names": [
+							"keyberries",
+							"ordana"
+						]
+					},
+					{
+						"title": "oωo (owo-lib)",
+						"names": [
+							"chyz",
+							"Blodhgarm",
+							"glisco"
+						]
+					},
+					{
+						"title": "Paladin's Furniture Mod",
+						"names": [
+							"UnlikePaladin"
+						]
+					},
+					{
+						"title": "Particular ✨",
+						"names": [
+							"Chai"
+						]
+					},
+					{
+						"title": "Partnership",
+						"names": [
+							"Sammy"
+						]
+					},
+					{
+						"title": "Patbox's Brewery",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "pbwarps",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Peaceful Forager",
+						"names": [
+							"Apple"
+						]
+					},
+					{
+						"title": "Pesky Seagulls",
+						"names": [
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "Petworks",
+						"names": [
+							"Ampflower 🌺"
+						]
+					},
+					{
+						"title": "Phonos",
+						"names": [
+							"SlimeistDev",
+							"FoundationGames",
+							"Vivian"
+						]
+					},
+					{
+						"title": "Pierced",
+						"names": [
+							"Dark Enigma",
+							"DrewsBones"
+						]
+					},
+					{
+						"title": "PinIt",
+						"names": [
+							"fingerguns83"
+						]
+					},
+					{
+						"title": "Pirate Radio",
+						"names": [
+							"SoniEx2"
+						]
+					},
+					{
+						"title": "Planetarium",
+						"names": [
+							"woodiertexas",
+							"lily"
+						]
+					},
+					{
+						"title": "Player Containers",
+						"names": [
+							"chromonym",
+							"Swizik"
+						]
+					},
+					{
+						"title": "Plushables",
+						"names": [
+							"Khazoda",
+							"Siuol"
+						]
+					},
+					{
+						"title": "plushiez",
+						"names": [
+							"medecoole"
+						]
+					},
+					{
+						"title": "Polaroid Camera",
+						"names": [
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "PolyChess",
+						"names": [
+							"Sun_Phoen1x"
+						]
+					},
+					{
+						"title": "PolyDecorations",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Polydex",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "PolydexBridge",
+						"names": [
+							"MattiDragon"
+						]
+					},
+					{
+						"title": "PolyFactory",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Polymania",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Polymer Patch for CC:Tweaked",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Polysit",
+						"names": [
+							"Ampflower 🌺"
+						]
+					},
+					{
+						"title": "Portable Crafting",
+						"names": [
+							"Sisby folk",
+							"GardenSystem"
+						]
+					},
+					{
+						"title": "PowerChord",
+						"names": [
+							"GardenSystem"
+						]
+					},
+					{
+						"title": "PPeTP",
+						"names": [
+							"TheEpicBlock"
+						]
+					},
+					{
+						"title": "Pride GUI",
+						"names": [
+							"TheClashFruit",
+							"Ampflower 🌺",
+							"Thinkseal",
+							"WorldWidePixel",
+							"Blurry",
+							"Fery",
+							"Sake"
+						]
+					},
+					{
+						"title": "Pride Pack",
+						"names": [
+							"TheClashFruit",
+							"Ampflower 🌺",
+							"Thinkseal",
+							"WorldWidePixel",
+							"Blurry",
+							"rotgruengelb",
+							"Sake"
+						]
+					},
+					{
+						"title": "Primordia",
+						"names": [
+							"VolcanYT",
+							"Isla Hartstoke",
+							"infinityfarzad",
+							"Jade Bear",
+							"BushyBot"
+						]
+					},
+					{
+						"title": "Private Horses",
+						"names": [
+							"Сом 🤙🧅"
+						]
+					},
+					{
+						"title": "Pulchra Occultorum",
+						"names": [
+							"apfelrunder",
+							"ShiroJR",
+							"Milky"
+						]
+					},
+					{
+						"title": "Pumpkin Pie Delight",
+						"names": [
+							"Chai"
+						]
+					},
+					{
+						"title": "Raccoons & Rabies",
+						"names": [
+							"Yak",
+							"Cord",
+							"Nitron ◇"
+						]
+					},
+					{
+						"title": "Rapscallions and Rockhoppers (Penguins)",
+						"names": [
+							"Omniv",
+							"Calico",
+							"Octal",
+							"UltrusBot",
+							"Kneelawk"
+						]
+					},
+					{
+						"title": "Rods from God",
+						"names": [
+							"SkyNotTheLimit"
+						]
+					},
+					{
+						"title": "Rounded",
+						"names": [
+							"maple"
+						]
+					},
+					{
+						"title": "Scarves",
+						"names": [
+							"Falkreon"
+						]
+					},
+					{
+						"title": "Scriptor Magicae",
+						"names": [
+							"blur"
+						]
+					},
+					{
+						"title": "Sentient Pants",
+						"names": [
+							"SkyNotTheLimit"
+						]
+					},
+					{
+						"title": "Server Cosmetics",
+						"names": [
+							"Zefir🤙🧅"
+						]
+					},
+					{
+						"title": "Shattered Stopwatch",
+						"names": [
+							"Sisby folk"
+						]
+					},
+					{
+						"title": "Shyvv's Trickier Trials",
+						"names": [
+							"Shyvv"
+						]
+					},
+					{
+						"title": "Silicate",
+						"names": [
+							"Calico",
+							"UltrusBot",
+							"Sylv",
+							"Kneelawk"
+						]
+					},
+					{
+						"title": "Simple Durability Tooltip",
+						"names": [
+							"Infinidoge"
+						]
+					},
+					{
+						"title": "Simple Resource Loader",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Simple Update Checker",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "SleepWarp (Updated)",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Snapper",
+						"names": [
+							"hama",
+							"WorldWidePixel",
+							"Echo"
+						]
+					},
+					{
+						"title": "Snapshot MC",
+						"names": [
+							"Nico_44",
+							"matscalle",
+							"copicraft"
+						]
+					},
+					{
+						"title": "SooperDooperScooper",
+						"names": [
+							"fingerguns83"
+						]
+					},
+					{
+						"title": "Soteria",
+						"names": [
+							"hama"
+						]
+					},
+					{
+						"title": "SplashFox",
+						"names": [
+							"LX86"
+						]
+					},
+					{
+						"title": "Splinecart",
+						"names": [
+							"FoundationGames"
+						]
+					},
+					{
+						"title": "Starcaller",
+						"names": [
+							"Sisby folk"
+						]
+					},
+					{
+						"title": "Stellaris",
+						"names": [
+							"MincraftEinstein",
+							"TATHAN"
+						]
+					},
+					{
+						"title": "Stfu",
+						"names": [
+							"Felix"
+						]
+					},
+					{
+						"title": "Subtle Effects",
+						"names": [
+							"MincraftEinstein"
+						]
+					},
+					{
+						"title": "Sunglasses",
+						"names": [
+							"leahbuhbee"
+						]
+					},
+					{
+						"title": "Superposition",
+						"names": [
+							"ModogTheDev",
+							"CHAZBOMB1"
+						]
+					},
+					{
+						"title": "Surveyor Map Framework",
+						"names": [
+							"GardenSystem",
+							"Sisby folk"
+						]
+					},
+					{
+						"title": "TacCorp's Trinkets!",
+						"names": [
+							"Yak",
+							"Tac"
+						]
+					},
+					{
+						"title": "Taking a Break",
+						"names": [
+							"anawesomguy"
+						]
+					},
+					{
+						"title": "Templates 2",
+						"names": [
+							"quat"
+						]
+					},
+					{
+						"title": "The Legend of Steve",
+						"names": [
+							"Deadlydiamond98"
+						]
+					},
+					{
+						"title": "This Rocks!",
+						"names": [
+							"Motschen"
+						]
+					},
+					{
+						"title": "Thoroughfabric",
+						"names": [
+							"fingerguns83"
+						]
+					},
+					{
+						"title": "Thwackinator",
+						"names": [
+							"Lgmrszd",
+							"hama"
+						]
+					},
+					{
+						"title": "Tidal",
+						"names": [
+							"Superkat32"
+						]
+					},
+					{
+						"title": "TMYK",
+						"names": [
+							"fingerguns83"
+						]
+					},
+					{
+						"title": "Toad's Toolbox",
+						"names": [
+							"supertoady"
+						]
+					},
+					{
+						"title": "Trailier Tales",
+						"names": [
+							"Treetrain1",
+							"AViewFromTheTop",
+							"wiggle"
+						]
+					},
+					{
+						"title": "Trickster",
+						"names": [
+							"enjarai",
+							"Aurora Dawn"
+						]
+					},
+					{
+						"title": "Ube's Delight",
+						"names": [
+							"ChefMooon"
+						]
+					},
+					{
+						"title": "Vanillin",
+						"names": [
+							"Jozufozu"
+						]
+					},
+					{
+						"title": "Variant Swap",
+						"names": [
+							"Dooji"
+						]
+					},
+					{
+						"title": "Village Healthcare",
+						"names": [
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "Vivatech",
+						"names": [
+							"falseresync"
+						]
+					},
+					{
+						"title": "Vortex",
+						"names": [
+							"Bug1312"
+						]
+					},
+					{
+						"title": "Wandering Rana",
+						"names": [
+							"UltrusBot"
+						]
+					},
+					{
+						"title": "Wandering Wizardry",
+						"names": [
+							"Calico",
+							"Octal",
+							"Ampflower 🌺",
+							"Ringlings",
+							"EtheraelEspeon",
+							"Carter"
+						]
+					},
+					{
+						"title": "WearThat",
+						"names": [
+							"chyz"
+						]
+					},
+					{
+						"title": "Weird Wares",
+						"names": [
+							"Sylv"
+						]
+					},
+					{
+						"title": "Wheel of Wacky",
+						"names": [
+							"maple",
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "Wilder Wild",
+						"names": [
+							"Treetrain1",
+							"LudoCrypt",
+							"AViewFromTheTop",
+							"willow / picto"
+						]
+					},
+					{
+						"title": "World Comment",
+						"names": [
+							"Zbx1425"
+						]
+					},
+					{
+						"title": "World In a Jar",
+						"names": [
+							"Sylv"
+						]
+					},
+					{
+						"title": "Yeet",
+						"names": [
+							"Tropheus Jay"
+						]
+					},
+					{
+						"title": "Zipline",
+						"names": [
+							"Tomate0613"
+						]
+					}
 				]
 			}
 		]
