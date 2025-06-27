@@ -16,7 +16,8 @@ This modpack contains all mods from the event - and the convention server ip, pa
 
 **Key Features**:
 - Check out 234 convention "booths" built to show off mods, modpacks, and other modding projects!
-- Explore a vibrant island of castaways that mysteriously migrates across the ocean... 
+- Explore a vibrant island of castaways that mysteriously migrates across the ocean...
+- Relax to [over an hour of original music](https://modfest.bandcamp.com/album/blanketcon-25-volcano-island-official-modpack-soundtrack) made just for the event!
 - Traverse the map by train, car, skates, stopwatches, and much, much more!
 - Find and earn 388 collectible "shards", tracking booth visits, hidden secrets, and tricky challenges!
 - Put sunglasses on a pineapple! (huh?)
