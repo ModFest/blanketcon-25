@@ -782,26 +782,26 @@
 		"files": {
 			"mods/bovines-and-buttercups.pw.toml": {
 				"download": {
-					"hash": "00449ab5201ea0710196363859a7bb85435027ec63ca79da5d1823dc77e0620c8f7516a95a476abd4c5196cfd6dcfdb8293ca324382c8068c3b0b166b76b2855",
+					"hash": "f59e62075af4d13ed1213173b46bbb474e3cd916c87362a3151fd4b6f8e5dbe2886fe8c676b442bb8a355ad6fbcc77d9969b49ccca53193702e2943212132845",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/BDg6nMn3/versions/oY2LcucD/bovinesandbuttercups-2.2.11%2B1.21.1-fabric.jar"
+					"url": "https://cdn.modrinth.com/data/BDg6nMn3/versions/gzhl8Zkx/bovinesandbuttercups-2.2.12%2B1.21.1-fabric.jar"
 				},
-				"filename": "bovinesandbuttercups-2.2.11+1.21.1-fabric.jar",
+				"filename": "bovinesandbuttercups-2.2.12+1.21.1-fabric.jar",
 				"name": "Bovines and Buttercups (Mooblooms)",
 				"side": "both"
 			},
 			"mods/fabric-api.pw.toml": {
 				"download": {
-					"hash": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045",
+					"hash": "4023117916ba06e1f81f6321f8bb21d34f14b3001da5a9785496ff1544b1f5bc04d59d93cb4f88a0015286e6e8cb382875a9b208d46222718c107599bf4b4bdc",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/73Q31My7/fabric-api-0.116.0%2B1.21.1.jar"
 				},
-				"filename": "fabric-api-0.115.6+1.21.1.jar",
+				"filename": "fabric-api-0.116.0+1.21.1.jar",
 				"name": "Fabric API",
 				"side": "both"
 			}
 		},
-		"key": "e7922ae061cf1b831c75dafa289349a6002a14dd051622b42229a0b04e94741d"
+		"key": "039c9d11ba6174d191f30061dab450e09224bf974ec4c4493f314472ee4d17ea"
 	},
 	"breakerplacer": {
 		"files": {
@@ -3058,28 +3058,18 @@
 	},
 	"neomtr": {
 		"files": {
-			"mods/fabric-api.pw.toml": {
-				"download": {
-					"hash": "11771581ceccf16534279b1db1a46c3c1a731fb11f4a52413e7c8b7f2cef181cca2ff5c1131280624fbd733ee37c1741bd7fb641613ffedbc7c5e68dd121a045",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/4AkOEqGy/fabric-api-0.115.6%2B1.21.1.jar"
-				},
-				"filename": "fabric-api-0.115.6+1.21.1.jar",
-				"name": "Fabric API",
-				"side": "both"
-			},
 			"mods/neomtr.pw.toml": {
 				"download": {
-					"hash": "bd6fa89ca45a93ce0d1024380617d0465ddcd11b5cb58c9a8995308cd9db5e695efe6971e2a99667aa2fd2f37e8860e174b52c971cd63c389fdf42ed22569646",
+					"hash": "d25e097ff3f19b4f987234efe35338a4860db3d97fb2de8a3a720b2948b9f8d4b3edfeca8611674d1065767ed65dfa0cce0c812a600f5f146bb38f0648e6b084",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/xilU2EKS/versions/ZJvO1wvJ/NeoMTR-fabric-300.5.2%2B1.21.1.jar"
+					"url": "https://cdn.modrinth.com/data/xilU2EKS/versions/1jZyPnjl/NeoMTR-300.6.1%2B1.21.1%2Bfabric.jar"
 				},
-				"filename": "NeoMTR-fabric-300.5.2+1.21.1.jar",
+				"filename": "NeoMTR-300.6.1+1.21.1+fabric.jar",
 				"name": "NeoMTR",
 				"side": "both"
 			}
 		},
-		"key": "df7d464033eb5f5464ffde689e1299d99047ffa48c28f76e6befe95b3e12cab6"
+		"key": "fcf4f871f87f685c52dee1b6a52c3ff67e6150d0ba8f6d4505cd956af3f6cdc7"
 	},
 	"nix-minecraft": {
 		"files": {},
